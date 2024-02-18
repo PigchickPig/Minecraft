@@ -1,0 +1,584 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tetra"
+	group: "265AFEC900FA3E96"
+	icon: "tetra:forged_workbench"
+	id: "395BF99AC10E516E"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/tetra.png"
+		rotation: 0.0d
+		width: 3.4698795180722892d
+		x: 4.5d
+		y: -5.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["36D46D57A98053AC"]
+			description: [
+				"&eTetra&r是一个非常强大的&6模块化工具和武器合成模组&r。"
+				""
+				"使用此处描述的制作方法，你将能够制作&6高度定制的工具&r，这些工具可以被进一步强化和附魔。"
+				""
+				"制作一个&b低级锤子&r，并对原版合成台使用获得一个&6加工台&r，使用加工台可以定制和制作了一些工具。"
+				""
+				"还将为您提供&6全面&r的Tetra的游戏手册。"
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/granite"
+					"double/basic_hammer_right_material": "basic_hammer/granite"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "c2783bc8-6f22-4f62-b464-80cb96403556"
+				}
+			}
+			id: "7B5E1E34A52272B7"
+			min_width: 250
+			rewards: [
+				{
+					id: "0AFE231D56B36C23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F80209B76808F44"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			subtitle: "这不是鱼，是锤子"
+			tasks: [{
+				id: "229A28C4A434C9F4"
+				type: "checkmark"
+			}]
+			title: "Tetra时间！"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B5E1E34A52272B7"]
+			description: [
+				"Tetra工具是由&6原版工具&r放入加工台修改制作的。你不需要合成工具你&6可以更换一些现有的部件&r。"
+				""
+				"某些工具部件需要&6在你的物品栏中&r拥有一个特定等级的特定工具。例如，要修改一个石头锤(2级)为铁制(3级),你的物品栏里需要另一个2级锤子。"
+				""
+				"需要大量部件来混合和匹配；&6找到最适合你的部件&r！"
+			]
+			id: "0C168C37CABC6E6D"
+			min_width: 275
+			rewards: [
+				{
+					id: "0C565355BF227BBE"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2203830B8C64768F"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E2ADAAC6223FCB6"
+					item: "tetra:geode"
+					type: "item"
+				}
+				{
+					id: "31CFABC20CA836E4"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "6052d54f-37a4-4c7f-b1ff-d7957f9fb2e1"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "交换部件"
+			tasks: [{
+				advancement: "tetra:upgrades/root"
+				criterion: ""
+				id: "18F9AEDBFF67586B"
+				type: "advancement"
+			}]
+			title: "基础装配"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"&6木头&r和&6石锤&r分别是一级和二级锤子,但是可以直接制作。"
+				""
+				"更确切地说，它们&c等级为0和1&r。但是因为使用相同的材料来制作两个头，所以等级增加了一点。"
+				""
+				"&b铁锤&r是2级，但是如果两个头都是铁制的，他们就会获得协同增效奖励，锤子就会变得&63级&r。"
+				""
+				"要安装这些头，你的物品栏中必须有&6二级锤子&r。"
+				""
+				"任务需要一个两个铁锤头的锤子，其余部分并不重要。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "2e064b20-ae8c-4c9b-97f1-dd68189d29d8"
+				}
+			}
+			id: "7A2134E2313DA601"
+			min_required_tasks: 1
+			min_width: 250
+			rewards: [
+				{
+					id: "4964A3B5EBEC05BA"
+					item: "tetra:pristine_lapis"
+					type: "item"
+				}
+				{
+					id: "49214F6C52B15CAF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "这是我的锤制锤子!"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "317A37661C027ED4"
+				type: "advancement"
+			}]
+			title: "三级锤子"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A2134E2313DA601"]
+			description: [
+				"&b黑石&r是一种等级为3的锤子材料，这意味着制作两个黑石锤头会产生&6等级为4的锤子&r。"
+				""
+				"有几种获取黑石的方法，最简单的方法是在&6材料生成器&r底下放置煤炭块。"
+			]
+			id: "37DEE4FAA1C55F2A"
+			rewards: [
+				{
+					id: "2C9376C8B6C85AD3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "266726308FEC2C22"
+					item: "tetra:pristine_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "将锤子拿下来"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "2AD906700CAF7106"
+				type: "advancement"
+			}]
+			title: "四级锤子"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"Tetra工艺变得有点乱，&6需要多种工具&r在&6在你的容器中&r来同时执行各种功能。"
+				""
+				"将&b工具架&r放在你的加工台附近，你就可以在工作台使用工具架的工具！"
+			]
+			id: "7660A510D6F907CF"
+			rewards: [{
+				id: "6398B08017214F6A"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			subtitle: "挂起来！"
+			tasks: [{
+				id: "1355D3C2933A6E8F"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"&b砍伐工具&r适用于很多合成表。"
+				""
+				"最简单的方法是用一个铁斧头代替原版铁斧&r的另一头。"
+			]
+			id: "0BD14780566B2D09"
+			subtitle: "我的斧头！"
+			tasks: [{
+				id: "553A6A9B83C4EEA6"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "4级砍伐工具"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"许多高级合成表需要&b3级以上的短剑&r来作为切割工具。"
+				""
+				"最简单的方法是用&6钻石短剑&r替换&6原版钻石剑&r的剑刃成为钻石短剑刃。"
+			]
+			id: "67F60A1D1D021B0F"
+			rewards: [{
+				id: "4410BFB7FB3F8ECE"
+				item: {
+					Count: 1b
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+							{
+								id: "apotheosis:scavenger"
+								lvl: 1s
+							}
+							{
+								id: "farmersdelight:backstabbing"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+						]
+						RepairCost: 15
+						display: {
+							Name: "{\"text\":\"Tazz's Chef Knife\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "4级切割工具"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+				id: "446818C6591C0DA1"
+				type: "advancement"
+			}]
+			title: "钻石短剑"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"&6Tetra工具&r可以在&b附魔台&r上为在部件上安装附魔书"
+				""
+				"不同部件有不同的&6魔法容量&r——&c最好不要超过它&r，因为它会产生反效果......"
+			]
+			id: "65EEF0E9EC1C20B7"
+			rewards: [
+				{
+					id: "18A3E37CCB68BDDF"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F198DA50FE744F6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Tetra附魔"
+			tasks: [{
+				id: "3C6D43DB2151F417"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"你会发现在加工台菜单中，你的工具有&6几个对升级很重要的数据&r。这些是完整度、打磨度和稳固度。"
+				""
+				"&b稳固度&r最简单，并且随着时间的推移会自然增长。当你&6使用工具&r时，它会逐渐稳固下来。稳固的工具会消耗&6更低的完整度&r。"
+				""
+				"&b打磨度&r也可以通过相同方式增长，打磨会&6增强工具部件&r。"
+				""
+				"&b完整度&r是工具&6的最大总复杂度&r的基础。更好的工具部件的完整度消耗更高，而且&c的完整度不能超过上限&r。增加稳固度和打磨度将会提供更多的完整度。"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "1CC51CEE8959C798"
+			min_width: 250
+			rewards: [
+				{
+					id: "079AE213B928F1D5"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "602F6992C6461D98"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "达到极限！"
+			tasks: [{
+				id: "50FE36617524BB4C"
+				title: "工具等级"
+				type: "checkmark"
+			}]
+			title: "工具等级"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A2B186A4949E04D"]
+			description: ["&b热力单位&r可以安装在锻造锤两侧来&6为它充能&r，可以制作更高级的工具和武器。"]
+			id: "044639C4BCE3DDAC"
+			rewards: [{
+				id: "4158502AA3BA6BB0"
+				item: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "获取一个热力单位"
+			tasks: [{
+				id: "4023D940550E6644"
+				item: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"为了超越四级工具，你需要几种新设备。首先需要&b锻造锤&r。"
+				""
+				"通常情况下，你会发现它们隐藏在地下的深处，但在这里不存在这个选项。取而代之的是&6从5级铁匠手中&r购买。放置高炉来设置村民为铁匠。"
+				""
+				"锻造锤必须放在加工台上方&6两格&r高位置。"
+				""
+				"锻造锤可以安装&6升级&r。使用&6羊角头&r工具来移除它们。"
+			]
+			id: "0A2B186A4949E04D"
+			min_width: 275
+			rewards: [
+				{
+					id: "7334248DF9B9009C"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							HideFlags: 1
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/butt_right_material": "butt/stone"
+							"double/claw_left_material": "claw/diamond"
+							"double/handle": "double/basic_handle"
+							"double/handle/settle_progress": 277
+							"double/head_left": "double/claw_left"
+							"double/head_left:arrested": 0
+							"double/head_right": "double/butt_right"
+							honing_progress: 288
+							id: "1be95ba9-1be5-49b6-b21b-f4503065bd3e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4452ADC393F50072"
+					item: "tetra:pristine_emerald"
+					type: "item"
+				}
+			]
+			subtitle: "传奇工具"
+			tasks: [{
+				id: "113819B092225F4B"
+				item: "tetra:hammer_base"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A2B186A4949E04D"]
+			description: [
+				"为了达到&67级&r，光是锻造锤是不够的。"
+				""
+				"你需要使用&b燃烧室&r和&b润滑剂发射器&r来升级它。"
+			]
+			icon: "tetra:combustion_chamber"
+			id: "1C41C855ED97D901"
+			rewards: [{
+				id: "164461A301927233"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			subtitle: "终极锻造！"
+			tasks: [
+				{
+					id: "6EE7365B9A175238"
+					item: "tetra:combustion_chamber"
+					type: "item"
+				}
+				{
+					id: "63E655486F4C883C"
+					item: "tetra:lubricant_dispenser"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B5E1E34A52272B7"]
+			description: [
+				"&b卷轴&r可以在村庄的箱子中找到,&6在加工台&r中解锁了新的合成选项。"
+				""
+				"多个卷轴可以放在同一个方块中。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							effects: ["tetra:gem_expertise"]
+							glyphs: [
+								14
+								13
+								14
+								15
+							]
+							intricate: 0b
+							key: "gem_expertise"
+							material: 0
+							ribbon: "2bffee"
+						}]
+					}
+				}
+			}
+			id: "2194412E88EF922C"
+			subtitle: "更年长的，甚至是"
+			tasks: [{
+				id: "3DBA2AD2EF5E81D9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "tetra:scroll_rolled"
+							tag: {
+								BlockEntityTag: {
+									data: [{
+										effects: ["tetra:gem_expertise"]
+										glyphs: [
+											14
+											13
+											14
+											15
+										]
+										intricate: 0b
+										key: "gem_expertise"
+										material: 0
+										ribbon: "2bffee"
+									}]
+								}
+							}
+						}]
+					}
+				}
+				title: "卷轴"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Tetra"
+}

@@ -1,0 +1,17 @@
+
+[general]
+	#When set to true, the players inventory will be cleared when leaving a team
+	clearPlayerInventory = false
+	#Resource location of the structure NBT for the lobby
+	lobbyStructure = "ftbteamdimensions:lobby"
+	#When set to true, nether portals may be constructed in team dimensions
+	allowNetherPortals = true
+	#If true, generate a void dimension with only a single biome. Otherwise, generate a void dimension with overworld-like biome distribution
+	singleBiomeDimension = false
+	#If 'singleBiomeDimension' is true, this is the ID of the biome to generate
+	singleBiomeName = "minecraft:the_void"
+	#When set to false, no features may generate in void dimensions. Some features (e.g. icebergs) will try to generate in applicable biomes without any checks for surrounding blocks.
+	allowVoidFeatureGen = false
+	#If true, every team dimension has its own level data for the purposes of things like time, weather, etc.  If false, team dimensions just shadow the overworld's data for these purposes. This will only take effect when new worlds are created; not recommended to change this once any dimensions have been created!
+	perDimensionLevelData = true
+

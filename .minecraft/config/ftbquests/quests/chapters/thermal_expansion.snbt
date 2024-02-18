@@ -1,0 +1,480 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "43731E7F4BACB580"
+	icon: "thermal:machine_crucible"
+	id: "3B327D541173D77F"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/thermal.png"
+		rotation: 0.0d
+		width: 11.44578313253012d
+		x: 3.0d
+		y: -5.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["(几乎)所有的&e热力拓展&r机器都是使用&b机器框架&r制作的。"]
+			id: "1828D9CBF5BDE917"
+			rewards: [
+				{
+					id: "5069BD91305B3003"
+					item: "thermal:wrench"
+					type: "item"
+				}
+				{
+					id: "08574250003C3F1E"
+					item: "thermal:redprint"
+					type: "item"
+				}
+				{
+					id: "0884DACB3E71712F"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "这只是一个枯燥的壳"
+			tasks: [{
+				id: "506BEB57D9094E23"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: [
+				"化石燃料 2018。(这里翻译应该不对)"
+				""
+				"&b红石炉&r让你可以使用FE来熔炼物品。"
+			]
+			id: "0F161E320B0671A0"
+			rewards: [{
+				id: "6EA2924DAA31C00B"
+				item: "mekanismgenerators:solar_panel"
+				type: "item"
+			}]
+			subtitle: "微波"
+			tasks: [{
+				id: "0527284E77DA856E"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: ["&b磨粉机&r用来&6粉碎物品&r。"]
+			id: "3063001053714EC8"
+			subtitle: "磨粉机"
+			tasks: [{
+				id: "16F5BFF6E1FAEA2E"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: ["&b感应炉&r用于&6将材料组融成合金&r。"]
+			id: "018720B0E3284D10"
+			rewards: [{
+				icon: { Count: 8b, id: "thermal:signalum_ingot" }
+				id: "6049346B334C8AE8"
+				table_id: 1406487820430908686L
+				title: "随机热力合金"
+				type: "random"
+			}]
+			subtitle: "宏波"
+			tasks: [{
+				id: "708D5EA8DF543C89"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: [
+				"&b锯木机&r让你&6从树上获得更多原木&r！"
+				""
+				"还给予一些锯末！"
+			]
+			id: "6A2B1CF9BB1266EB"
+			rewards: [{
+				count: 9
+				id: "70B1DE7734B1FC21"
+				item: "thermal:sawdust"
+				type: "item"
+			}]
+			subtitle: "锯木机！锯木机！"
+			tasks: [{
+				id: "136803C90C966434"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: ["&b熔岩炉&r能够&6将物体熔化为液体。"]
+			id: "160819544810DE1B"
+			subtitle: "没空调"
+			tasks: [{
+				id: "2463A9F941D7B3F1"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: ["&b急速冷冻机&r&6将流体冷冻为方块&r。"]
+			id: "790188AFF0C073DB"
+			rewards: [{
+				id: "2799248E74A8FAB4"
+				item: "thermal:chiller_ball_cast"
+				type: "item"
+			}]
+			subtitle: "空调"
+			tasks: [{
+				id: "7B214627F3E4DA45"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: [
+				"使用&b有机灌注机&r可以&6在物品栏内培育作物和植物&r."
+				""
+				"有多种可选的肥料可以让它长的更快"
+			]
+			id: "55E043AA94CF199F"
+			rewards: [{
+				count: 16
+				id: "3B2888315F034FF2"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			subtitle: "水培"
+			tasks: [{
+				id: "59CB68986B890B8B"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: [
+				"&b硬化整合组件&r是使你的机器更强力的必需品。"
+				""
+				"它们按照工具属性中显示的数字来增强你的&6热膨胀&r模组机器。"
+			]
+			hide_dependency_lines: true
+			id: "1864754B0137D3A6"
+			subtitle: "升级你的机器！"
+			tasks: [{
+				id: "303FFCEBC7ED7D02"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1864754B0137D3A6"]
+			description: [
+				"&b强化整合组件&r将使你机器更快。"
+				""
+				"这将使机器的速度提高三倍。"
+			]
+			id: "7F451EE8AAB02BE9"
+			tasks: [{
+				id: "43C376883C85F804"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F451EE8AAB02BE9"]
+			description: [
+				"用一些末影锭和流明，你可以制作&b谐振整合组件&r."
+				""
+				"这是最终的升级，将使你的机器扩展到4倍的速度"
+			]
+			id: "23A304B5D985FD61"
+			tasks: [{
+				id: "7D9E5B99759896A8"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: [
+				"&e热力扩展&r提供许多种&b能源炉&r，可以&6产生FE&r。每个都有自己特定的使用材料。"
+				""
+				"&8斯特林&r - 熔炉物品燃料"
+				""
+				"&3压缩&r - 流体燃料"
+				""
+				"&c热力&r - 熔岩"
+				""
+				"&b通货&r - 货币"
+				""
+				"&9珠宝&r - 晶体等"
+				""
+				"&5祛魔&r - 附魔物品"
+				""
+				"&a饕餮&r - 食物"
+			]
+			icon: "thermal:dynamo_magmatic"
+			id: "47BF62422A6485C6"
+			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: { Count: 32b, id: "minecraft:coal" }
+				id: "4B791521C14F38FB"
+				table_id: 161318472714724922L
+				title: "选择：能源炉的燃料"
+				type: "choice"
+			}]
+			subtitle: "发电机发电！"
+			tasks: [{
+				id: "6A31B850D26E5F69"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:dynamo_stirling"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_compression"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_magmatic"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_numismatic"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_lapidary"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_disenchantment"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_gourmand"
+							}
+						]
+					}
+				}
+				title: "能源炉"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DEC0BECDDACE681"]
+			description: ["&b通量线圈&r可以被安装到红石通量单元，&6增加容量与传输速度&r。"]
+			hide: true
+			icon: "thermal:rf_coil_storage_augment"
+			id: "35BA32CF179E2827"
+			subtitle: "制作一个通量线圈"
+			tasks: [{
+				id: "5886DF9C146D02B7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:rf_coil_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:rf_coil_storage_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:rf_coil_xfer_augment"
+							}
+						]
+					}
+				}
+				title: "通量线圈"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1828D9CBF5BDE917"]
+			description: [
+				"热力机器有各种&b升级&r可以安装，以某种方式改变它们的工作方式。"
+				""
+				"有些只是让它工作得更快或更有效，而有些则完全增加了新的功能。"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "thermal:machine_output_augment"
+			id: "5E019C2260EB7F54"
+			subtitle: "制作一个机器升级"
+			tasks: [{
+				id: "24D17B06FD549279"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:machine_speed_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_efficiency_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_output_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_catalyst_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_cycle_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_null_augment"
+							}
+						]
+					}
+				}
+				title: "机器升级"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47BF62422A6485C6"]
+			description: ["&b能源炉升级&r可以被安装到能源炉，让它们以某种方式工作的更好。"]
+			hide: true
+			icon: "thermal:dynamo_output_augment"
+			id: "45674B8AD90C5124"
+			subtitle: "制作一个能源炉升级"
+			tasks: [{
+				id: "3F06406FFB7F1EE4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:dynamo_output_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_fuel_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_throttle_augment"
+							}
+						]
+					}
+				}
+				title: "能源炉升级"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&b红石通量&r可以&6储存1,000,000 FE&r！"
+				""
+				"你可以给它附魔&6扩容&r进一步提高效果。"
+			]
+			id: "5DEC0BECDDACE681"
+			rewards: [{
+				id: "71F2F55447A8E984"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "cofh_core:holding"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "能量压倒一切！"
+			tasks: [{
+				id: "341543DBE1920D48"
+				item: {
+					Count: 1b
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+	]
+	title: "热力拓展"
+}

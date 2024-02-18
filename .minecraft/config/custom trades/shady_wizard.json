@@ -1,0 +1,778 @@
+{
+  "profession": "ars_nouveau:shady_wizard",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "elementalcraft:source",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ae2:ender_dust",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_source_berry"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:magebloom_fiber",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_magebloom_fiber"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:bombegranate_pod",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_bombegranate_pod"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:mendosteen_pod",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_mendosteen_pod"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:frostaya_pod",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_frostaya_pod"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:totem_of_undying",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "hexcasting:artifact",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ars_nouveau:starbuncle_charm",
+        "amount": 1,
+        "priceModifier": 0
+      },
+
+      "tradeExp": 40,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_bastion_pod"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:echo_shard",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:amethyst_shard",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ars_nouveau:source_gem",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_amethyst_shard"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:source_berry_roll",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_source_berry_roll_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ghostweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_ghostweave_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:mirrorweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_mirrorweave_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:falseweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_falseweave_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:warp_scroll",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_warp_scroll_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "forcecraft:claw",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:wilden_horn",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 20,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_wilden_horn"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:wilden_spike",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_wilden_spike"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:wilden_wing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_emerald_for_wilden_wing"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_burrowing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_burrowing_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_challenge",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_challenge_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_forestation",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_forestation_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_binding",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_binding_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_awakening",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_awakening_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_warping",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_warping_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_disintegration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_disintegration_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_moonfall",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_moonfall_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_sunrise",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_sunrise_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_containment",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_containment_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_scrying",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_scrying_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_flowering",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_flowering_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_fertility",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_fertility_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_overgrowth",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_overgrowth_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_cloudshaping",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_cloudshaping_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_flight",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_flight_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_conjure_island_plains",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_conjure_island_plains_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_conjure_island_desert",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_conjure_island_desert_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_harvest",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_harvest_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_restoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_restoration_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_wilden_summon",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_wilden_summon_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:starbuncle_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_starbuncle_shards_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:drygmy_shard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_drygmy_shard_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:wixie_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_wixie_shards_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:whirlisprig_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_whirlisprig_shards_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:source_berry_pie",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "ars_nouveau:shady_wizard_source_berry_pie_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:music_disc_aria_biblio",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "ars_nouveau:shady_wizard_music_disc_aria_biblio_for_emerald"
+    }
+  ]
+}

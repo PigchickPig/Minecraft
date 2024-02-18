@@ -1,0 +1,38 @@
+{
+  "type": "pedestals:upgrademodification_global",
+  "ingredients": [
+    {
+      "item": "pedestals:upgrade_pedestal_fertilizer"
+    },
+    {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    {
+      "tag": "forge:storage_blocks/netherite"
+    },
+    {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    {
+      "tag": "forge:storage_blocks/emerald"
+    },
+    {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    {
+      "tag": "forge:storage_blocks/gold"
+    },
+    {
+      "item": "rftoolsbase:infused_enderpearl"
+    }
+  ],
+  "resultModificationName": "upgradesuperspeed",
+  "resultModificationValue": 1,
+  "resultModificationMaxValue": 1
+}

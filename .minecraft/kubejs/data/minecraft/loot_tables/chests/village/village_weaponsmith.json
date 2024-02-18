@@ -1,0 +1,303 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spirit:soul_steel_ingot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:netherite_scrap",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cyclic:apple_chocolate",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cyclic:chorus_flight",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wstweaks:blaze_blade",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:durable\":0.29000002f,\"apotheosis:sword/attribute/elongated\":0.3495568f,\"apotheosis:sword/attribute/intricate\":0.024924517f,\"apotheosis:sword/attribute/lacerating\":0.7963716f,\"apotheosis:sword/attribute/vampiric\":0.18958968f,\"apotheosis:sword/mob_effect/sophisticated\":0.42590326f,\"apotheosis:telepathic\":0.41178524f},name:'{\"color\":\"#BB00BB\",\"translate\":\"%s %s %s\",\"with\":[{\"translate\":\"affix.apotheosis:sword/attribute/elongated\"},\"\",{\"translate\":\"affix.apotheosis:sword/attribute/vampiric.suffix\"}]}',rarity:\"epic\"}}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanismtools:refined_glowstone_sword",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 60
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:copper_sword",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 60
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:enchanters_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 60
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:fluix_sword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 60
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanismtools:refined_glowstone_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanismtools:refined_glowstone_shield",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:night_vision_goggles",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:running_shoes",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 64.0,
+                "min": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{glyphs:[3,2,2,1],intricate:0b,key:\"sword/sturdy_guard\",material:1,ribbon:\"bcb8b5\",schematics:[\"tetra:sword/sturdy_guard\"]}]}}"
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{details:\"warforge\",glyphs:[6,7,11,7],intricate:0b,key:\"warforge/adze\",material:2,ribbon:\"8559b3\",schematics:[\"tetra:warforge/adze\"]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{effects:[\"tetra:hammer_efficiency\"],glyphs:[6,7,6,11],intricate:0b,key:\"hammer_efficiency\",material:0,ribbon:\"ff6666\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{details:\"warforge\",glyphs:[5,10,8,9],intricate:0b,key:\"warforge/axe\",material:2,ribbon:\"b35973\",schematics:[\"tetra:warforge/axe\"]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{details:\"warforge\",glyphs:[6,11,8,7],intricate:0b,key:\"warforge/pickaxe\",material:2,ribbon:\"508cb3\",schematics:[\"tetra:warforge/pickaxe\"]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{details:\"warforge\",glyphs:[8,10,5,11],intricate:0b,key:\"warforge/claw\",material:2,ribbon:\"1d262f\",schematics:[\"tetra:warforge/claw\"]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{details:\"warforge\",glyphs:[5,9,6,10],intricate:0b,key:\"warforge/sickle\",material:2,ribbon:\"d99e4c\",schematics:[\"tetra:warforge/sickle\"]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{details:\"warforge\",glyphs:[11,5,8,9],intricate:0b,key:\"warforge/butt\",material:2,ribbon:\"b33636\",schematics:[\"tetra:warforge/butt\"]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{effects:[\"tetra:cut_efficiency\"],glyphs:[4,0,3,5],intricate:0b,key:\"cut_efficiency\",material:0,ribbon:\"6666ff\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:feral_claws",
+          "weight": 3
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 4.0
+      }
+    }
+  ]
+}

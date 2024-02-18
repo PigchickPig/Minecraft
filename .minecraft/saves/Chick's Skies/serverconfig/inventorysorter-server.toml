@@ -1,0 +1,8 @@
+
+#Inventory sorter blacklists
+[blacklists]
+	#Container blacklist
+	containerBlacklist = ["refinedstorage:crafter", "productivebees:gene_indexer", "botania:flower_bag", "dankstorage:dank_1", "dankstorage:dank_2", "dankstorage:dank_3", "dankstorage:dank_4", "dankstorage:dank_5", "dankstorage:dank_6", "dankstorage:dank_7", "dankstorage:portable_dank_1", "dankstorage:portable_dank_2", "dankstorage:portable_dank_3", "dankstorage:portable_dank_4", "dankstorage:portable_dank_5", "dankstorage:portable_dank_6", "dankstorage:portable_dank_7", "mob_grinding_utils:absorption_hopper_container", "mob_grinding_utils:entity_spawner_container", "mob_grinding_utils:fan_container", "mob_grinding_utils:saw_container", "mob_grinding_utils:solidifier_container", "industrialforegoing:transporter", "industrialforegoing:conveyor"]
+	#Slot type blacklist
+	slotBlacklist = ["net.p3pp3rf1y.sophisticatedcore.common.gui.StorageInventorySlot", "appeng.client.gui.me.common.ClientReadOnlySlot", "appeng.client.gui.me.common.RepoSlot", "appeng.client.gui.me.common.ClientDisplaySlot", "appeng.menu.slot.FakeSlot", "appeng.menu.slot.OptionalFakeSlot"]
+

@@ -1,0 +1,684 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "occultism:infused_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,spiritName:\"Sunekaer\"}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 60
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "ars_nouveau:glyph_exchange",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "constructionwand:infinity_wand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "functionalstorage:netherite_upgrade",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apotheosis:explosive_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 22
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:glyph_pierce",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:music_disc_pigstep",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "rootsclassic:infernal_bulb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 17
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "mekanism:alloy_infused",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "productivebees:upgrade_time",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "apotheosis:superior_sigil_of_socketing",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "industrialforegoing:speed_addon_2",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TitaniumAugment:{Speed:3.0f}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "bhc:blade_of_vitality",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "The Power of Friendship"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{affix_data:{affixes:{\"apotheosis:socket\":4.0f}}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 15,
+                "max": 70
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "spirit:soul_steel_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Axiom of Souls"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:socket\":2.0f}}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "ironjetpacks:jetpack",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Id:\"ironjetpacks:electrum\",Throttle:1.0d}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "unstabletools:unstable_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:7s},{id:\"minecraft:frost_walker\",lvl:7s},{id:\"minecraft:fire_protection\",lvl:9s},{id:\"ad_astra_giselle_addon:space_fire_proof\",lvl:1s},{id:\"minecraft:feather_falling\",lvl:11s},{id:\"ensorcellation:soulbound\",lvl:1s}],RepairCost:63,display:{Name:'{\"text\":\"Inferno Boots\"}'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pedestals:augment_pedestal_t4_speed",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:magma_cream",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_shulker_box",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"ensorcellation:soulbound\",lvl:1s}],RepairCost:1,display:{Name:'{\"text\":\"Inferno Containment Cube\"}'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "botania:terrasteel_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "forcecraft:force_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nethersdelight:nether_skewer",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "cyclic:attack_range"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "cyclic:strong_haste"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "apotheosis:absorption"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_strength"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "apotheosis:strong_resistance"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "ars_nouveau:recovery_potion_long"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "apotheosis:strong_knowledge"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "ars_nouveau:recovery_potion"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "ars_nouveau:spell_damage_potion_strong"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "cyclic:flight"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "cyclic:reach_distance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:spirit\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:crystalline\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:spirit\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:glowing\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:experience\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:amethyst\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:fire_crystal\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:blazing\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:netherite\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:ghostly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:blazing\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:ghostly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:netherite\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:glowing\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:crystalline\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:fire_crystal\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:amethyst\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_configurable_bee",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{type:\"productivebees:experience\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

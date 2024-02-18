@@ -1,0 +1,90 @@
+{
+	"mod": "ad_astra",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"lunarian": {
+						// Do not edit this name
+						"name": "lunarian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"lunarian_wandering_trader": {
+						// Do not edit this name
+						"name": "lunarian_wandering_trader",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"glacian_ram": {
+						// Do not edit this name
+						"name": "glacian_ram",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"zombified_pygro": {
+						// Do not edit this name
+						"name": "zombified_pygro",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"martian_raptor": {
+						// Do not edit this name
+						"name": "martian_raptor",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"sulfur_creeper": {
+						// Do not edit this name
+						"name": "sulfur_creeper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"corrupted_lunarian": {
+						// Do not edit this name
+						"name": "corrupted_lunarian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"mogler": {
+						// Do not edit this name
+						"name": "mogler",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"pygro": {
+						// Do not edit this name
+						"name": "pygro",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"zombified_mogler": {
+						// Do not edit this name
+						"name": "zombified_mogler",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"star_crawler": {
+						// Do not edit this name
+						"name": "star_crawler",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"pygro_brute": {
+						// Do not edit this name
+						"name": "pygro_brute",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,430 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "0B729A29DA0A889D"
+	icon: {
+		Count: 1b
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "4FA6ADCA7857A92F"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/botania.png"
+		rotation: 0.0d
+		width: 4.626506024096385d
+		x: 3.0d
+		y: -4.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["250395A24A30B9A3"]
+			description: [
+				"魔力是使用特殊&b产能魔力花&r产生的。首先最简单的是&6火红莲&r，它使用燃料产生魔力。"
+				""
+				"每种产能花产生魔力的方法不同，有关每种方法的详细信息，请查看&6植物魔法辞典&r。"
+			]
+			icon: "botania:endoflame"
+			id: "327CFF7413DE3E43"
+			rewards: [
+				{
+					id: "4284286DB1AAC3FC"
+					item: "botania:white_floating_flower"
+					type: "item"
+				}
+				{
+					id: "6A43322C77A123DE"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+			]
+			subtitle: "神秘能源"
+			tasks: [{
+				id: "6907A6D48E6E4E8B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:generating_special_flowers"
+					}
+				}
+				title: "产能魔力花"
+				type: "item"
+			}]
+			title: "产能魔力花"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"你可以在草地上使用骨粉获得&b花朵&r。直接在花上使用骨粉可以&6增殖它&r。"
+				""
+				"一旦你有了一些花，将它们合成&6花肥&r是一个好主意"
+			]
+			icon: "minecraft:poppy"
+			id: "7F0B4401049489A4"
+			rewards: [
+				{
+					id: "21E7CE853CD293F4"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					id: "42BF82927A4E6058"
+					item: "forcecraft:fortune_cookie"
+					type: "item"
+				}
+			]
+			subtitle: "好像蒲公英一样"
+			tasks: [{
+				id: "3523FEE80796E52E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:flowers"
+					}
+				}
+				title: "任意花"
+				type: "item"
+			}]
+			title: "花之力"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F0B4401049489A4"]
+			description: ["一旦你得到了&b神秘花&r，无论是花肥还是偶然获得的，你可以开始研究魔力了。"]
+			icon: "botania:magenta_shiny_flower"
+			id: "1BEC67E79CAC09FD"
+			rewards: [
+				{
+					count: 8
+					id: "150AFCF587C2A97E"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "592CC1614E3F56FF"
+					item: "botania:obedience_stick"
+					type: "item"
+				}
+			]
+			subtitle: "植魔空岛"
+			tasks: [{
+				id: "739324C39B3A9065"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "神秘的花朵"
+				type: "item"
+			}]
+			title: "苍天之始"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BEC67E79CAC09FD"]
+			description: ["魔力花可以在&b花药台&r中制作。将它填满水，将原料扔进其中，然后扔进种子。"]
+			id: "250395A24A30B9A3"
+			rewards: [
+				{
+					id: "44EDADE277A12A24"
+					item: "botania:tiny_potato"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1F2EAABEB48CE283"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D9450112AE1F596"
+					item: "botania:white_mushroom"
+					type: "item"
+				}
+			]
+			subtitle: "生长之种"
+			tasks: [{
+				id: "73ED21781B241596"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["250395A24A30B9A3"]
+			description: [
+				"&b白雏菊&r是你将制作的第一个&6功能花&r。"
+				""
+				"放置后，它将缓慢地&6将周围的方块转换成其他方块&r"
+				""
+				"最显然的是，它被用于制造&6活石&r和&6活木&r，这是两种非常重要的方块。"
+			]
+			id: "5861E8916B7071A6"
+			rewards: [
+				{
+					count: 16
+					id: "4CB711BFB6F0E3AB"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "10F7D1CE4B6F9B03"
+					item: "minecraft:oak_wood"
+					type: "item"
+				}
+				{
+					id: "38B65F29288DD6BB"
+					item: "botania:floating_pure_daisy"
+					type: "item"
+				}
+			]
+			subtitle: "功能花"
+			tasks: [{
+				id: "63FDB1C54DBD6021"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5861E8916B7071A6"]
+			description: [
+				"&b魔力发射器&r可以发送魔力，&b魔力池&r存储魔力。如果发射器没有魔力，则发射器会使用它附近的魔力池的魔力。"
+				""
+				"如果一个发射器&6绑定在一个能够存储魔力的方块上&r(而且发射器&o内拥有&r魔力)，发射器将会&6射出魔力&r。"
+				""
+				"产能花会把魔力输向它们的绑定的发射器。"
+			]
+			icon: "botania:mana_pool"
+			id: "40D4576678C9A2C3"
+			rewards: [{
+				id: "1654E36E8F5599FC"
+				item: "botania:mana_distributor"
+				type: "item"
+			}]
+			subtitle: "魔力存储与传输"
+			tasks: [
+				{
+					id: "5F4600AA78CCFDB2"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "211524E177A7CFDE"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5861E8916B7071A6"
+				"4B2D10549BFDBAA8"
+			]
+			description: [
+				"&b森林之杖&r本质上就是植物魔法的扳手。它的主要用途是&6将方块绑定到其他方块上&r。"
+				""
+				"当处于绑定模式(潜行右键切换)时，先潜行右键一个方块，再潜行右键你想要绑定它的方块。"
+			]
+			id: "1DF05CB37EFE72FE"
+			rewards: [{
+				id: "2327E1D34DA2F8E8"
+				item: "botania:monocle"
+				type: "item"
+			}]
+			subtitle: "一挥，再一弹"
+			tasks: [{
+				id: "7BB1D8684147562D"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "森林法杖"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40D4576678C9A2C3"]
+			description: ["&b炼金催化剂&r放在魔力池下面，可以转换&6扔进魔力池的材料&r。"]
+			id: "060C7D964923D061"
+			subtitle: "理解、解构和重构"
+			tasks: [{
+				id: "0BAB7BCCD8ECB05E"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40D4576678C9A2C3"]
+			description: [
+				"&b符文祭坛&r用于使用魔力合成物品。"
+				""
+				"将材料放上去，然后从发射器对祭坛发射魔力来启动祭坛。"
+				""
+				"仪式完成后，&6将活石扔在上面&r并使用一根森林法杖右键祭坛。"
+			]
+			id: "064CD01B3905E95F"
+			subtitle: "德鲁伊奇出品"
+			tasks: [{
+				id: "2A8D010D114BEFAA"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["064CD01B3905E95F"]
+			description: [
+				"&b泰拉钢凝聚板&r用于制作&6泰拉钢&r。它是多方块结构的一部分。有关建造细节，请参阅&6植物魔法辞典&r。"
+				""
+				"你需要使用&6火花&r为其供能，而不是使用魔力发射器充能。"
+				""
+				"将一个火苗放置在泰拉凝聚板上，另一个放置在附近的魔力池上。当需要魔力时，板子会通过火花吸收魔力池内的魔力。"
+			]
+			id: "5870DC18E8715BA0"
+			rewards: [{
+				id: "623BFFC437618375"
+				item: "botania:spark"
+				type: "item"
+			}]
+			subtitle: "泰拉钢"
+			tasks: [{
+				id: "5575B5446793EDAD"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5870DC18E8715BA0"]
+			description: [
+				"&b精灵传送传送门&r是一个多方块结构，由魔力提供动力，它可以&6通过扔物品到门内转换成另一种物品&r。"
+				""
+				"有关建造的详细信息,请查看&6植物魔法辞典&r。"
+			]
+			icon: "botania:alfheim_portal"
+			id: "33FF06F93A9B4510"
+			rewards: [
+				{
+					count: 2
+					id: "0ED08D8AD2ABC26D"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7583FBCA8C039A36"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+			]
+			subtitle: "链接，启动！"
+			tasks: [
+				{
+					count: 2L
+					id: "2C20D561B00EB30B"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					id: "67A8F65F24A706CC"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "123DAC1F502DD299"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1124BBAE1A2092FE"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "54784421BD165F66"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "精灵传送门"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33FF06F93A9B4510"]
+			description: [
+				"&b盖亚仪式&r允许你&6召唤盖亚守护者并与之战斗&r，这是一个强大的boss。"
+				""
+				"要做到这一点，需要搭建一个祭坛(看植物魔法辞典)，并在中间的信标上使用&b泰拉钢锭&r右键。"
+			]
+			icon: "botania:gaia_pylon"
+			id: "7E0CB317B1D1B359"
+			rewards: [{
+				count: 6
+				id: "1C5103DC3623FF06"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			subtitle: "冲击大地！"
+			tasks: [
+				{
+					count: 4L
+					id: "46086F5C96CA4191"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "1462911663A28BE8"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "69DBF201B977760F"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			title: "盖亚仪式"
+			x: 9.0d
+			y: -2.5d
+		}
+	]
+	title: "植物魔力"
+}

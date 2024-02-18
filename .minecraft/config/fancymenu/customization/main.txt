@@ -1,0 +1,397 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/ui/textures/bg.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 720
+  action = autoscale
+  basewidth = 1280
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 104
+  action = movebutton
+  y = 111
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ui/textures/ftbonemphover.png
+  backgroundnormal = kubejs/assets/ui/textures/ftbonemp.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 152
+  action = movebutton
+  y = 151
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ui/textures/ftboneexithover.png
+  backgroundnormal = kubejs/assets/ui/textures/ftboneexit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 1
+  action = movebutton
+  y = 111
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ui/textures/ftbonesingleplayerhover.png
+  backgroundnormal = kubejs/assets/ui/textures/ftbonesingleplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 121
+  action = movebutton
+  y = 151
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ui/textures/ftboneaccessibilityhover.png
+  backgroundnormal = kubejs/assets/ui/textures/ftboneaccessibility.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 74
+  action = movebutton
+  y = 133
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 55
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ui/textures/ftboneoptionshover.png
+  backgroundnormal = kubejs/assets/ui/textures/ftboneoptions.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = element
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 30
+  action = movebutton
+  y = 151
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ui/textures/ftbonelanguagehover.png
+  backgroundnormal = kubejs/assets/ui/textures/ftbonelanguage.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 10
+  action = movebutton
+  y = 131
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 55
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ui/textures/ftbonemodshover.png
+  backgroundnormal = kubejs/assets/ui/textures/ftbonemods.png
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 293
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = ba6a3b85-3fc0-477e-b99d-1b39206f45471674243765104
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 128
+  action = deep_customization_element:title_screen_branding
+  actionid = d5ff9fc9-555b-4f77-a222-dd4e68b91dc31674243765111
+  y = 188
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 220
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 641440f1-9fea-4843-ac89-096adc70de0f1674243765111
+  y = 220
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 530
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 4c0f1468-2966-411f-9488-ca52954e3b461674243765111
+  y = 214
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 84a65eda-8de1-4813-87d6-bf2bf4a9dab01674243765111
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = true
+  x = 58
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 96275f3e-3be8-4b20-a383-3b951404ff9b1674243765112
+  y = 112
+  height = 30
+}
+
+customization {
+  path = kubejs/assets/ui/textures/logo.png
+  orientation = top-centered
+  x = -101
+  width = 185
+  action = addtexture
+  actionid = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  y = 24
+  height = 84
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://go.ftb.team/L4S2nQ%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/ui/textures/ftbonediscordhover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 60
+  width = 20
+  action = addbutton
+  actionid = d89e0b93-4f25-4bec-899d-dd22881988b01674244602996
+  y = 151
+  backgroundnormal = kubejs/assets/ui/textures/ftbonediscord.png
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:5023461%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/ui/textures/skiesserver_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:9335
+  x = -1
+  width = 61
+  action = addbutton
+  actionid = 46f45f11-0823-4ab5-9ed1-3777376edd341699566405938
+  y = 22
+  backgroundnormal = kubejs/assets/ui/textures/skiesserver.png
+  height = 21
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui;dev.ftb.mods.ftbauxilium.screens.OptOutScreen%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/ui/textures/ftboneauxiliumhover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 91
+  width = 20
+  action = addbutton
+  actionid = fbd34667-a4ec-4ebd-b155-5bdf57b702fb1674244677806
+  y = 151
+  backgroundnormal = kubejs/assets/ui/textures/ftboneauxilium.png
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://go.ftb.team/support-modpack%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/ui/textures/ftbonesupporthover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 1ceff0ec-2625-4717-a865-9e571fa9b13c1674244104707
+  x = 137
+  width = 55
+  action = addbutton
+  actionid = 6365055a-241e-479e-920a-822b8036ec141674245748598
+  y = 131
+  backgroundnormal = kubejs/assets/ui/textures/ftbonesupport.png
+  height = 20
+}
+
+customization {
+  identifier = %id=5023461%
+  action = hidebutton
+}
+

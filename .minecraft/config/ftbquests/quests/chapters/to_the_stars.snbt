@@ -1,0 +1,678 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "to_the_stars"
+	group: "5A45E622872EAC45"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "22AD1FAD303703DE"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/adastra.png"
+		rotation: 0.0d
+		width: 5.144578313253012d
+		x: 6.5d
+		y: -7.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bNASA工程装配台&r用于&6制作火箭&r。"
+				""
+				"有&6四个等级&r；一般来说，你必须先做初级的。"
+			]
+			id: "5C442AB0745E0A9F"
+			rewards: [{
+				id: "02EF85896DA72C7E"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
+			subtitle: "合法的独特"
+			tasks: [{
+				id: "0F90EAE26D847D54"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "NASA工程装配台"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5C442AB0745E0A9F"
+				"0CA38772D2301B20"
+				"7B15D0666F8BBED8"
+			]
+			description: [
+				"当你制作了你的&b火箭&r，就把它放在&b火箭发射基座上&r"
+				""
+				"潜行右键已放置的火箭来打开它的GUI。在这里，你可以放入&6燃料&r和最多放入8个物品来存储。"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "1F8DE53B2E2D31C4"
+			rewards: [{
+				count: 32
+				id: "5E12E04C59A3FB66"
+				item: "minecraft:soul_torch"
+				type: "item"
+			}]
+			subtitle: "McQuack"
+			tasks: [
+				{
+					id: "7F41327DBBD4A904"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+				{
+					id: "0AE6B2C2C8A35E26"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&b燃油精炼厂&r可以将&6原油&r转化为火箭使用的&6燃料&r。"
+				""
+				"你可以使用&e工业先锋&r模组中的&6流体镭射钻&r获得原油，也可以通过&e养蜂&r获得。"
+			]
+			id: "0CA38772D2301B20"
+			subtitle: "你真好"
+			tasks: [{
+				id: "1276CAD67BBC9D52"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"一个鲜为人知的事实，即&c你不能在太空中呼吸&r。好的，你可以&o&r，但只能出去一次。"
+				""
+				"&b宇航服&r非常有用，因为它能让太空拥有空气。它也可以在水下工作！"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61F019B1543E4D65"
+			subtitle: "太空！"
+			tasks: [
+				{
+					id: "06BCDB9AA6216C3D"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B7926FEA6D7526F"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F705F97FE6ECFA2"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09E0238C8CE34584"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61F019B1543E4D65"]
+			description: [
+				"&b氧气装载机&r用于&6从水中抽取氧气&r。"
+				""
+				"通过管道或桶给它提供水，并给它提供FE能源。"
+				""
+				"你可以用&6桶&r、&6氧气储罐&r或&6宇航服&r来取出转化的氧气。使用氧气储罐可以填满你的太空服。"
+			]
+			id: "7B15D0666F8BBED8"
+			rewards: [{
+				id: "110FB17B53642D57"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 500L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "轻松呼吸"
+			tasks: [{
+				id: "2C3784CF265DF180"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F8DE53B2E2D31C4"]
+			description: [
+				"•发射火箭需要&6三桶燃料&r。请确保你有足够的燃料回程！"
+				""
+				"•&6带一个火箭发射基座&r！没有发射基座你无法发射火箭。"
+				""
+				"•当你到达目的地时，你会做&6自由落地&r。&c按住空格键来减速！"
+				""
+				"•你会&6在你发射所在的坐标&r上，只是维度不同。"
+			]
+			icon: "minecraft:filled_map"
+			id: "7C412DF5A03BB4D7"
+			rewards: [{
+				count: 3
+				id: "2827FD577697256D"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "在你走之前"
+			tasks: [{
+				id: "446208D31C823C00"
+				type: "checkmark"
+			}]
+			title: "飞行前检查列表"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C412DF5A03BB4D7"]
+			description: [
+				"如果你的物品栏里有合适的材料，你可以搭建一个环绕着其中一个主要的星体的&b空间站&r。"
+				""
+				"基本上，它是一个&6可扩展的空岛结构&r，它与你发射的坐标相同。"
+				""
+				"完成任一任务都将完成任务。"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "719DABB84E95B69F"
+			optional: true
+			subtitle: "我可以看到我的房子！"
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					icon: "ad_astra:earth_globe"
+					id: "645974B0D08BFDD9"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:moon_orbit"
+					icon: "ad_astra:moon_globe"
+					id: "71D41330831217F0"
+					type: "dimension"
+				}
+			]
+			title: "环绕一个行星"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C412DF5A03BB4D7"]
+			description: [
+				"&b月球&r是一个荒野，(主要是)没有生命。"
+				""
+				"在地下，你可以找到&6戴斯矿石&r，这是发展所必须的"
+				""
+				"你也可以找到&6地牢&r和&6月亮村庄&r！"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "2988FCC006B3A285"
+			rewards: [{
+				count: 16
+				id: "6D9FE65E0E88AA82"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			subtitle: "人类的一小步"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "1DA69E518D4E192B"
+				title: "月球登陆"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0CA38772D2301B20"]
+			description: [
+				"&b燃油装载机&r可以自动为2个区块内&6火箭提供燃料&r。"
+				""
+				"它还会填满&6漫游车&r。"
+			]
+			id: "0758AE9BEA02B588"
+			size: 0.75d
+			subtitle: "制作一个燃油装载机"
+			tasks: [{
+				id: "0F29C1EE53B9EDFA"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["2988FCC006B3A285"]
+			description: [
+				"&b巡游者&r是一个用燃油充能的机器，它可以让你&6快速探索&r。"
+				""
+				"在家可能不那么有用。"
+			]
+			id: "14275C56C0BD2599"
+			optional: true
+			subtitle: "只有一个等级"
+			tasks: [{
+				id: "7D468B863D729CF3"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2988FCC006B3A285"]
+			description: [
+				"你可以使用戴斯矿石制成&b二级火箭&r。"
+				""
+				"这让你可以访问&6火星&r。"
+			]
+			id: "131541B40619DA30"
+			subtitle: "现在是橙色！"
+			tasks: [{
+				id: "34FE4C7CBE07C1BB"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 0L
+								Fluid: "minecraft:empty"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["131541B40619DA30"]
+			description: [
+				"一般&b火星&r也是&o荒地。"
+				""
+				"这里没有自然的生命，没有地牢，只能找到一个独特的结构。"
+				""
+				"它也是唯一已知的&6紫金&r的来源，一种非常耐热的材料。"
+			]
+			icon: "ad_astra:mars_globe"
+			id: "46F03CC6467032F9"
+			subtitle: "马克-沃特尼；太空海盗"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "4B714BB9F42330A1"
+				title: "火星登陆"
+				type: "dimension"
+			}]
+			title: "阿瑞斯"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46F03CC6467032F9"]
+			description: ["&b三级火箭&r可以带你前往&b水星&r和&6金星&r！"]
+			id: "0407804C7ED7A408"
+			subtitle: "高16%！"
+			tasks: [{
+				id: "45BE5C71A53741B4"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46F03CC6467032F9"]
+			description: [
+				"&b深低温冷冻器&r可以将&6冰晶&r(可以在寒冷的星球上找到)转化为&6深低温燃油&r。"
+				""
+				"&6一桶深低温燃油&r就可以为火箭之行提供燃料！"
+			]
+			id: "62FDE7EA1AAEFA1A"
+			rewards: [{
+				id: "0E99DFFEA6F6377F"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "太酷了"
+			tasks: [{
+				id: "2C9BA99AA18EED7F"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46F03CC6467032F9"]
+			description: ["&b合金宇航服&r提供了&6完备的耐热&r，这是去水星和金星的严酷要求。"]
+			icon: {
+				Count: 1b
+				id: "ad_astra:netherite_space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "707022B9906EA55C"
+			subtitle: "Doper!"
+			tasks: [
+				{
+					id: "2D1EB4C2FD7AF11E"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "490318AB7B87E174"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3836F052D3B57886"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5839B4DD59CEA6F9"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "合金宇航服"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0407804C7ED7A408"
+				"707022B9906EA55C"
+			]
+			description: [
+				"太空充满了荒地。&b水星&r和&b金星&r就是其中的两个例子"
+				""
+				"由于距离太阳很近，所以&6合金宇航服&r&c不能被燃烧&r是必需的。"
+				""
+				"两个行星都拥有&6耐热金属&r"
+			]
+			icon: "ad_astra:mercury_globe"
+			id: "3C606FCA13976092"
+			subtitle: "分支通道！"
+			tasks: [{
+				id: "50A226645CC9AB2C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ad_astra:mercury_globe"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"Reach Mercury\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "ad_astra:venus_globe"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"Reach Venus\"}"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "到达水星或金星"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C606FCA13976092"]
+			description: [
+				"&b四级火箭&r为探索比邻星系统提供了方便，它目前仅包含&b霜原星&r这个星球。"
+				""
+				"霜原星也没有任何内容。"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_4_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "6806890FCE48F28A"
+			rewards: [{
+				id: "5500F198A9769E60"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			subtitle: "这就是她所写的一切"
+			tasks: [
+				{
+					id: "4A69D07FF420F817"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_4_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:glacio"
+					icon: "ad_astra:glacio_globe"
+					id: "58BA175EE587EAE7"
+					title: "访问霜原星"
+					type: "dimension"
+				}
+			]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C606FCA13976092"]
+			description: [
+				"&b喷气式宇航服&r是终极太空服。除了提供氧气之外，它还提供&6飞行&r！"
+				""
+				"使用FE供能，按住空格进行飞行，按住空格与ctrl键来像鞘翅一样推进。"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:jet_suit_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3486444B51E71632"
+			subtitle: "超级仙人掌"
+			tasks: [
+				{
+					id: "02599B0D50C5596C"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6962BAAB8D8CF602"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B07EC497592E534"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CB8E2B0F25EC717"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "喷气式宇航服"
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C412DF5A03BB4D7"]
+			description: ["使用&6一级火箭&r，你可以&b飞向末地&r！"]
+			icon: "minecraft:dragon_head"
+			id: "600534C4296633CA"
+			subtitle: "严格来说，是一个小行星"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "70E11B553EED02A1"
+				title: "参观末地"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+	]
+	title: "星辰大海！"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "skyvillages:nether/skyvillage_terminator",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "skyvillages:nether/bridge_4",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

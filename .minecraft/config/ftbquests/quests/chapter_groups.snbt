@@ -1,0 +1,13 @@
+{
+	chapter_groups: [
+		{ id: "5126BB8E07FFE142", title: "主线指南" }
+		{ id: "5A42857CD4E60814", title: "存储章节" }
+		{ id: "7B39F21A0D5BB568", title: "无中生有" }
+		{ id: "0B729A29DA0A889D", title: "魔法精通" }
+		{ id: "43731E7F4BACB580", title: "科技章节" }
+		{ id: "265AFEC900FA3E96", title: "装备升级" }
+		{ id: "0EEBC99BAFECE694", title: "食乐章节" }
+		{ id: "5A45E622872EAC45", title: "探索章节" }
+		{ id: "0069DEC26FDAB775", title: "寰宇主宰" }
+	]
+}

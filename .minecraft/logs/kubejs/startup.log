@@ -1,0 +1,31 @@
+[00:31:47] [INIT] KubeJS 1902.6.2-build.45; MC 1902 forge
+[00:31:47] [INIT] Loaded plugins:
+[00:31:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:31:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[00:31:47] [INIT] - pro.mikey.kubeutils.kubejs.KubeUtilsPlugin
+[00:31:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[00:31:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[00:31:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[00:31:47] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
+[00:31:47] [INIT] - dev.ftb.ftbsba.tools.integration.kubejs.KubeJSIntegration
+[00:31:47] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[00:31:47] [INIT] - com.oierbravo.createsifter.compat.kubejs.KubeJSCreatesifterPlugin
+[00:31:47] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[00:31:47] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[00:31:47] [INIT] - thelm.jaopca.compat.kubejs.JAOPCAKubeJSPlugin
+[00:31:47] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[00:31:47] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[00:31:47] [INIT] - com.github.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[00:31:48] [INFO] Loaded script startup_scripts:global.js in 0.086 s
+[00:31:48] [INFO] Loaded script startup_scripts:custom_blocks.js in 0.005 s
+[00:31:48] [INFO] Loaded script startup_scripts:custom_items.js in 0.0 s
+[00:31:48] [INFO] eyeoflegend.js#8: Loaded Java class 'net.minecraft.world.entity.projectile.EyeOfEnder'
+[00:31:48] [INFO] eyeoflegend.js#9: Loaded Java class 'net.minecraft.core.Registry'
+[00:31:48] [INFO] eyeoflegend.js#10: Loaded Java class 'net.minecraft.tags.TagKey'
+[00:31:48] [INFO] Loaded script startup_scripts:eyeoflegend.js in 0.02 s
+[00:31:48] [INFO] Loaded script startup_scripts:itemmodifications.js in 0.001 s
+[00:31:48] [INFO] Loaded script startup_scripts:itemsfordimcreator.js in 0.017 s
+[00:31:48] [INFO] Loaded script startup_scripts:meshes.js in 0.0 s
+[00:31:48] [INFO] Loaded script startup_scripts:rockethandler.js in 0.001 s
+[00:31:48] [INFO] Loaded script startup_scripts:sdrp.js in 0.0 s
+[00:31:48] [INFO] Loaded 9/9 KubeJS startup scripts in 0.637 s

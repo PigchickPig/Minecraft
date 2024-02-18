@@ -1,0 +1,11 @@
+{
+  "id": "ftbteamdimensions:compactisland",
+  "structure": "ftbteamdimensions:spawn/compactisland",
+  "name": "Compact Sky Island",
+  "structure_set": "ftbteamdimensions:default",
+  "height": 64,
+  "display_order": 5,
+  "dimension_type": "ftbteamdimensions:default",
+  "preview_image": "ftbteamdimensions:textures/spawn/compactisland.png",
+  "spawn_override": [ 0, 65, 0 ]
+}

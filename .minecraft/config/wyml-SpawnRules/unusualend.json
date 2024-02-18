@@ -1,0 +1,43 @@
+{
+	"mod": "unusualend",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"undead_enderling": {
+						// Do not edit this name
+						"name": "undead_enderling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"endstone_golem": {
+						// Do not edit this name
+						"name": "endstone_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"ender_blob": {
+						// Do not edit this name
+						"name": "ender_blob",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"endstone_trapper": {
+						// Do not edit this name
+						"name": "endstone_trapper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"ender_firefly": {
+						// Do not edit this name
+						"name": "ender_firefly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					}
+				}
+			}
+		}
+	}
+}

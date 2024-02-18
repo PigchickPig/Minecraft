@@ -1,0 +1,78 @@
+[00:34:14] [INIT] KubeJS 1902.6.2-build.45; MC 1902 forge
+[00:34:14] [INIT] Loaded plugins:
+[00:34:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:34:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[00:34:14] [INIT] - pro.mikey.kubeutils.kubejs.KubeUtilsPlugin
+[00:34:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[00:34:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[00:34:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[00:34:14] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
+[00:34:14] [INIT] - dev.ftb.ftbsba.tools.integration.kubejs.KubeJSIntegration
+[00:34:14] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[00:34:14] [INIT] - com.oierbravo.createsifter.compat.kubejs.KubeJSCreatesifterPlugin
+[00:34:14] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[00:34:14] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[00:34:14] [INIT] - thelm.jaopca.compat.kubejs.JAOPCAKubeJSPlugin
+[00:34:14] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[00:34:14] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[00:34:14] [INIT] - com.github.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[00:34:14] [INFO] Loaded script server_scripts:functions.js in 0.002 s
+[00:34:14] [INFO] Loaded script server_scripts:events/amethyst.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:events/bees.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:events/crow.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:events/endermite.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:events/frogs.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:events/mimic.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:events/stick.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:events/tea.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:events/villager.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:events/wanderingtrader.js in 0.005 s
+[00:34:14] [INFO] Loaded script server_scripts:init.js in 0.002 s
+[00:34:14] [INFO] Loaded script server_scripts:unification.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:commands.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:compostables.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:creative_recipes.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:creative_skyeye.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:crushing.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:easter_eggs.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:entityhandler.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:misc_recipes.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/ae.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/create.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/fluxnetworks.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/hammers.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/mekanism.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/pedestals.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/rs.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/tetra.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:mods/thermal.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:playerhandler.js in 0.002 s
+[00:34:14] [INFO] Loaded script server_scripts:recipe_removals.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:sifting.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:startitems.js in 0.001 s
+[00:34:14] [INFO] Loaded script server_scripts:tags.js in 0.0 s
+[00:34:14] [INFO] Loaded script server_scripts:utils.js in 0.0 s
+[00:34:14] [INFO] Loaded 36/36 KubeJS server scripts in 0.031 s
+[00:34:14] [INFO] Scripts loaded
+[00:34:14] [INFO] Initializing recipe event...
+[00:34:15] [INFO] [minecraft:worldgen/structure] Found 46 tags, added 5 objects, removed 0 objects
+[00:34:15] [INFO] [minecraft:block] Found 1248 tags, added 13 objects, removed 0 objects
+[00:34:15] [INFO] [minecraft:item] Found 2086 tags, added 17 objects, removed 0 objects
+[00:34:17] [INFO] Processing recipes...
+[00:34:17] [WARN] Failed to parse recipe 'unusualend:chiseled_endstone_recipe_1[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:34:17] [WARN] Failed to parse recipe 'jaopca:dusts.to_material.aluminum[minecraft:smelting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:34:17] [WARN] Failed to parse recipe 'advancedperipherals:armor/smart_glasses_netherite[minecraft:smithing]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:34:17] [WARN] Failed to parse recipe 'createteleporters:tp_convert_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:34:17] [INFO] Found 20139 recipes in 139.5 ms
+[00:34:17] [INFO] Posted recipe events in 40.46 ms
+[00:34:17] [WARN] Error parsing recipe unusualend:chorus_petals_via_cutting[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"minecraft:chorus_flower"}],"result":[{"count":2,"item":"unusualend:chorus_petal"}],"tool":[{"tag":"forge:tools/knives"}],"conditions":[{"modid":"farmersdelight","type":"forge:mod_loaded"}]}: com.google.gson.JsonSyntaxException: Expected tool to be a JsonObject, was an array ([{"t..."}])
+[00:34:17] [WARN] Error parsing recipe pedestals:machines/unbottler/unbottler_mobgrind_xpjellybaby[pedestals:unbottler]: {"type":"pedestals:unbottler","inputStack":{"item":"mob_grinding_utils:solid_xp_baby"},"experience":{"experienceValue":12},"result":{"item":""},"conditions":[{"type":"forge:mod_loaded","modid":"mob_grinding_utils"}]}: com.google.gson.JsonSyntaxException: Unknown item ''
+[00:34:17] [WARN] Error parsing recipe advancedperipherals:armor/smart_glasses_netherite[minecraft:smithing]: {"type":"minecraft:smithing","addition":{"tag":"forge:ingots/netherite"},"base":{"item":"advancedperipherals:smart_glasses"},"result":{"item":"advancedperipherals:smart_glasses_netherite"}}: com.google.gson.JsonSyntaxException: Unknown item 'advancedperipherals:smart_glasses'
+[00:34:17] [WARN] Error parsing recipe createteleporters:tp_convert_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["0"],"key":{"0":{"item":"createteleporters:teleporter"}},"result":{"item":"createteleporters:deleted_mod_element","count":1}}: com.google.gson.JsonSyntaxException: Unknown item 'createteleporters:deleted_mod_element'
+[00:34:17] [WARN] Error parsing recipe jaopca:dusts.to_material.aluminum[minecraft:smelting]: {"type":"minecraft:smelting","ingredient":{"tag":"forge:dusts/aluminum"},"result":{"item":"minecraft:air","count":0},"experience":0.7,"cookingtime":200}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[00:34:17] [WARN] Error parsing recipe elementalcraft:kjs_vv3x6m79uxendoi5t68gjxic[elementalcraft:grinding]: {"type":"elementalcraft:grinding","element_amount":200,"input":{"item":"minecraft:sand"},"luck_ration":5,"output":{"item":"ftbskies:dust"}}: com.google.gson.JsonSyntaxException: Missing luck_ratio, expected to find a Int
+[00:34:17] [WARN] Error parsing recipe elementalcraft:kjs_39e21u4jorem315sxh0vqyff5[elementalcraft:grinding]: {"type":"elementalcraft:grinding","element_amount":200,"input":{"item":"minecraft:netherrack"},"luck_ration":5,"output":{"item":"ftbskies:crushed_netherrack"}}: com.google.gson.JsonSyntaxException: Missing luck_ratio, expected to find a Int
+[00:34:17] [WARN] Duplicate recipe for id ftbskies:sourceberry! Using last one encountered.
+[00:34:17] [WARN] Error parsing recipe elementalcraft:kjs_2t6zujc7k14ib4g7iv7fk4qul[elementalcraft:grinding]: {"type":"elementalcraft:grinding","element_amount":200,"input":{"item":"minecraft:end_stone"},"luck_ration":5,"output":{"item":"ftbskies:crushed_end_stone"}}: com.google.gson.JsonSyntaxException: Missing luck_ratio, expected to find a Int
+[00:34:17] [WARN] You might want to check your scripts for errors.
+[00:34:17] [INFO] Added 170 recipes, removed 47 recipes, modified 6 recipes, with 8 failed recipes in 239.4 ms

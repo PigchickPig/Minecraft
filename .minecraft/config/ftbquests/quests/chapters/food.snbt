@@ -1,0 +1,947 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food"
+	group: "7B39F21A0D5BB568"
+	icon: "nethersdelight:stuffed_hoglin"
+	id: "0E850CDFF8D30498"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/foodiesfarmers.png"
+		rotation: 0.0d
+		width: 10.53012048192771d
+		x: 1.5d
+		y: -4.5d
+	}]
+	order_index: 0
+	quest_links: [{
+		id: "6756DE78AF0C295B"
+		linked_quest: "7FFD6AC095549CF8"
+		shape: "hexagon"
+		size: 1.25d
+		x: -2.0d
+		y: -1.5d
+	}]
+	quests: [
+		{
+			description: [
+				"&b砧板&r和&b刀&r是制作更高级食物的基础工具。"
+				""
+				"将作物和肉切成更精密的切片来获得更好的食物。"
+			]
+			icon: {
+				Count: 1b
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B2D10549BFDBAA8"
+			rewards: [
+				{
+					id: "4ADD02847D387A89"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "0C81C3335E39F505"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "小刀！"
+			tasks: [{
+				id: "5A063EEC779EFCA6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+				title: "任意农夫乐事小刀"
+				type: "item"
+			}]
+			title: "砍砍砍"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: ["&b剪刀&r可用于收获草和树叶,这些树叶可以用于堆肥器和筛子。"]
+			icon: {
+				Count: 1b
+				id: "cyclic:shears_flint"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12CA64E217BE66C5"
+			rewards: [
+				{
+					count: 4
+					id: "3E0D90A3ADF4A0F4"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "17DE902BF595E8E6"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "剪刀，为了食物和乐趣"
+			tasks: [{
+				id: "7AE03AE4335F69ED"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cyclic:shears_flint"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:shears"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "剪刀"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"附近似乎没有动物，也没有任何动物可以生成的地方。你可能应该&6给它们某个地方生成&r。"
+				""
+				"动物可以在&6可以看到白天的草方块上生成&r，并且至少距离玩家&6至少24格远&r。它们来自哪里？谁知道呢！"
+				""
+				"[\"\",\"有一个\",{\"text\":\"事件\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4E44C546CAEDD703\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Events quest\"]}},\"可以强制生物生成在明亮的草方块上。\"]"
+				""
+				"最后，你可以使用&eSpirits&r模组来强制特定的怪物生成。"
+			]
+			icon: "statues:pig_statue"
+			id: "48C01F1AF6F0E6C3"
+			min_width: 275
+			rewards: [
+				{
+					count: 2
+					id: "2C2ABFC4B3694A11"
+					item: "energeticsheep:energetic_sheep_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "77AF021733FA085E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "动物农场"
+			tasks: [
+				{
+					icon: "statues:pig_statue"
+					id: "544F43C465758EAE"
+					observe_type: 5
+					timer: 0L
+					title: "观察猪"
+					to_observe: "minecraft:pig"
+					type: "observation"
+				}
+				{
+					icon: "statues:cow_statue"
+					id: "58BA2CDE23C90AFC"
+					observe_type: 5
+					timer: 0L
+					title: "观察牛"
+					to_observe: "minecraft:cow"
+					type: "observation"
+				}
+				{
+					icon: "statues:sheep_statue_white"
+					id: "39EEF41EFDA8452C"
+					observe_type: 5
+					timer: 0L
+					title: "观察羊"
+					to_observe: "minecraft:sheep"
+					type: "observation"
+				}
+			]
+			title: "E I E I O"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"你可以相当容易地制作一个基础的&b蜂箱&r，这对容纳任何你能吸引的蜜蜂来说都是好的。"
+				""
+				"将它升级为&6高级蜂箱&r是一个好主意,它可以在不激怒房客的情况下收获蜂蜜。"
+				""
+				"你可以&6在事件中&r用虞美人进行诱捕和繁殖蜜蜂！"
+			]
+			id: "3077F6F55816FCCB"
+			rewards: [
+				{
+					id: "6397B2C5F3DDADAD"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "284B7A38712B42E3"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CC61B1F8BE5A5F8"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "47FB662AF2C95714"
+					item: "productivebees:expansion_box_oak"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "蜜蜂和蜂箱"
+			tasks: [{
+				id: "5D7D5ADE212057A1"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			title: "繁忙的蜜蜂"
+			x: -2.0059523809523654d
+			y: 1.6309523809523654d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"大米可以在&6被水没过的泥土&r上使用大米种植。"
+				""
+				"一旦大米完全长成，用&6刀&r右键它就可以收割！"
+			]
+			id: "294B5757C4FB3B96"
+			rewards: [
+				{
+					id: "3A274F30E9D6CAFC"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "585B9CEE616B6245"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			subtitle: "但是种子在哪里呢？"
+			tasks: [{
+				id: "15D8168B12DC1C15"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			title: "米饭真好！"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"制作基本的&b汉堡肉饼&r是使用砧板的好起点。可以尽量多吃各种食物来获取更多血量！"
+				""
+				"&6午餐盒&r允许你&6携带各种食物&r。你可以直接用它来进食，而不是把食物放入物品栏。"
+			]
+			id: "5DB55A645B23E187"
+			rewards: [{
+				id: "759569287AEFC446"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 7
+						}
+					}
+					id: "cyclic:lunchbox"
+					tag: {
+						count_empty: 7
+						count_max: 7
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CBA0EA80DEE7815"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12CA64E217BE66C5"]
+			description: ["你可以剪羊&b羊毛&r，这对许多合成来说非常有用。"]
+			icon: "minecraft:pink_wool"
+			id: "13635FDBEE715232"
+			rewards: [
+				{
+					count: 16
+					id: "385B8FEED466E3F6"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "5E1AD4EFD8AED458"
+					item: "farmersdelight:mutton_wrap"
+					type: "item"
+				}
+			]
+			subtitle: "不错的Floof"
+			tasks: [{
+				id: "0F1DD696BC6E47C3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wool"
+					}
+				}
+				title: "羊毛"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13635FDBEE715232"]
+			description: ["&b小市场&r将允许你&6购买大多数种子&r。"]
+			id: "7E0D03CC88893072"
+			rewards: [
+				{
+					id: "472493B96E653358"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1D97E72A35C68116"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "这个小猪..."
+			tasks: [{
+				id: "44720097257BDE5F"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"在水附近的泥土上工作，可以为作物创造耕地。"
+				""
+				"你可以使用骨粉(或者肥料)来加速这个过程。农场的自动化是值得看看的。"
+				""
+				"更多信息,请参见机械动力，工业先锋和热力拓展章节。"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3DF1A7356E7509D8"
+			rewards: [
+				{
+					count: 16
+					id: "009DB0D8EBFB94F0"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0EFCC380B752E793"
+					item: "thermal:phytogro"
+					type: "item"
+				}
+				{
+					id: "4CDE0185F4CD22C3"
+					item: "hexerei:flowering_lily_pad"
+					type: "item"
+				}
+			]
+			subtitle: "别浪费钻石在。。。"
+			tasks: [{
+				id: "0522B00F831B9099"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hoes"
+					}
+				}
+				title: "锄头"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DF1A7356E7509D8"]
+			description: [
+				"&b小麦&r是用途最广的作物之一。从面包到蛋糕，它都是主要材料。"
+				""
+				"使用各种不同的作物来扩大农场的规模。"
+			]
+			id: "4FEA5AEC781ED77B"
+			rewards: [
+				{
+					id: "4C9B2D147EDDB47E"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3073414003A537B0"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			subtitle: "来一狗，来一狗~"
+			tasks: [{
+				id: "3781DE5AD2729E50"
+				item: "minecraft:wheat"
+				title: "作物"
+				type: "item"
+			}]
+			title: "小麦和其他作物"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50EFB401A48753F2"]
+			description: ["&b炉灶&r是一个改进的&6篝火&r，因为它一次可以烧制&66个食物&r而不是4个。"]
+			id: "5F7BEBA1F135CBB0"
+			rewards: [
+				{
+					id: "5C8112DC5D3E915A"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "55C3FE8EF69AC594"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "制作一个炉子"
+			tasks: [{
+				id: "5A0E19B8EE53EC6E"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50EFB401A48753F2"]
+			description: ["&b厨锅&r是一个独特的烹制设备，它可以&6制作几个新的食谱&r，比如粥、杂烩和烤肉！"]
+			id: "69DDC6F0AACEB07F"
+			rewards: [
+				{
+					id: "2BD166C023C2A31E"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "445350D784A282F6"
+					item: "farmersdelight:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "17EE31F0DF3F386D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "制作一个厨锅"
+			tasks: [{
+				id: "1362616DF5A0E4B6"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&6不同的食物&r可以&b奖励你额外的血量&r！使用&6食物手册&r来记录你吃的食物，以及直到下颗心还需要吃多少食物。"
+				""
+				"此外，更高级的食物可以&6在进食时提供BUFF&r！"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+			id: "4B4D41B1C4E9E331"
+			rewards: [
+				{
+					id: "275F7F104E6F527A"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					id: "1253D2CA672AD609"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "不要和大厨混为一谈"
+			tasks: [
+				{
+					id: "042FE5357EA5F540"
+					title: "大主厨"
+					type: "checkmark"
+				}
+				{
+					id: "3455DC5854CECDAA"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			title: "主厨"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"切制猪排将会产生&b培根&r,许多人认为它是最好的肉食。有的人可能不会这么想，但他们错了。"
+				""
+				"注意: 你也可以通过在猪身上使用&6力量剪刀&r来获得培根,但是你独自需要承担这个风险。"
+			]
+			id: "120112D868F06CF4"
+			rewards: [
+				{
+					id: "0F7AED7252FEA2F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "556FCF5E7877938D"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+			]
+			subtitle: "我把它放进一个煎饼里"
+			tasks: [{
+				id: "536A65A25A8B4208"
+				item: "farmersdelight:bacon"
+				type: "item"
+			}]
+			title: "马金培根"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: ["鸡肉可以被切成&b鸡丁&r,鸡蛋也可以被收集起来用于更多的地方。"]
+			id: "5F344CD63CE4DBC6"
+			rewards: [
+				{
+					id: "2412B02642EDB0EA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72AB6160DBA97098"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "46E686FD405EF175"
+					item: "farmingforblockheads:chicken_nest"
+					type: "item"
+				}
+			]
+			subtitle: "鸡丁"
+			tasks: [{
+				id: "4B7D97227BA07791"
+				item: "farmersdelight:chicken_cuts"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: ["生鱼可以被切成更有用的切片来作为一个不错的替代肉食来源。"]
+			icon: "farmersdelight:salmon_slice"
+			id: "75A4AEB8D85EB1FE"
+			rewards: [
+				{
+					id: "435BDEFB1C477C3D"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+				{
+					id: "019798C076B7EF9D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "这是Sashimi说的"
+			tasks: [{
+				id: "70F7293855D49C4A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:salmon_slice"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:cod_slice"
+							}
+						]
+					}
+				}
+				title: "生鱼片"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"羊是&b羊排&r和羊毛的好来源。"
+				""
+				"可以在砧板上进一步分解它来做一些美食！"
+			]
+			id: "6ABC2056CD5C7149"
+			rewards: [
+				{
+					id: "139EDB0D82C75B38"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "460AA4395485E336"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "惩罚羊肉"
+			tasks: [{
+				id: "234C3AD8C56144EA"
+				item: "farmersdelight:mutton_chops"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&b烹饪桌&r将允许你&6快速制作&r你准备好原材料的食物。"
+				""
+				"&b干草窝&r为附近的鸡提供了存放鸡蛋的地方。你可以管道连接它来让鸡享受自由区域而不是1x1的漏斗鸡笼里。"
+			]
+			id: "3053871C8AEE692C"
+			rewards: [
+				{
+					id: "583D5C07D409E0AC"
+					item: "quark:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "46BF09486C6B4A7A"
+					item: "quark:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "285AB65A55F0B613"
+					item: "quark:potato_crate"
+					type: "item"
+				}
+				{
+					id: "4EA6E93B01EA7C7F"
+					item: "quark:apple_crate"
+					type: "item"
+				}
+				{
+					id: "5F27C64F78E0F288"
+					item: "incubation:hay_nest"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "魔法发生的地方"
+			tasks: [{
+				id: "37D0DC6BEB830C62"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			title: "厨房核心"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&b水槽&r会&6给烹饪台提供水&r"
+				""
+				"你也可以以极快的速度&6使用管道无限抽取水&r。"
+			]
+			id: "3A00F06E468E7732"
+			rewards: [
+				{
+					id: "3DB340A14117996D"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					id: "1FA2C843C0F1C223"
+					item: "minecraft:axolotl_bucket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "水多到足够聚变？！"
+			tasks: [{
+				id: "4C9F6EF783ADF13F"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "......或者游泳。"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["&b冰箱&r是另一种存储，有两个非常有用的升级&6&r。它们的功能在它们的工具属性中。"]
+			id: "5E34FE9AA13204C7"
+			rewards: [
+				{
+					id: "699FF142776ECE16"
+					item: "cookingforblockheads:ice_unit"
+					type: "item"
+				}
+				{
+					id: "0DCD29E3F7BFAC04"
+					item: "cookingforblockheads:preservation_chamber"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "冰棒极了！"
+			tasks: [{
+				id: "0477934320683DE9"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: ["你可以使用铁砧和重力将&b牛&r挤成&6罐中牛&r。现在你的厨房可以一直生产你需要的牛奶。"]
+			id: "2BE8A577F5F51E6A"
+			rewards: [
+				{
+					id: "7755A5E7548CDF68"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55FA33A075FAA641"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "鲜活的美味"
+			tasks: [{
+				id: "6275D0F72F622B16"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			title: "来点牛奶？"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["&b厨房柜台和橱柜&r为烹饪台提供了&6额外的存储&r,所以你不需要将所有物品都放在你的物品栏里。"]
+			icon: "cookingforblockheads:counter"
+			id: "5818087FB67710CE"
+			rewards: [
+				{
+					id: "19DC5B52B7B37A62"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "06555C4F8ED57210"
+					item: "quark:berry_sack"
+					type: "item"
+				}
+				{
+					id: "2E91465985B8B6DD"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "我早该知道"
+			tasks: [
+				{
+					id: "2DED26C0914AEB3D"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "6DEB3F3BD15C5AB4"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+			]
+			title: "你的方块头"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&b烤箱&r可以&6快速烧制食物&r，也可以在烹制台工作！"
+				""
+				"如果你添加了&6加热单元&r,你可以给炉子提供FE能量而不是熔炉燃料。"
+				""
+				"&o通过右键他们的方块来安装升级。"
+			]
+			id: "43EF07FC00CAE761"
+			rewards: [
+				{
+					id: "5BC3C51A1CE464D4"
+					item: "cookingforblockheads:heating_unit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "12ED1270DCE0891D"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "这里没有烤箱底部"
+			tasks: [{
+				id: "62A275B4E27270F9"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			title: "烤吧！"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13635FDBEE715232"]
+			description: [
+				"&b床&r除了可以过夜之外，还允许你设置你的重生点。"
+				""
+				"任务奖励提供的&6雨护盾&r将会&6完全禁用其周围的雨&r，为了那些讨厌美好的午后雨天的人。"
+			]
+			icon: "minecraft:red_bed"
+			id: "171711B42DD99511"
+			rewards: [
+				{
+					id: "5E77A0CB3F1AC595"
+					item: "rainshield:rain_shield"
+					type: "item"
+				}
+				{
+					id: "0D1DA3A70D577088"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "今夜是什么梦"
+			tasks: [{
+				id: "7CBCB6F326179DBC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "床"
+				type: "item"
+			}]
+			title: "在这次睡眠中......"
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "收获种植"
+}

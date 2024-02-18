@@ -1,0 +1,116 @@
+{
+  "profession": "minecraft:mason",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "tetra:scroll_rolled",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{BlockEntityTag:{data:[{effects:[\"tetra:stone_expertise\"],glyphs:[2],intricate:0b,key:\"stone_expertise\",material:0,ribbon:\"9a9a9a\"}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason_scroll_rolled_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:dripstone_block",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason_dripstone_block_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "dustrial_decor:cinder_bricks",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason_cinder_bricks_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "dustrial_decor:cinder_block",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason_cinder_block_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "dustrial_decor:polished_cinder_block",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason_polished_cinder_block_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:scroll_rolled",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{BlockEntityTag:{data:[{effects:[\"tetra:gem_expertise\"],glyphs:[14,13,14,15],intricate:0b,key:\"gem_expertise\",material:0,ribbon:\"2bffee\"}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason_scroll_rolled_for_emerald"
+    }
+  ]
+}

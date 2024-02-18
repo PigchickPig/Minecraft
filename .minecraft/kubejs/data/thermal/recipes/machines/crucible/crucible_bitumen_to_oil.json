@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "thermal:bitumen"
+  },
+  "result": [
+    {
+      "fluid": "thermal:crude_oil",
+      "amount": 100
+    }
+  ],
+  "energy": 2000
+}

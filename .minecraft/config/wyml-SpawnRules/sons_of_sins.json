@@ -1,0 +1,61 @@
+{
+	"mod": "sons_of_sins",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"walking_bed": {
+						// Do not edit this name
+						"name": "walking_bed",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"bloody_butcher": {
+						// Do not edit this name
+						"name": "bloody_butcher",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"wistiver": {
+						// Do not edit this name
+						"name": "wistiver",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"curse": {
+						// Do not edit this name
+						"name": "curse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"iron_oven": {
+						// Do not edit this name
+						"name": "iron_oven",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"prowler": {
+						// Do not edit this name
+						"name": "prowler",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"bloody_driver": {
+						// Do not edit this name
+						"name": "bloody_driver",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"iron_hit": {
+						// Do not edit this name
+						"name": "iron_hit",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "travel"
+	group: "7B39F21A0D5BB568"
+	icon: {
+		Count: 1b
+		id: "gag:time_sand_pouch"
+		tag: { }
+	}
+	id: "54CDE1D5662C43BE"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/gadgets.png"
+		rotation: 0.0d
+		width: 10.614457831325302d
+		x: 1.5d
+		y: -7.0d
+	}]
+	order_index: 1
+	quest_links: [{
+		id: "312BB9EC221E9D7A"
+		linked_quest: "30145D5771D06E02"
+		x: -1.0d
+		y: -4.5d
+	}]
+	quests: [
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: ["&b物品收集器&r可以收集附近的物品掉落物。虽然有很多其他的替代品，但是这是最便宜的。"]
+			id: "6EDBA28D38CD410B"
+			rewards: [
+				{
+					id: "1AE68D0EE4C44736"
+					item: {
+						Count: 1b
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 8s
+								}
+								{
+									id: "minecraft:luck_of_the_sea"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							RepairCost: 7
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CA10AB93F496425"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A9F9E040B7F89ED"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			subtitle: "物体在骚动"
+			tasks: [{
+				id: "490E8DC91404EFDC"
+				item: "cyclic:collector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			description: ["&e通量网络&r让你&6极速地进行FE的无线传输&r，还可以让你&6从任何距离为你的物品栏充电&r。"]
+			id: "58326A104EE243AE"
+			subtitle: "5g通量网络"
+			tasks: [{
+				id: "7BBBB0E5446C673E"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			title: "无线能量传输！"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A8654A5EAF8980F"]
+			description: [
+				"&b通量存储器&r可以存储在网络里的FE。"
+				""
+				"你无法使用管道连接它，只能使用通量节点和插件"
+			]
+			icon: "fluxnetworks:basic_flux_storage"
+			id: "7AA90C76389E69D3"
+			shape: "diamond"
+			subtitle: "缓冲区"
+			tasks: [{
+				id: "4042A70385FB661B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "fluxnetworks:basic_flux_storage"
+							}
+							{
+								Count: 1b
+								id: "fluxnetworks:herculean_flux_storage"
+							}
+							{
+								Count: 1b
+								id: "fluxnetworks:gargantuan_flux_storage"
+							}
+						]
+					}
+				}
+				title: "通量存储器"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05972B4D9D7BFFB9"]
+			description: [
+				"&b通量网络接入点&r可以作为网络的&6输出&r。"
+				""
+				"如果网络中有FE，或者如果有通量网络输入点接收FE，它会输出网络里的能量。"
+			]
+			id: "3A8654A5EAF8980F"
+			shape: "diamond"
+			subtitle: "输出"
+			tasks: [{
+				id: "091F6F381EEA16F7"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58326A104EE243AE"]
+			description: [
+				"&b通量网络输入点&r作为网络的&6输入&r。"
+				""
+				"为了使用它,你需要&6创建一个网络&r然后连接到上它"
+			]
+			id: "05972B4D9D7BFFB9"
+			shape: "diamond"
+			subtitle: "输入"
+			tasks: [{
+				id: "791B9D3057A4944A"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AA90C76389E69D3"]
+			description: [
+				"&b通量网络控制器&r允许你使用网络上的FE来&6为物品栏充电&r。"
+				""
+				"你可以设置让它为你的快捷栏、饰品栏、盔甲和副手位物品充电。"
+			]
+			id: "5D596D740445833B"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "放在一起运行"
+			tasks: [{
+				id: "41E06D0DC95AD4EB"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: 1.500000000000007d
+			y: 0.8035714285714377d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: [
+				"&b时间瓶&r可以在你的物品栏中&6被动地存储时间&r。"
+				""
+				"你可以使用它右键在一个方块上，&6加速方块的运行&r多次点击可以使其更快。"
+			]
+			id: "70A8D88256576F5C"
+			rewards: [
+				{
+					count: 4
+					id: "74D4681BD946C806"
+					item: "apotheosis:uncommon_material"
+					type: "item"
+				}
+				{
+					id: "1F8B0F4359EA1C5B"
+					item: "botania:hourglass"
+					type: "item"
+				}
+			]
+			subtitle: "为以后存储时间"
+			tasks: [{
+				id: "6CA1717FBEFD6BA0"
+				item: {
+					Count: 1b
+					id: "gag:time_sand_pouch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"偶尔&6流浪商人&r会以他们的方式前往你的岛屿。"
+				""
+				"如果你提供了合适的价钱，你也许能够&b购买能在天空翱翔的物品&r......"
+			]
+			id: "297DE3ACF3E0B994"
+			rewards: [
+				{
+					count: 32
+					id: "2E15D59CCA403AD2"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					id: "4ADF97F50AEB3B89"
+					item: "ars_nouveau:glyph_firework"
+					type: "item"
+				}
+			]
+			subtitle: "宝贝，你是一束烟火..."
+			tasks: [{
+				id: "03C25700D0BA245C"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "翱翔于天际"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&b个人缩放装置&r允许你&6改变你的大小&r！"
+				""
+				"有了它，你可以在普通尺寸的20%到1000%之间切换！"
+			]
+			id: "37DFCD3EF3B90B9B"
+			subtitle: "亲爱的，我变小了"
+			tasks: [{
+				id: "0C9122C6D03F4006"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: ["&b自然指南针&r将允许你&6搜索生物群系&r,因为它们在这里并不容易被找到。"]
+			id: "004D6A4E53793430"
+			rewards: [{
+				id: "2B609156C9F12BF3"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DEF6BC4A164B9B7"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"合成台可以胜任这个工作,但这是模组!我们可以做得更好！"
+				""
+				"&b合成站&r可以&6访问相邻的容器&r，如果你不再合成，你剩余的物品会留在里面！"
+			]
+			id: "3A26B88CFD6901A5"
+			rewards: [{
+				count: 2
+				id: "6CC6A396FE782553"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "战斗站！"
+			tasks: [{
+				id: "4DC30B9DEB73278F"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"来自&6更多喷气背包&r模组中的&b喷气背包&r让你&6穿戴时使用FE飞行&r。只要按住跳跃键即可起飞！"
+				""
+				"有多个等级，每个等级比前一级更好。关于每个等级的详细信息，请通过它们的工具属性查看。"
+				""
+				""
+				"通用机械模组的喷气背包也是一种不错的选择，还可以升级为装甲喷气背包。"
+			]
+			icon: {
+				Count: 1b
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:iron"
+					Throttle: 1.0d
+				}
+			}
+			id: "00FEAAD9D85AFCA0"
+			rewards: [
+				{
+					id: "0E7310D6A1F265E3"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "14B007CEA4CEC9BF"
+					item: {
+						Count: 1b
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:slow_falling"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26DCAFEFCD4F21C2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "制作一个喷气背包"
+			tasks: [{
+				id: "6873D2F5E3EE78D8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:wood"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanism:jetpack_armored"
+							}
+							{
+								Count: 1b
+								id: "mekanism:jetpack"
+							}
+						]
+					}
+				}
+				title: "喷气背包"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&e循环&r为我们提供了一些强力的铁砧"
+				""
+				""
+				"&b能量铁砧&r-可以使用能量修复你的物品"
+				""
+				"&4岩浆铁砧&r-可以使用岩浆修复你的物品"
+				""
+				"&7虚空铁砧&r - 移除你物品上的附魔并返还一些经验"
+			]
+			icon: "cyclic:anvil"
+			id: "527D1071645708E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54C968E5B84FDD5B"
+				table_id: 8339261241703954627L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1769D44FF2E2F3FF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cyclic:anvil"
+							}
+							{
+								Count: 1b
+								id: "cyclic:anvil_magma"
+							}
+							{
+								Count: 1b
+								id: "cyclic:anvil_void"
+							}
+						]
+					}
+				}
+				title: "铁砧"
+				type: "item"
+			}]
+			title: "能量铁砧"
+			x: 2.5d
+			y: -5.0d
+		}
+	]
+	title: "实用工具"
+}

@@ -1,0 +1,69 @@
+{
+  "backups": [
+    {
+      "worldName": "Chick's Skies",
+      "createTime": 1708102800075,
+      "backupLocation": "C:\\Users\\PIG_CHICK\\AppData\\Roaming\\PrismLauncher\\instances\\FTB Skies\\.minecraft\\backups\\2024-2-17_1-0-0.zip",
+      "size": 7485110,
+      "ratio": 0.24994077,
+      "sha1": "35560dc4120fb6007d6ff211d320a71b9d9cd040",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    },
+    {
+      "worldName": "Chick's Skies",
+      "createTime": 1708167600116,
+      "backupLocation": "C:\\Users\\PIG_CHICK\\AppData\\Roaming\\PrismLauncher\\instances\\FTB Skies\\.minecraft\\backups\\2024-2-17_19-0-0.zip",
+      "size": 7496101,
+      "ratio": 0.25022566,
+      "sha1": "b0d0c79cb2c67103e72478cd5511399ec1c61c59",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    },
+    {
+      "worldName": "Chick's Skies",
+      "createTime": 1708180200091,
+      "backupLocation": "C:\\Users\\PIG_CHICK\\AppData\\Roaming\\PrismLauncher\\instances\\FTB Skies\\.minecraft\\backups\\2024-2-17_22-30-0.zip",
+      "size": 7542723,
+      "ratio": 0.25178045,
+      "sha1": "ea2eebc0f1768e136107c2ba83612accb014e9dd",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    },
+    {
+      "worldName": "Chick's Skies",
+      "createTime": 1708182000087,
+      "backupLocation": "C:\\Users\\PIG_CHICK\\AppData\\Roaming\\PrismLauncher\\instances\\FTB Skies\\.minecraft\\backups\\2024-2-17_23-0-0.zip",
+      "size": 7541225,
+      "ratio": 0.25173065,
+      "sha1": "65d3950f544ed3c2a0bc679285bca881bae5d8b4",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    },
+    {
+      "worldName": "Chick's Skies",
+      "createTime": 1708183800083,
+      "backupLocation": "C:\\Users\\PIG_CHICK\\AppData\\Roaming\\PrismLauncher\\instances\\FTB Skies\\.minecraft\\backups\\2024-2-17_23-30-0.zip",
+      "size": 7573720,
+      "ratio": 0.25281346,
+      "sha1": "94a9478cb3dce171f3195bfda976481b1ff52bb6",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    }
+  ]
+}

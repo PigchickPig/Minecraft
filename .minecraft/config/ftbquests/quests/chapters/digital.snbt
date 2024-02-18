@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "digital"
+	group: "5A42857CD4E60814"
+	icon: "ae2:drive"
+	id: "1E998E079B8C9AF3"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/digital.png"
+		rotation: 0.0d
+		width: 4.228915662650603d
+		x: -1.0d
+		y: -4.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"在这个整合包中，&eAE2&r和&e精致存储&r都需要&b赛特斯石英水晶&r来开始。"
+				""
+				"幸运的是，它很简单，只是&6通过魔钢筛网筛尘土&r！"
+			]
+			id: "79B77431CF200C83"
+			subtitle: "一些石英"
+			tasks: [{
+				id: "3BCCCFF311625CBC"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79B77431CF200C83"]
+			description: ["&6赛特斯石英粉&r可以在&e通用机械&r&6富集仓&r中转化为&b赛特斯石英水晶&r。"]
+			id: "43A9F69D52716D3D"
+			rewards: [{
+				count: 8
+				id: "1430CD4D6ACC7A7B"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			subtitle: "结晶"
+			tasks: [{
+				id: "07AEC9DCEB959084"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43A9F69D52716D3D"]
+			description: ["将&b充能赛特斯石英&r合成一些&6赛特斯石英母岩&r以获得一个可再生的来源可能是一个好主意！"]
+			id: "038D191C70E19DBA"
+			rewards: [{
+				count: 8
+				id: "299300EA98FD6F91"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "充能"
+			tasks: [{
+				id: "1C139936A9FAA066"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["038D191C70E19DBA"]
+			description: ["最后一步：把它和一些其他物品扔进去获取&b福鲁伊克斯水晶&r！现在你已经准备好其他模组了。"]
+			id: "42F27B2EF0A07EF9"
+			rewards: [{
+				count: 8
+				id: "469BA8AFFEB06683"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "福鲁伊克斯水晶"
+			tasks: [{
+				id: "019E3112EC8B4DDA"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42F27B2EF0A07EF9"]
+			description: ["&bME线缆&r连接到&eAE2&r网络中的所有设备。"]
+			id: "5E80379560579AC5"
+			rewards: [
+				{
+					count: 16
+					id: "6D48E095ED054853"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4C5BDD542DE3DEB0"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+			]
+			subtitle: "频道！耶！"
+			tasks: [{
+				id: "589C76C47EC04CDD"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42F27B2EF0A07EF9"]
+			description: ["&b线缆&r连接到&e精致存储&r网络中的所有设备。"]
+			id: "7F11322DE3EE0A38"
+			rewards: [{
+				count: 16
+				id: "7956719FC42F8DBB"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			subtitle: "频道！Boo！"
+			tasks: [{
+				id: "3D8F079E12EEFAE5"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E80379560579AC5"]
+			description: [
+				"虽然严格意义上来说,你可以使用&b能量接收器&r来创建一个小型网络,但建议使用&bME控制器&r。"
+				""
+				"我们内含一个&6思索&r来展示它们的工作！"
+			]
+			icon: "ae2:controller"
+			id: "55580A14344E9DF7"
+			rewards: [{
+				count: 8
+				id: "6A8BA1F85CAED81A"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			subtitle: "它有一个花哨的思索！"
+			tasks: [{
+				id: "1666C512DED86502"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:energy_acceptor"
+							}
+							{
+								Count: 1b
+								id: "ae2:controller"
+							}
+						]
+					}
+				}
+				title: "AE2网络之始"
+				type: "item"
+			}]
+			title: "应用能源2"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F11322DE3EE0A38"]
+			description: ["&b控制器&r是你&e精致存储&r网络的核心！"]
+			id: "503FF699BECD9799"
+			rewards: [{
+				count: 16
+				id: "47B5AE3EFC5745B9"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			subtitle: "致精致的绅士"
+			tasks: [{
+				id: "749B8E9D813CAB7B"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "精致存储"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&eLaserIO&r可以智能地将物品在容器间传输，而无需管道。"
+				""
+				"这个模组有一个非常好的&e帕秋莉手册&r,我建议你读一下。"
+			]
+			id: "6323D7F042738A45"
+			rewards: [
+				{
+					id: "11D52D3263D9D435"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2F7643D68DBA3943"
+					item: "laserio:logic_chip_raw"
+					type: "item"
+				}
+			]
+			subtitle: "Laser IO"
+			tasks: [{
+				id: "41CCFB5940195DCC"
+				item: "laserio:logic_chip"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: [
+				"&b激光节点&r可以使用&6卡片&r与相邻的容器交互。将卡片插入节点面对方块一侧。"
+				""
+				"在节点的GUI中,右键一张卡来进行配置。这个GUI相当复杂,所以强烈建议阅读&6LaserIO 101&r。"
+				""
+				"当一张卡片被设置为提取时,物品等会被发送到其网络中的任何卡片和&6频道&r中被设置为输入的卡片。"
+			]
+			id: "10971979B3BC1A85"
+			rewards: [{
+				count: 4
+				id: "5F4732E48F2F676B"
+				item: "laserio:laser_connector"
+				type: "item"
+			}]
+			subtitle: "管道是给弱者准备的"
+			tasks: [{
+				id: "5D61AF01DB93B160"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: ["&b物品卡&r允许激光节点&6运输物品&r。"]
+			id: "40ABE3BB05559ED2"
+			rewards: [
+				{
+					id: "30FE2B7F02C987FC"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "0D6BA881B724E2C1"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "58A44492717F9723"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "1A0CF744CC399BB0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+						id: "laserio:card_holder"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "物品激光器"
+			tasks: [{
+				id: "2987BF7B656DC9A5"
+				item: "laserio:card_item"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: ["&b流体卡&r允许激光节点&6运输液体&r。"]
+			id: "14F51A9FF3170F6C"
+			rewards: [{
+				id: "57538128204F4A3E"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "液体激光器"
+			tasks: [{
+				id: "3A8D7765E12CC30E"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: ["&b能量卡&r允许激光节点&6输送能量&r。"]
+			id: "496655108E39C219"
+			rewards: [{
+				id: "4B9CE5AAA059C621"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "能量激光器"
+			tasks: [{
+				id: "35B1228B2FF8F268"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: ["&b卡超频器&r可以让卡工作得更快。"]
+			id: "0E202986F8B806A2"
+			subtitle: "卡片升级"
+			tasks: [{
+				id: "51D7778D67B7CC0F"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10971979B3BC1A85"]
+			description: ["&b节点超频器&r可以让更多卡同时工作。"]
+			id: "5AF145540133130C"
+			subtitle: "节点升级"
+			tasks: [{
+				id: "5EB02D398EAD9CBC"
+				item: "laserio:overclocker_node"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10971979B3BC1A85"]
+			description: ["&b过滤器&r可以放入卡片中来过滤它们移动的物品。"]
+			id: "1536EADBA48A808B"
+			rewards: [
+				{
+					id: "6921A24E56702B3F"
+					item: {
+						Count: 1b
+						id: "laserio:filter_basic"
+						tag: {
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79F4C7448273B715"
+					item: {
+						Count: 1b
+						id: "laserio:filter_count"
+						tag: {
+							counts: [
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 0
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 1
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 2
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 3
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 4
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 5
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 6
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 7
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 8
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 9
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 10
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 11
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 12
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 13
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 14
+								}
+							]
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EDB9D925AF9D0DE"
+					item: {
+						Count: 1b
+						id: "laserio:filter_tag"
+						tag: {
+							tags: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094F538DE9245DEF"
+					item: {
+						Count: 1b
+						id: "laserio:filter_mod"
+						tag: {
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E01103306B74E64"
+				item: {
+					Count: 1b
+					id: "laserio:filter_basic"
+					tag: {
+						inv: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&b模块化存储器&r用于存储物品。根据安装的&b存储模块&r的不同,它最多可以容纳300组物品。"
+				""
+				"通过将存储模块放入左下角&r的&6左上角槽位来安装存储模块，然后点击L按钮将其锁定。如果移除，&6物品将保留在存储模块&r中，而不是方块中。"
+				""
+				"在合成栏上方,你可以&6最多存储6个配方&r。双击存储的配方会立即将材料填充合成栏。"
+			]
+			id: "02CCB1F7D95B73D0"
+			min_width: 275
+			rewards: [{
+				id: "6EE0BC436B65578D"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			subtitle: "数字箱子"
+			tasks: [{
+				id: "65FF7AFA69EAA2CF"
+				item: "rftoolsstorage:modular_storage"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02CCB1F7D95B73D0"]
+			description: [
+				"当你访问&6模块化存储器&r时,物品实际上被存储在&b存储模块中&r。"
+				""
+				"一阶存储模块可以容纳100组物品。"
+			]
+			id: "0E5999E687D45570"
+			tasks: [{
+				id: "10F2786AA41BF206"
+				item: "rftoolsstorage:storage_module0"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E5999E687D45570"]
+			description: ["二阶存储模块可以容纳200组物品。"]
+			id: "5DE305A0D1A09D00"
+			tasks: [{
+				id: "7820E38B74A54CC0"
+				item: "rftoolsstorage:storage_module1"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DE305A0D1A09D00"]
+			description: ["三阶存储模块可以容纳300组物品。"]
+			id: "49360D20436AA37F"
+			tasks: [{
+				id: "19D496AA2E5963DE"
+				item: "rftoolsstorage:storage_module2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49360D20436AA37F"]
+			description: ["4阶存储模块可以容纳500组物品。"]
+			id: "0ED77C14565D4418"
+			tasks: [{
+				id: "07699708339E5CB3"
+				item: "rftoolsstorage:storage_module3"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&b存储检测器&r可以&6远程访问其周围的容器&r。在左下角设置半径,然后点击&6扫描&r。"
+				""
+				"从列表中选择一个容器来访问它。它左侧的按钮允许你更改它们的顺序。"
+				""
+				"每个容器旁边都有一个星标，显示它是否&6可路由&r。可路由容器是&6只能放入物品的容器&r。顶部的容器优先。"
+			]
+			id: "70319CB2EFE67CFC"
+			rewards: [{
+				id: "10299E325DFB1006"
+				item: "ironchest:gold_chest"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "集成存储"
+			tasks: [{
+				id: "1C0511509CDE288A"
+				item: "rftoolsstorage:storage_scanner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	title: "数字存储"
+}

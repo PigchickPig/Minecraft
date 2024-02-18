@@ -1,0 +1,21 @@
+[
+	{
+		"dimension": "minecraft:overworld",
+		"result": "deny"
+	},
+	{
+		"mob": [ "energeticsheep:energetic_sheep", "forcecraft:red_chu_chu", "forcecraft:blue_chu_chu", "forcecraft:gold_chu_chu", "forcecraft:green_chu_chu" ],
+		"result": "deny"
+	},
+	{
+		"mob": "forcecraft:angry_enderman",
+		"mincount": 8,
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:pig",
+		"mincount": 8,
+		"result": "deny"
+	}	
+
+]

@@ -1,0 +1,2 @@
+minecraft:overworld
+ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82

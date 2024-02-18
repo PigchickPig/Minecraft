@@ -1,0 +1,21 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	last_seen: { dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 62, y: 63, z: -9, time: 1708274674050L }
+	recording: 0
+	teleport_history: [
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 6, y: -44, z: -20, time: 1707812481938L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 22, y: -32, z: -8, time: 1707815363163L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 24, y: -21, z: 1, time: 1707818081449L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 19, y: 63, z: -9, time: 1707820349152L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: -1, y: -40, z: -27, time: 1707820741251L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 39, y: -159, z: -7, time: 1707907431931L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 26, y: -146, z: -3, time: 1707929589101L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 17, y: -220, z: -8, time: 1707929619680L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 12, y: -68, z: 5, time: 1707934019332L }
+		{ dim: "ftbteamdimensions:team/115f7d2d-aabe-4e5f-9e5d-1a1c5510be82", x: 0, y: 43, z: 44, time: 1708009605913L }
+	]
+	homes: { }
+}

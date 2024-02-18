@@ -1,0 +1,455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "portable"
+	group: "5A42857CD4E60814"
+	icon: {
+		Count: 1b
+		id: "sophisticatedbackpacks:backpack"
+		tag: {
+			contentsUuid: [I;
+				807976431
+				1672300584
+				-1223976398
+				-360561207
+			]
+			inventorySlots: 27
+			upgradeSlots: 1
+		}
+	}
+	id: "7F39E2C99EE5ED52"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/portable.png"
+		rotation: 0.0d
+		width: 5.554216867469879d
+		x: -3.5d
+		y: -3.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bdank&r,来自模组&eDank Storage&r,能够&6自动拾取物品&r,&6每个槽位可以存储超过64个物品&r， 并允许&6使用存储的物品&r，包括方块和食物！更高级的物品存储槽位更多，并且每个槽存储更多物品。"
+				""
+				"黑盒有两个模式:&6背包&r和&6建造&r。快捷键(默认为i)可以进行切换。"
+				""
+				"在&6背包&r模式下,它就像背包一样工作。在格子上放置控制器来锁定它,所以它不会在物品清空时被替换。"
+				""
+				"你可以设置4个物品的拾取。"
+				""
+				"在&6建造&r模式下,&6右键黑盒&n&6就像持有物品一样&r。它可以放置方块,右键工具,扔末影珍珠等等。但是,它对于有动画的物品无效。&6潜行时滚动来设置物品&r。"
+			]
+			icon: "dankstorage:dank_1"
+			id: "3CB4A7E801F5A631"
+			min_width: 325
+			rewards: [
+				{
+					id: "77C9FF87665FFC12"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+				{
+					id: "395BA4D688530095"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Donk Null"
+			tasks: [{
+				id: "755DB2988D820D4C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dankstorage:dank_1"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_2"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_3"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_4"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_5"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_6"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_7"
+							}
+						]
+					}
+				}
+				title: "黑盒"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&b来自&e精致背包&r的&b背包&r可以&6放置在世界上&r,也可以&6穿戴时打开&r。"
+				""
+				"背包也可以&6升级&r来实现额外的功能！"
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					contentsUuid: [I;
+						-1231575342
+						-295287108
+						-1522154686
+						42011806
+					]
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+			id: "321B9A116A7DD530"
+			rewards: [
+				{
+					id: "60E8EDB2DCAF5A79"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ensorcellation:soulbound"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B0CBCD84E068807"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "好！"
+			tasks: [{
+				id: "42B33546BABE41AD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "sophisticatedbackpacks:backpack"
+							tag: {
+								contentsUuid: [I;
+									-1231575342
+									-295287108
+									-1522154686
+									42011806
+								]
+								inventorySlots: 27
+								upgradeSlots: 1
+							}
+						}]
+					}
+				}
+				title: "背包"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["321B9A116A7DD530"]
+			description: [
+				"背包可以&b升级为几个等级&r。"
+				""
+				"高等级的背包拥有更多的&6存储空间&r和更多&6可升级性&r"
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedbackpacks:diamond_backpack"
+				tag: {
+					contentsUuid: [I;
+						658115119
+						-1689826641
+						-1198785039
+						799252935
+					]
+					inventorySlots: 108
+					upgradeSlots: 5
+				}
+			}
+			id: "6D434CB450053044"
+			rewards: [
+				{
+					id: "6376801040C9A925"
+					item: "functionalstorage:simple_compacting_drawer"
+					type: "item"
+				}
+				{
+					id: "624C968383DF5489"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "更重了！"
+			tasks: [{
+				id: "7720322D9E9A9A77"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:iron_backpack"
+								tag: {
+									contentsUuid: [I;
+										618027645
+										-1552267667
+										-2087375270
+										-1171695860
+									]
+									inventorySlots: 54
+									upgradeSlots: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:gold_backpack"
+								tag: {
+									contentsUuid: [I;
+										239225295
+										-497335732
+										-1312352762
+										1136145860
+									]
+									inventorySlots: 81
+									upgradeSlots: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:diamond_backpack"
+								tag: {
+									contentsUuid: [I;
+										658115119
+										-1689826641
+										-1198785039
+										799252935
+									]
+									inventorySlots: 108
+									upgradeSlots: 5
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:netherite_backpack"
+								tag: {
+									contentsUuid: [I;
+										1154287413
+										-291682563
+										-1496554960
+										1388194259
+									]
+									inventorySlots: 120
+									upgradeSlots: 7
+								}
+							}
+						]
+					}
+				}
+				title: "背包等级"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["321B9A116A7DD530"]
+			description: [
+				"&b背包升级&r可以被安装在背包上来使用某些特定功能"
+				""
+				"每个升级的工具属性会说明它的功能。"
+			]
+			icon: "sophisticatedbackpacks:everlasting_upgrade"
+			id: "4A179AD265741172"
+			rewards: [
+				{
+					id: "7E49F76E0EDF05BE"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "1A005A6D0BDAD573"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "它有个口袋！"
+			tasks: [{
+				id: "24AFD595D112FE30"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "soph.*upgrade"
+					}
+				}
+				title: "背包升级"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CB4A7E801F5A631"]
+			description: ["&b坞&r能够&6容纳一个黑盒&r,允许管道等访问物品栏。"]
+			id: "4773DB978024DF1C"
+			rewards: [
+				{
+					id: "276328DD69049702"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D0473BBC8C6856B"
+					item: {
+						Count: 1b
+						id: "pedestals:upgrade_pedestal_void"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "黑盒坞"
+			tasks: [{
+				id: "032A1464B57BB415"
+				item: "dankstorage:dock"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4773DB978024DF1C"]
+			description: ["&b黑盒升级&r可以用于&6黑盒坞&r升级等级。"]
+			icon: "dankstorage:1_to_2"
+			id: "1037BF06ED111A7B"
+			rewards: [
+				{
+					id: "1C5CF2027B8F7C29"
+					item: "forcecraft:force_pack_upgrade"
+					type: "item"
+				}
+				{
+					id: "443447FB77D7A230"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "到此为止"
+			tasks: [{
+				id: "422F3E007B91AEA8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dankstorage:1_to_2"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:2_to_3"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:3_to_4"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:4_to_5"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:5_to_6"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:6_to_7"
+							}
+						]
+					}
+				}
+				title: "黑盒升级"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&b口袋维度背包&r是一个科技奇迹。它能将一个可携带的洞通往另一个维度中来存储你的东西。"
+				""
+				"本质上,这是一个&6可装备的双重箱子&r。用&6Ctrl+e&r来打开它。"
+			]
+			id: "71A249AB64458769"
+			rewards: [
+				{
+					id: "2785E41FDC91F101"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 9
+							}
+						}
+						id: "cyclic:crafting_bag"
+					}
+					type: "item"
+				}
+				{
+					id: "57FB4E07471762AB"
+					item: "statues:mooshroom_soup"
+					type: "item"
+				}
+			]
+			subtitle: "里面更大了！"
+			tasks: [{
+				id: "2F0832CA61A7381C"
+				item: {
+					Count: 1b
+					id: "technobauble:backpack"
+					tag: {
+						Inventory: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+	]
+	title: "便携存储"
+}

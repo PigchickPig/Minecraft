@@ -1,0 +1,19 @@
+{
+	"mod": "rootsclassic",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"phantom_skeleton": {
+						// Do not edit this name
+						"name": "phantom_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					}
+				}
+			}
+		}
+	}
+}

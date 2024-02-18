@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: "5126BB8E07FFE142"
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1F5D6AC8C1C940DF"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/progression.png"
+		rotation: 0.0d
+		width: 7.506024096385542d
+		x: 1.5d
+		y: -2.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AD24EEEE1735F2B"]
+			description: [
+				"&b传说之眼&r将&6帮助你找到天空之城&r!"
+				""
+				"[\"\",\"查看章节\",{\"text\":\"天空祈福\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1AA9D32D3A6F9ECE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"天空祈福\"]}},\"来获得更多信息。\"]"
+			]
+			icon: "ftbskies:eye_of_legend"
+			id: "6C87D545B4CF34FB"
+			rewards: [
+				{
+					id: "65F3E9E33C644102"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "124B36AB8D9C34C6"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+			]
+			subtitle: "在某处..."
+			tasks: [
+				{
+					id: "0C48A39A811657A6"
+					item: "ftbskies:eye_of_legend"
+					type: "item"
+				}
+				{
+					icon: "easy_villagers:villager"
+					id: "40575C58E1425944"
+					structure: "skyvillages:skyvillage"
+					title: "参观天空村庄"
+					type: "structure"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"自然，发展的第一步是获得资源。"
+				""
+				"一个&b筛子&r和&b线筛网&r可以让你从沙子和砂砾等方块中获得无限的资源。"
+			]
+			disable_toast: true
+			icon: "createsifter:sifter"
+			id: "00E85EE1B2FFA9CF"
+			rewards: [
+				{
+					count: 8
+					id: "04EC195F88468D60"
+					item: "supplementaries:flax"
+					type: "item"
+				}
+				{
+					id: "4F2CA156AE61F3BE"
+					item: {
+						Count: 1b
+						id: "forcecraft:force_pack"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "第一件事"
+			tasks: [
+				{
+					id: "40B58A04E048761E"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4A6BF4C1DCD74338"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createsifter:string_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "createsifter:andesite_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ftbskies:mana_steel_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ftbskies:amethyst_mesh"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "筛网"
+					type: "item"
+				}
+			]
+			title: "资源获取"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00E85EE1B2FFA9CF"]
+			description: [
+				"&b更好的线筛网&r是发展的必要条件，因为它们可以解锁许多必要的材料。"
+				""
+				"每一个更高等级的筛网都能得到低级所能得到的一切，所以没有理由把低级的留在身边。"
+				""
+				"[\"\",\"关于这些筛网的更多只是，请查看\",{\"text\":\"筛网与资源篇\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"765CE56E943A0E79\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"筛网资源篇\"]}},\"\"]"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbskies:amethyst_mesh"
+				tag: { }
+			}
+			id: "075BBC520EE9321E"
+			min_width: 250
+			rewards: [
+				{
+					id: "385134693E27BE9E"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D8BB640AF8BD077"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49E299DCFE630DCE"
+					item: "functionalstorage:compacting_drawer"
+					type: "item"
+				}
+			]
+			subtitle: "伟大的筛网"
+			tasks: [
+				{
+					id: "4A0E2D0F0ED0426E"
+					item: {
+						Count: 1b
+						id: "ftbskies:mana_steel_mesh"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1DA5A30F0075BB9D"
+					item: {
+						Count: 1b
+						id: "ftbskies:amethyst_mesh"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "筛网阶段"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C87D545B4CF34FB"]
+			description: [
+				"进入地狱后，传奇之眼自动转化为&b地狱传说之眼&r!"
+				""
+				"它会指引&6地狱空岛&r的方向，那里都是可交易的猪人"
+			]
+			icon: "ftbskies:eye_of_legend_nether"
+			id: "4E676DFBDBD49BDD"
+			rewards: [
+				{
+					count: 64
+					id: "19DDD124731DA202"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+				{
+					id: "50114B77230191AB"
+					item: "botania:floating_thermalily"
+					type: "item"
+				}
+			]
+			subtitle: "向深处进发！"
+			tasks: [
+				{
+					id: "60B394B1EE521D4C"
+					item: "ftbskies:eye_of_legend_nether"
+					type: "item"
+				}
+				{
+					icon: "minecraft:crimson_stem"
+					id: "755E6D1A1FD604B0"
+					structure: "skyvillages:crimson_sky_village"
+					title: "参观下界天空村庄"
+					type: "structure"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E676DFBDBD49BDD"]
+			description: [
+				"下一步是去&b征服末地&r！"
+				""
+				"有两种方法实现："
+				" •&6合成末地传送门框架，这是在盖亚守护者更后面的门。 "
+				"[\"\",\"•飞起来然后使用\",{\"text\":\"Ad-Astra\",\"color\":\"yellow\"},\"。查看章节\",{\"text\":\"星辰大海\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"22AD1FAD303703DE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"星辰大海章节\"]}},\"来获得更多信息。\"]"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "58DEB16DB734623C"
+			min_width: 225
+			rewards: [
+				{
+					id: "70B03F9F35003719"
+					item: "tetra:dragon_sinew"
+					type: "item"
+				}
+				{
+					id: "31052E12FEB79A25"
+					item: "artifacts:antidote_vessel"
+					type: "item"
+				}
+				{
+					id: "3A10A13099D66A1A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			subtitle: "进入虚空"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "760F0B5D0929CF40"
+				title: "参观末地"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58DEB16DB734623C"]
+			description: [
+				"当你来到末地，末影龙会被替换为三头末影龙，&b飞行并击败三头末影龙&r。"
+				""
+				"在这之后，你可以&6自由地选择&r怎么玩！一切都将对你开放。"
+				""
+				"[\"\",\"如果你要更困难的挑战，看看\",{\"text\":\"能量过载\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2166DD3F75BEF301\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"能量过载章节\"]}},\"任务线。 或者享受空岛包含的所有模组吧！\"]"
+			]
+			icon: "minecraft:dragon_head"
+			id: "0EDA2BDDA51B15EF"
+			rewards: [
+				{
+					id: "4732AFC82EA92506"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "64AC852CFDEC27AE"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "568E15803BA9F734"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "32F1CE89448D3712"
+					item: "unusualend:ender_stew"
+					type: "item"
+				}
+				{
+					id: "67E8120EAD7C61F7"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								data: 6
+								id: "hostilenetworks:ender_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "三头怪物"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "709C4B87684D8494"
+				title: "击杀三头末影龙"
+				type: "kill"
+				value: 1L
+			}]
+			title: "三头怪物！"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00E85EE1B2FFA9CF"]
+			description: [
+				"某些任务不只是需要你&o有&r对应的东西，你还必须&6提交它&r。"
+				""
+				"对于物品，这很容易。只要把它放在你的物品栏里，然后点击任务。对于液体和能量，你必须使用&b任务显示器&r。"
+				""
+				"放置任务显示器，并&6设置任务&r在GUI中。在那，你可以&6将需要的流体或能量输入任务显示器&r来提升任务进度。"
+			]
+			id: "5BBBE30D2EB43582"
+			rewards: [{
+				id: "2EF4FC460DC85496"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			subtitle: "可视化进度"
+			tasks: [{
+				id: "7F11A04DDE7160FA"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			title: "任务提交"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5BBBE30D2EB43582"
+				"0DDA95B39E0A0FF4"
+			]
+			description: [
+				"在&dFTB-Skies&r中有很多方式可以产生FE能量。请自由 探索你所喜欢的各种科技模组。"
+				""
+				"作为一个简单的方法，&6风力发电&r或者各种&6火力发电&r是游戏前期的最好选择。"
+			]
+			id: "2AD24EEEE1735F2B"
+			rewards: [
+				{
+					id: "54C8198EA8BB32A8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+							}
+						}
+						id: "cyclic:battery"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "40B5FEEB67175F5A"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+			]
+			subtitle: "抛瓦！"
+			tasks: [{
+				id: "52D581534195DA74"
+				max_input: 2147283000L
+				type: "forge_energy"
+				value: 10000L
+			}]
+			title: "FE/RF发电机"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C87D545B4CF34FB"]
+			description: [
+				"有传言说，在遥远的天空中，有一座被遗忘的城堡"
+				"通过制作天空传说之眼，你也许能找到其中一个"
+				"并将它的宝藏据为己有。"
+				""
+				"注意：这个任务是完全可选的。"
+			]
+			id: "091135C0F99C1F2C"
+			optional: true
+			rewards: [
+				{
+					id: "17FE2A5DBF0442AE"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+				{
+					id: "34D5263024CAA4C5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "天空中的蝴蝶。。。"
+			tasks: [{
+				id: "600F527508422396"
+				item: "ftbskies:eye_of_legend_sky"
+				type: "item"
+			}]
+			title: "空中城堡"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["勇往直前！"]
+	title: "再进一步"
+}

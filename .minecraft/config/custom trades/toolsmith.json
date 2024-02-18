@@ -1,0 +1,325 @@
+{
+  "profession": "minecraft:toolsmith",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_emerald_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "ae2:fluix_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_stone_axe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "rootsclassic:verdant_sprig",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_stone_shovel_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pickarang",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_stone_pickaxe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "ae2:fluix_hoe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_stone_hoe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "forcecraft:force_stick",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith_emerald_for_iron_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "industrialforegoing:mob_imprisonment_tool",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith_bell_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:scroll_rolled",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{BlockEntityTag:{data:[{effects:[\"tetra:hammer_efficiency\"],glyphs:[6,7,6,11],intricate:0b,key:\"hammer_efficiency\",material:0,ribbon:\"ff6666\"}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith_scroll_rolled_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "forcecraft:force_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,ForceInfused:1b,force:10000,forcecraft:{bane:0,bleed:0,camo:0b,ender:0b,force:0,freezing:0b,heat:0b,light:0b,luck:0b,lumber:1b,rainbow:0b,sharp:5b,sight:0b,silk:1bb,speed:0,sturdy:3b,treasure:0b,wing:0b}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 100,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_axe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "mekanismtools:bronze_paxel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:6s}],RepairCost:1}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_shovel_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "mekanismtools:lapis_lazuli_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:fortune\",lvl:5s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 40,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_pickaxe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "rootsclassic:living_hoe",
+        "amount": 1,
+
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"cyclic:growth\",lvl:3s},{id:\"apotheosis:life_mending\",lvl:3s},{id:\"apotheosis:natures_blessing\",lvl:5s}],RepairCost:7,display:{Name:'{\"text\":\"Especially Skilled Hoe\"}'}}"
+      },
+      "request": {
+        "itemKey": "minecraft:amethyst_shard",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 40,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_diamond_hoe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:diamond",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_emerald_for_diamond"
+    },
+    {
+      "offer": {
+        "itemKey": "botania:elementium_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\\\"cyclic:beheading\\\",lvl:7s},{id:\\\"apotheosis:scavenger\\\",lvl:3s}],RepairCost:3,display:{Name:'{\\\"text\\\":\\\"Fairy Queen\\'s Guillotine\\\"}'}}"
+      },
+      "request": {
+        "itemKey": "botania:terrasteel_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 45,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_diamond_axe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "cyclic:crystal_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 25,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_diamond_shovel_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "mekanism:atomic_disassembler",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"ensorcellation:soulbound\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith_diamond_pickaxe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:scroll_rolled",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{BlockEntityTag:{data:[{effects:[\"tetra:metal_expertise\"],glyphs:[4,6,6,5],intricate:0b,key:\"metal_expertise\",material:0,ribbon:\"ffffff\"}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith_scroll_rolled_for_emerald"
+    }
+  ]
+}

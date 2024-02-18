@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "skyvillages:skyvillage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 23734816,
+    "spacing": 70,
+    "separation": 50,
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "ftbteamdimensions:start"
+    }
+  }
+}

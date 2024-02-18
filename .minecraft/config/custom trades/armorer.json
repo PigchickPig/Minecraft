@@ -1,0 +1,380 @@
+{
+  "profession": "minecraft:armorer",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:fire_essence",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_emerald_for_fire_essence"
+    },
+    {
+      "offer": {
+        "itemKey": "mekanismtools:bronze_leggings",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_bronze_leggings_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "mekanismtools:bronze_boots",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_bronze_boots_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "mekanismtools:bronze_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_bronze_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "mekanismtools:bronze_chestplate",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_bronze_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "spirit:soul_steel_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_emerald_for_soul_steel_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "forcecraft:force_belt",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_force_belt_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"cyclic:launch\",lvl:3s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_enchanted_book_for_emerald_0"
+    },
+    {
+      "offer": {
+        "itemKey": "everlastingabilities:ability_totem",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:absorbtion\"}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_ability_totem_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "everlastingabilities:ability_totem",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:jump_boost\"}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_ability_totem_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tetra:pristine_diamond",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_emerald_for_pristine_diamond"
+    },
+    {
+      "offer": {
+        "itemKey": "mining_helmet:mining_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:respiration\",lvl:7s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:protection\",lvl:8s}],RepairCost:15,display:{Name:\u0027{\"text\": \"Skyclopse Helm\"}\u0027}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_mining_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "mekanism:jetpack_armored",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{mekData:{GasTanks:[{Tank:0b,stored:{amount:24000L,gasName:\"mekanism:hydrogen\"}}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_jetpack_armored_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "artifacts:umbrella",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_umbrella_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "thermal:diving_leggings",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"ars_nouveau:mana_boost\",lvl:2s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_diving_leggings_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "cyclic:emerald_boots",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"ars_nouveau:mana_boost\",lvl:2s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_emerald_boots_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:scroll_rolled",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{BlockEntityTag:{data:[{effects:[\"tetra:hammer_efficiency\"],glyphs:[6,7,6,11],intricate:0b,key:\"hammer_efficiency\",material:0,ribbon:\"ff6666\"}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_scroll_rolled_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "productivebees:bee_nest_diamond_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_bee_nest_diamond_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:hammer_base",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "create:blaze_burner",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_hammer_base_for_blaze_burner"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:scroll_rolled",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{BlockEntityTag:{data:[{effects:[\"tetra:metal_expertise\"],glyphs:[4,6,6,5],intricate:0b,key:\"metal_expertise\",material:0,ribbon:\"ffffff\"}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_scroll_rolled_for_emerald"
+    }
+  ]
+}

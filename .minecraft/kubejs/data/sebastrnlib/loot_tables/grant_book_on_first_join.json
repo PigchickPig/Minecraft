@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "patchouli:guide_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"patchouli:book\": \"sebastrnlib:sebastrn_mods_guide_book\"}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "y": -500
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

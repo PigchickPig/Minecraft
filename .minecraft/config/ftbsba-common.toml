@@ -1,0 +1,17 @@
+
+[hammers]
+	#Speed of the iron auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	ironSpeed = 50
+	#Speed of the gold auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	goldSpeed = 40
+	#Speed of the diamond auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	diamondSpeed = 30
+	#Speed of the netherite auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	netheriteSpeed = 15
+	#When set to true, the players inventory will be cleared when leaving a team
+	clearPlayerInventory = true
+

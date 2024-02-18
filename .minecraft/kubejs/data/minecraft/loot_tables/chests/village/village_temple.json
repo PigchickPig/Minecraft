@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 32.0,
+                "min": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_egg",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:prismatic_web",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:amulet_of_mana_regen",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spirit:broken_spawner",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:infused_hellshelf",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:obsidian_skull",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:mana_cookie",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:sigil_of_socketing",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:superior_sigil_of_socketing",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forcecraft:soul_wafer",
+          "weight": 7
+        },
+        {
+      "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "botania:manasteel_ingot",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "apotheosis:gem_dust",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:echo_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "botania:blacker_lotus"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 4.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create:item_vault",
+      "required": false
+    },
+    {
+      "id": "hexerei:witch_hazel_altar",
+      "required": false
+    },
+    {
+      "id": "hexerei:willow_altar",
+      "required": false
+    }, 
+    {
+      "id": "hexerei:book_of_shadows_altar",
+      "required": false
+    },        
+    {
+      "id": "rftoolsstorage:modular_storage",
+      "required": false
+    }
+  ]
+}

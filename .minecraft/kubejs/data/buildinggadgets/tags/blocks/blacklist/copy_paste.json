@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": ["rftoolsbuilder:shielding_cutout",
+  "rftoolsbuilder:shielding_solid",
+  "rftoolsbuilder:shielding_translucent"
+]
+}

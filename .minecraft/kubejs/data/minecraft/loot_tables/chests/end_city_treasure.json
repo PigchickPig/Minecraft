@@ -1,0 +1,660 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "bhc:green_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "rsinfinitybooster:infinity_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aeinfinitybooster:infinity_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "fluxnetworks:herculean_flux_storage"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "apotheosis:superior_sigil_of_socketing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:nether_star"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "apotheosis:mythic_material",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "unusualend:shulker_orb"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "botania:terrasteel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "occultism:storage_stabilizer_tier4"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rftoolsbase:dimensionalshard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "bhc:soul_heart_amulet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "botania:lens_power",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:0,compositeLens:{Count:1b,id:\"botania:lens_speed\"},display:{Name:'{\"text\":\"Superlumina Lens\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "industrialforegoing:speed_addon_2",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 16
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{TitaniumAugment:{Speed:3.0f}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:star_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s}],RepairCost:1,affix_data:{affixes:{\"apotheosis:durable\":0.25f,\"apotheosis:socket\":4.0f,\"apotheosis:sword/attribute/elongated\":0.4738658f,\"apotheosis:sword/attribute/glacial\":0.035144746f,\"apotheosis:sword/attribute/infernal\":0.9610623f,\"apotheosis:sword/attribute/violent\":0.6387261f,\"apotheosis:telepathic\":0.7103659f},rarity:\"epic\"},display:{Name:'{\"text\":\"Saereth\\'s Star Sunderer\"}'},lastTriggerTime:4998652L}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "everlastingabilities:ability_totem",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:flight\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "everlastingabilities:ability_totem",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"everlastingabilities:abilityStoreStack\":[{level:5,name:\"everlastingabilities:bonemealer\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "everlastingabilities:ability_totem",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"everlastingabilities:abilityStoreStack\":[{level:3,name:\"everlastingabilities:regeneration\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "everlastingabilities:ability_totem",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"everlastingabilities:abilityStoreStack\":[{level:3,name:\"everlastingabilities:resistance\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "everlastingabilities:ability_totem",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"everlastingabilities:abilityStoreStack\":[{level:5,name:\"everlastingabilities:speed\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "everlastingabilities:ability_totem",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"everlastingabilities:abilityStoreStack\":[{level:3,name:\"everlastingabilities:luck\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "rftoolsbase:machine_infuser",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Info:{infused:256}},RepairCost:0,display:{Name:'{\"text\":\"Cryo-Stabilized Infuser\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "redstone_arsenal:flux_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 6
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "botania:dragonstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "tetra:dragon_sinew"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:dragon_head"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tetra:pristine_diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mekanism:ingot_steel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "botania:manasteel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "elementalcraft:drenched_iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "elementalcraft:swift_alloy_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "industrialforegoing:pink_slime",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "thermal:enderium_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "elementalcraft:fireite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "unstabletools:unstable_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "tetra:pristine_emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 60
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:netherite_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 60
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 60
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:netherite_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 60
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 60
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 60
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:netherite_shovel",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 60
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 70
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tetra:forged_beam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:stonecutter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:dragon_sinew"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:lubricant_dispenser"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:combustion_chamber"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:planar_stabilizer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:thermal_cell"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "elementalcraft:receptacle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{element_type:\"water\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalcraft:receptacle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{element_type:\"fire\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalcraft:receptacle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{element_type:\"air\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalcraft:receptacle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{element_type:\"earth\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

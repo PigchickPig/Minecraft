@@ -1,0 +1,75 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "invisible_quests"
+	group: ""
+	icon: "minecraft:command_block"
+	id: "5C35345F7E99F7F5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["完成Ad-Astra任务中的&6到达水星或金星&r任务，完成任何一个任务后这个任务完成。"]
+			icon: "ad_astra:venus_globe"
+			id: "45293E09C7E70D25"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				auto: "invisible"
+				command: "/ftbquests change_progress @p complete 50A226645CC9AB2C"
+				id: "1B97D57D5A540CD1"
+				type: "command"
+			}]
+			secret: true
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					id: "3BFC02A3CE7E7F82"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mercury"
+					id: "4E3BD1243C5286A1"
+					type: "dimension"
+				}
+			]
+			x: 1.25d
+			y: 0.5d
+		}
+		{
+			description: [
+				"完成\"参观下界天空村庄\"任务在任务线里"
+				""
+				"如果你访问过绯红村庄，这个任务就已完成。"
+			]
+			id: "63A5B8B3491E4F44"
+			rewards: [{
+				command: "/ftbquests change_progress @p complete 755E6D1A1FD604B0"
+				id: "6E7224AC5E070F78"
+				type: "command"
+			}]
+			tasks: [{
+				icon: "minecraft:warped_stem"
+				id: "01B5CC403CA040C2"
+				structure: "skyvillages:warped_sky_village"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "17435DCD72A49A80"
+			invisible: true
+			secret: true
+			tasks: [{
+				id: "74EDA2CD6F9B7470"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	title: "隐藏任务"
+}

@@ -1,0 +1,548 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "0B729A29DA0A889D"
+	icon: "occultism:spirit_fire"
+	id: "476DF733E6E2DA51"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/occultism.png"
+		rotation: 0.0d
+		width: 6.228915662650603d
+		x: 3.5d
+		y: -2.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"使用&6骨粉&r和破坏高草，你可能会获得&6恶魔之梦种子&r"
+				""
+				"种植和收割这些&b恶魔之梦果&r，这样你就可以开始&e神秘学&r模组。"
+			]
+			id: "53863C6AA180513F"
+			rewards: [
+				{
+					id: "1DBEDDCC0EB68B31"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "1CCA9FB2696D80DD"
+					item: {
+						Count: 1b
+						id: "occultism:dictionary_of_spirits"
+						tag: {
+							"modonomicon:book_id": "occultism:dictionary_of_spirits"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "哈迪斯的幻觉"
+			tasks: [{
+				id: "0EDA4D82120D6706"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53863C6AA180513F"]
+			description: [
+				"&6将恶魔之梦果&r扔在地上，然后&6将它点燃&r，它会产生&b灵火&r。"
+				""
+				"灵火具有神奇的属性，能够&6将掉落物&r转化为其他物品。"
+			]
+			id: "1AD44B9DE65C4DB9"
+			rewards: [
+				{
+					count: 8
+					id: "14231087FB816E31"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "78CA8C17F698D284"
+					item: "occultism:otherworld_log"
+					type: "item"
+				}
+			]
+			subtitle: "这看起来很熟悉..."
+			tasks: [{
+				icon: "occultism:spirit_fire"
+				id: "546D0F20A5F024DA"
+				observe_type: 0
+				timer: 0L
+				title: "看世界燃尽"
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1AD44B9DE65C4DB9"]
+			description: ["你可以通过往&6灵火&r上丢沙子获得&b灵魂沙&r！"]
+			id: "44A4C4070357D2BA"
+			rewards: [{
+				count: 16
+				id: "1CE598449C6C0AF2"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			subtitle: "获得灵魂沙"
+			tasks: [{
+				id: "104688194E9D4FFB"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AD44B9DE65C4DB9"]
+			description: [
+				"在&e神秘学&r模组中，大多数的魔法都会使用&6仪式&r。"
+				""
+				"仪式的主要部分是使用&b粉笔&r来画圆圈。这个圆圈被称为&6五芒星&r。"
+				""
+				"不同的仪式有不同的图案要绘制；我可以参考&6魔灵全典&r来获取每种仪式的信息。"
+				""
+				"粉笔印需要很长的时间消失，除非你使用&b粉笔擦&r。"
+			]
+			id: "7C855A617FBCF1DE"
+			rewards: [{
+				id: "449A0C9491A39145"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			subtitle: "粉笔领域！"
+			tasks: [{
+				id: "3DA2493F34DF949D"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C855A617FBCF1DE"]
+			description: [
+				"大部分&e神秘学&r围绕着&6召唤恶魔&r并命令他们做一些事。最简单的恶魔就是&b魔精&r。"
+				""
+				"制作一本&b绑定之书：魔精&r，然后与你的&6魔灵全典&r一起合成。这样就能&6将特定的魔精绑定在书上&r。"
+			]
+			id: "25BA70F5523994D6"
+			rewards: [
+				{
+					count: 4
+					id: "29E092B0E39DD0D0"
+					item: "occultism:obsidian_dust"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6363DD60D6F50D8E"
+					item: "occultism:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0F774067E3077A92"
+					item: "occultism:iesnium_ingot"
+					type: "item"
+				}
+				{
+					id: "35D94201308F8C51"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "小家伙！"
+			tasks: [{
+				id: "242E8701E9599911"
+				item: "occultism:book_of_binding_foliot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25BA70F5523994D6"]
+			description: [
+				"遵循&6魔灵全典&r，画出五芒星和&6阿维亚之环&r。"
+				""
+				"有了它，你可以&6召唤一群魔精&r，然后给它们分配一份工作。"
+			]
+			icon: "occultism:golden_sacrificial_bowl"
+			id: "332432CB9EC79CF5"
+			subtitle: "起来干活！"
+			tasks: [
+				{
+					id: "13E2C58FA58971FB"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "22B537BA9B064BEB"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "076687C3BECDC554"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["332432CB9EC79CF5"]
+			description: [
+				"现在，我们已经到达了这一步，召唤一个绑定的魔精，你最好继续遵循&b魔灵全典&r。"
+				""
+				"魔灵全典基本上是一个模组本身的任务书，它不需要更多指引。"
+			]
+			hide: false
+			id: "00993B7037D1CC04"
+			rewards: [{
+				count: 4
+				id: "1DF01DE9AD2A2D78"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "他们抢了我们的工作！"
+			tasks: [{
+				id: "4A1BAA18B74BD321"
+				item: {
+					Count: 1b
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			title: "说真的，这些不错"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38428BE09619A2C4"]
+			description: [
+				"&b储存访问器&r允许我&6从任何地方访问我的维度存储&r！"
+				""
+				"用访问器潜行右键促动器来绑定它，然后在任何地方使用访问器来访问容器。"
+			]
+			icon: {
+				Count: 1b
+				id: "occultism:storage_remote"
+				tag: { }
+			}
+			id: "18F91887274390F1"
+			subtitle: "制作一个储存促动器"
+			tasks: [{
+				id: "5989E88D40ACE65E"
+				item: {
+					Count: 1b
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F3CD36216139F03"]
+			description: [
+				"&b维度存储促动器&r允许你&6存储大量的物品&r。"
+				""
+				"合成后,它拥有&6128个槽位&r,每个槽位最多可容纳&61000个物品&r。它拥有一个搜索条、多个分选选项和一个3x3的合成栏。"
+				""
+				"左上角的铁砧槽和左下角的熔炉菜单都只为巨灵机器操作员使用。"
+				""
+				"促动器&6在破坏时会保留其中的物品&r。"
+				""
+				"管道等可以访问促动器的物品栏。"
+			]
+			id: "38428BE09619A2C4"
+			min_width: 275
+			rewards: [
+				{
+					id: "5311811DA022B203"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "3F17B5CF5D1E17BB"
+					item: "refinedstorage:external_storage"
+					type: "item"
+				}
+				{
+					id: "1BF26D1908746F8D"
+					item: "ars_nouveau:glyph_ender_inventory"
+					type: "item"
+				}
+				{
+					id: "195206DC23D07B44"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "巨型魔法存储"
+			tasks: [{
+				id: "42E54462613C59A0"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38428BE09619A2C4"]
+			description: [
+				"&b稳定虫洞&r可以&6从其它位置访问链接的维度存储&r。"
+				""
+				"用虫洞潜行右键访问器来绑定它，然后将其放置在任何地方。打开虫洞会打开促动器！"
+			]
+			id: "16D8482E3EA78235"
+			subtitle: "制作一个稳定的虫洞"
+			tasks: [{
+				id: "5964597EB0FEC303"
+				item: {
+					Count: 1b
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38428BE09619A2C4"]
+			description: [
+				"&b维度存储器&r允许你&6增加维度存储的最大容量&r。"
+				""
+				"它们可以放在2至5个方块之外，并且必须瞄准基座上方的悬浮矩阵。可以安装多个稳定器。"
+				""
+				"1级添加256格。"
+			]
+			id: "20C15F0705ED9770"
+			tasks: [{
+				id: "14F6E5C8FEA95E6F"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20C15F0705ED9770"]
+			description: ["2级添加了512格。"]
+			id: "42E7541B87963785"
+			tasks: [{
+				id: "0B9D4525C4210101"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42E7541B87963785"]
+			description: ["3级添加1024格。"]
+			id: "39287CC17A70C0CB"
+			tasks: [{
+				id: "458B8BA522F9E4C0"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39287CC17A70C0CB"]
+			description: ["4级添加2048格。"]
+			id: "53448330FDCF11DA"
+			tasks: [{
+				id: "6C662D12521DD086"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			description: ["用&b屠夫刀&r杀死动物，偶尔会掉落&6油脂&r，这是魔法蜡烛的必要材料。"]
+			id: "3A5C65B6AB3273B1"
+			rewards: [
+				{
+					id: "275F24A40671BAC8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "08EF3CDC91A45E33"
+					item: "occultism:spirit_lantern"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2F895CC481AE1B1C"
+					item: "occultism:tallow"
+					type: "item"
+				}
+			]
+			subtitle: "砍砍砍"
+			tasks: [{
+				id: "3157F5DFAF249CBE"
+				item: {
+					Count: 1b
+					id: "occultism:butcher_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C855A617FBCF1DE"]
+			description: [
+				"在下一层圆圈魔法需要更强大的粉笔。金粉笔允许能量更自由地穿过它。你需要获得一些金粉和萤石粉，也可以使用粉碎魔灵粉碎它或者其他机器。"
+				""
+				"当你制作了含杂金粉笔，就把它扔进灵火中以完成转化。"
+			]
+			id: "2F3CD36216139F03"
+			rewards: [
+				{
+					count: 2
+					id: "7E7E689C04814229"
+					item: "forcecraft:gold_chu_chu_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "37B4FE14415CC141"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "获得金粉笔"
+			tasks: [{
+				id: "495721147D8AFA33"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F3CD36216139F03"]
+			description: [
+				"为了制作粉碎末地石，你需要一个粉碎魔灵。粉碎魔灵可以采集末地石并粉碎，使你能够制作倒数第二层圆圈魔法的紫色粉笔。"
+				""
+				"如果你还没有获得末影石，现在是时候召唤附身末影螨了。当末影螨被杀死时，会掉落末地石，你可以将其转换为末地石砖，并放置在基座下以获得更多末地石。"
+			]
+			id: "68A22C4F676669BF"
+			rewards: [
+				{
+					count: 4
+					id: "368B94B3A96CD432"
+					item: "occultism:crushed_end_stone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1005C86F27C4C09B"
+					item: "occultism:obsidian_dust"
+					type: "item"
+				}
+				{
+					id: "5CABE47CC227B40B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "获得粉碎末地石"
+			tasks: [{
+				id: "31A7C92348502C5B"
+				item: "occultism:crushed_end_stone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68A22C4F676669BF"]
+			description: [
+				"用你新获得的粉碎末地石和黑曜石粉，你可以制作紫色粉笔来升级仪式。"
+				""
+				"扔进灵火以完成转化。"
+			]
+			id: "03F27F1547C475A3"
+			rewards: [
+				{
+					count: 4
+					id: "0EDC7D25F5B2C2A2"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "56CBF5B03C568EFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53E65DBD570721E3"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+			]
+			subtitle: "获取紫色粉笔"
+			tasks: [{
+				id: "27D198C26B015252"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+	]
+	title: "掌握神秘"
+}

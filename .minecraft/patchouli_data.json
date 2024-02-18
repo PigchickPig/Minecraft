@@ -1,0 +1,29 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "statues:statues": {
+      "viewedEntries": [
+        "statues:info/statue_table",
+        "statues:info/upgrading",
+        "statues:info/core"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/spell_casting",
+        "ars_nouveau:getting_started/spell_mana",
+        "ars_nouveau:getting_started/obtaining_gems",
+        "ars_nouveau:getting_started/source",
+        "ars_nouveau:getting_started/better_casting",
+        "ars_nouveau:getting_started/world_generation",
+        "ars_nouveau:getting_started/new_glyphs",
+        "ars_nouveau:machines/scribes_block"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

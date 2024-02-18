@@ -1,0 +1,54 @@
+{
+	"mod": "endlessbiomes",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"perished_shiftling": {
+						// Do not edit this name
+						"name": "perished_shiftling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"shiftling": {
+						// Do not edit this name
+						"name": "shiftling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"falling_frisbee": {
+						// Do not edit this name
+						"name": "falling_frisbee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"anklor": {
+						// Do not edit this name
+						"name": "anklor",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"riftite_sentinel": {
+						// Do not edit this name
+						"name": "riftite_sentinel",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"radon_sentinel": {
+						// Do not edit this name
+						"name": "radon_sentinel",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,957 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everything_from_nothing"
+	group: "5126BB8E07FFE142"
+	icon: "ftbsba:diamond_auto_hammer"
+	id: "765CE56E943A0E79"
+	images: [
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/materials.png"
+			rotation: 0.0d
+			width: 5.858823529411764d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/tiers.png"
+			rotation: 0.0d
+			width: 3.0823529411764707d
+			x: -7.5d
+			y: 1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [
+		{
+			id: "005558258E4A7D70"
+			linked_quest: "63280A6D52BBE4A8"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "56595558C50A45DE"
+			linked_quest: "44A4C4070357D2BA"
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["0DDA95B39E0A0FF4"]
+			description: [
+				"当圆石成为可再生资源后，是时候开始考虑&6自动化和规模化&r。"
+				""
+				"&b自动粉碎锤&r会自动处理内部的物品。它会&6在蓝色面&r相接的容器内提取物品，并向贴着红色面的容器输出。"
+				""
+				"将圆石分配到不同的&b自动粉碎锤流水线&r，你就可以自动化每一种可以被筛的方块了！"
+			]
+			icon: "ftbsba:iron_auto_hammer"
+			id: "0701515417336CCE"
+			min_width: 250
+			rewards: [
+				{
+					count: 5
+					id: "33ABC9AF92CA3BEF"
+					item: "pedestals:augment_pedestal_t1_speed"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76D735C477F1DFF4"
+					item: "ftbsba:iron_auto_hammer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67BDC32B059CB394"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+			]
+			subtitle: "万物皆可自动化！"
+			tasks: [{
+				id: "4099DF98A97BBA0C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ftbsba:netherite_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:iron_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:diamond_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:gold_auto_hammer"
+							}
+						]
+					}
+				}
+				title: "自动粉碎锤"
+				type: "item"
+			}]
+			title: "自动锤子！"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C5F24FBAE411D2A"]
+			description: [
+				"合成&6魔钢筛网&r让你在世界上更加受魔法使瞩目。"
+				""
+				"如果你足够幸运，一个小精灵可能会刷出将&6附近的钻石块转化&r为&b紫水晶母岩&r！"
+				""
+				"花点时间(或者聪明地使用&6时间之瓶&r)，紫水晶母岩会生长！ 一旦完全长成，就可以收获了。"
+				""
+				"紫水晶也能从猪灵那交易或者击杀获得"
+				""
+				"&6紫水晶傀儡&r对紫水晶钉钉种植和增长是十分有用的。看看新生魔艺的任务章节。"
+				""
+				"注意：一般来说紫水晶母岩是无法破坏获得的，但是在这个整合包里是可以的。"
+			]
+			hide_dependency_lines: true
+			id: "5DF3A9F48D916AF0"
+			min_width: 250
+			rewards: [
+				{
+					id: "40AEA3DE3BB1212B"
+					item: {
+						Count: 1b
+						id: "cyclic:amethyst_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 8s
+								}
+								{
+									id: "cyclic:beheading"
+									lvl: 3s
+								}
+								{
+									id: "apotheosis:scavenger"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:sharpness"
+									lvl: 6s
+								}
+							]
+							RepairCost: 15
+							display: {
+								Name: "{\"text\":\"The Purple People Eater\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B47C3ADEC0D7471"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+				{
+					id: "3C03881BBBBE8261"
+					item: "elementalcraft:buddingshrine"
+					type: "item"
+				}
+				{
+					id: "231A568511FCAE41"
+					item: "ars_nouveau:ritual_awakening"
+					type: "item"
+				}
+			]
+			subtitle: "来一狗，来一狗！"
+			tasks: [{
+				icon: "minecraft:budding_amethyst"
+				id: "2ECBE4EED12115CB"
+				observe_type: 0
+				timer: 0L
+				title: "观察紫水晶母岩"
+				to_observe: "minecraft:budding_amethyst"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DF3A9F48D916AF0"]
+			description: ["&6魔钢筛网&r升级为&b紫晶筛网&b."]
+			id: "2A635BEBC12FF06E"
+			rewards: [
+				{
+					id: "0C5B6E4AE7638D62"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+				{
+					id: "04FD0632B5582C6C"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06B840B3E5D15352"
+				item: {
+					Count: 1b
+					id: "ftbskies:amethyst_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40D4576678C9A2C3"]
+			description: [
+				"&b魔钢筛网&r有能力筛出安山筛网没有的&6更稀有的材料&r"
+				""
+				"[\"\",{\"text\":\"点击这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4FA6ADCA7857A92F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"植物魔法章节\"]}},\"来查询植物魔法章节制作魔力钢\"]"
+				""
+				"魔力钢也能在&b空岛村庄&r找到。使用&6传说之眼&r来找到村庄。"
+			]
+			id: "1C5F24FBAE411D2A"
+			rewards: [
+				{
+					id: "3C3F21F76D0902E7"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+				{
+					id: "5840714FC7454F70"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "1AA40C92707454C1"
+					ignore_reward_blocking: true
+					stage: "mana_steel_mesh"
+					type: "gamestage"
+				}
+			]
+			subtitle: "灌注筛网"
+			tasks: [{
+				id: "3FA893E926DFA5E5"
+				item: {
+					Count: 1b
+					id: "ftbskies:mana_steel_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			description: ["砸碎&b末地石&r获得。有几种方法获得&b末地石&r。你可以&6召唤一个&r&6神秘学&r&b的被附身的末影螨&r，然后转化为&b末地石&r砖给&6物质发电机&r。 或者，一旦你有&6紫水晶母岩&r，偶尔会在紫水晶上刷新一个出来。你也可以&6建立末地传送门&r或者&6用火箭飞到末地岛上&r。"]
+			id: "6F86D0F68AF695C6"
+			rewards: [{
+				count: 16
+				id: "6E52C61D72CC938F"
+				item: "ftbskies:crushed_end_stone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C3996700474C897"
+				item: "ftbskies:crushed_end_stone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["387EA2A8ABCFCBC4"]
+			description: [
+				"你可以在下界砖块上使用&e基座&r的材料生成器来得到&b下界岩&r"
+				""
+				"你可以通过把砖块丢到灵魂火上得到下界砖块。"
+			]
+			id: "0E40F6876416E723"
+			rewards: [{
+				count: 16
+				id: "3EF5A5BEA01ED7D9"
+				item: "ftbskies:crushed_netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F3F14112F69EC94"
+				item: "ftbskies:crushed_netherrack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0E40F6876416E723"
+				"63280A6D52BBE4A8"
+			]
+			description: ["使用&6安山筛网&r筛&6粉碎下界岩&r有机会掉落&b这些材料&r。"]
+			hide_dependency_lines: true
+			icon: "occultism:raw_iesnium"
+			id: "484B1DC063CAD480"
+			tasks: [{
+				id: "74B9876CAAFE760A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "occultism:raw_iesnium"
+							}
+							{
+								Count: 1b
+								id: "occultism:otherworld_sapling"
+							}
+							{
+								Count: 1b
+								id: "ftbskies:warped_nylium_spores"
+							}
+							{
+								Count: 1b
+								id: "ftbskies:crimson_nylium_spores"
+							}
+						]
+					}
+				}
+				title: "安山筛网掉落材料"
+				type: "item"
+			}]
+			title: "粉碎下界岩 → 安山筛网"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6F86D0F68AF695C6"
+				"1C5F24FBAE411D2A"
+			]
+			description: ["通过&6魔钢筛网&r筛&6粉碎末地石&r可以掉落&b末影珍珠&r."]
+			hide_dependency_lines: true
+			id: "01237FE502C591FA"
+			tasks: [{
+				id: "1DAC5DE6F6CC8AC4"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "粉碎末地石 → 魔钢筛网"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6F86D0F68AF695C6"
+				"2A635BEBC12FF06E"
+			]
+			description: ["使用&6紫晶筛网&r筛&6粉碎末地石&r掉落&b维度碎片&r。"]
+			hide_dependency_lines: true
+			icon: "rftoolsbase:dimensionalshard"
+			id: "62DC20E267EC7C3C"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1AA13E7605E90C07"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "30C2DF89386A9232"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+			]
+			title: "粉碎末地石 → 紫晶筛网"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528B7E5C410BE7D3"]
+			description: ["&6含水&r筛子有时可以产生其他资源。"]
+			id: "1B941662E3F1C481"
+			tasks: [{
+				id: "214BD4D63F52EAA1"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			title: "含水筛子"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B941662E3F1C481"]
+			description: [
+				"使用&6魔钢筛网&r可以获得安山筛网可以获得的一切。"
+				""
+				"还会掉落&b海晶碎片和海晶砂砾&r."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:prismarine_shard"
+			id: "1DBCB560F895FF50"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3E0BE93F9D207283"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:slime_ball"
+								}
+								{
+									Count: 1b
+									id: "mekanism:salt"
+								}
+								{
+									Count: 1b
+									id: "minecraft:clay_ball"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sea_pickle"
+								}
+								{
+									Count: 1b
+									id: "minecraft:kelp"
+								}
+								{
+									Count: 1b
+									id: "minecraft:seagrass"
+								}
+							]
+						}
+					}
+					title: "安山筛网掉落材料"
+					type: "item"
+				}
+				{
+					id: "3B0F7C554B999998"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:prismarine_shard"
+								}
+								{
+									Count: 1b
+									id: "minecraft:prismarine_crystals"
+								}
+							]
+						}
+					}
+					title: "魔钢筛网掉落材料"
+					type: "item"
+				}
+			]
+			title: "含水筛子 → 魔力钢筛网"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B941662E3F1C481"]
+			description: ["使用&6安山筛网&r筛&6与含水筛子&r有机会掉落&b这些材料&r。"]
+			hide_dependency_lines: true
+			icon: "minecraft:clay_ball"
+			id: "420A850AA13E6578"
+			tasks: [{
+				id: "7320308875865FF7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:slime_ball"
+							}
+							{
+								Count: 1b
+								id: "mekanism:salt"
+							}
+							{
+								Count: 1b
+								id: "minecraft:clay_ball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:sea_pickle"
+							}
+							{
+								Count: 1b
+								id: "minecraft:kelp"
+							}
+							{
+								Count: 1b
+								id: "minecraft:seagrass"
+							}
+						]
+					}
+				}
+				title: "安山筛网掉落材料"
+				type: "item"
+			}]
+			title: "含水筛子 → 安山筛网"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0E40F6876416E723"
+				"1C5F24FBAE411D2A"
+			]
+			description: [
+				"使用&6魔钢筛网&r可以获得安山筛网可以获得的一切。"
+				""
+				"粉碎下界岩会掉落&b几种新材料&r."
+			]
+			hide_dependency_lines: true
+			icon: "forcecraft:force_gem"
+			id: "3AA1BC15B136A6EE"
+			tasks: [
+				{
+					disable_toast: true
+					id: "647FE0ED56A5BC05"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:raw_iesnium"
+								}
+								{
+									Count: 1b
+									id: "occultism:otherworld_sapling"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:warped_nylium_spores"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:crimson_nylium_spores"
+								}
+							]
+						}
+					}
+					title: "安山筛网掉落材料"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1B77F744D0AD92CA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:inert_crystal"
+								}
+								{
+									Count: 1b
+									id: "forcecraft:force_gem"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:red_archwood_sapling"
+								}
+							]
+						}
+					}
+					title: "魔钢筛网掉落材料"
+					type: "item"
+				}
+			]
+			title: "粉碎下界岩 → 魔钢筛网"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0E40F6876416E723"
+				"2A635BEBC12FF06E"
+			]
+			description: ["使用&6紫晶筛网&r筛&6粉碎下界岩&r掉落&b下界合金碎片&r。"]
+			hide_dependency_lines: true
+			icon: "minecraft:netherite_scrap"
+			id: "2F0973FB648704AF"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1A5AA2E854C47B41"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:raw_iesnium"
+								}
+								{
+									Count: 1b
+									id: "occultism:otherworld_sapling"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:warped_nylium_spores"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:crimson_nylium_spores"
+								}
+							]
+						}
+					}
+					title: "安山筛网掉落材料"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "50489AB87896AEE3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:inert_crystal"
+								}
+								{
+									Count: 1b
+									id: "forcecraft:force_gem"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:red_archwood_sapling"
+								}
+							]
+						}
+					}
+					title: "魔钢筛网掉落材料"
+					type: "item"
+				}
+				{
+					id: "452ACB28AFB1D73E"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			title: "粉碎下界岩 → 紫晶筛网"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1B941662E3F1C481"
+				"2A635BEBC12FF06E"
+			]
+			description: ["使用紫晶筛网筛&6与含水筛子&r不会有&c其他掉落物&r。"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:prismarine_shard"
+			id: "2FF2D7CDEB332E57"
+			tasks: [
+				{
+					disable_toast: true
+					id: "442240AE7EFC081D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:slime_ball"
+								}
+								{
+									Count: 1b
+									id: "mekanism:salt"
+								}
+								{
+									Count: 1b
+									id: "minecraft:clay_ball"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sea_pickle"
+								}
+								{
+									Count: 1b
+									id: "minecraft:kelp"
+								}
+								{
+									Count: 1b
+									id: "minecraft:seagrass"
+								}
+							]
+						}
+					}
+					title: "安山筛网掉落物"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3A6C1F667E7AF3D6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:prismarine_shard"
+								}
+								{
+									Count: 1b
+									id: "minecraft:prismarine_crystals"
+								}
+							]
+						}
+					}
+					title: "魔钢筛网掉落物"
+					type: "item"
+				}
+			]
+			title: "含水筛子 → 紫晶筛网"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: ["使用&6安山筛网&r筛&6灵魂沙&r有机会掉落&b这些材料&r。"]
+			hide_dependency_lines: true
+			icon: "minecraft:quartz"
+			id: "09BFE8C08415DAD8"
+			tasks: [{
+				id: "5F56DC9A18987BD4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:quartz"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nether_wart"
+							}
+						]
+					}
+				}
+				title: "安山筛网掉落材料"
+				type: "item"
+			}]
+			title: "灵魂沙 → 安山筛网"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C5F24FBAE411D2A"]
+			description: ["使用魔钢筛网筛&6灵魂沙&r不会有&c其他掉落物&r。"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:quartz"
+			id: "3080C511A3122ED1"
+			tasks: [{
+				disable_toast: true
+				id: "4CD97519754D9282"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:quartz"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nether_wart"
+							}
+						]
+					}
+				}
+				title: "安山筛网掉落材料"
+				type: "item"
+			}]
+			title: "灵魂沙 → 魔钢筛网"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A635BEBC12FF06E"]
+			description: ["使用&6紫晶筛网&r筛&6灵魂沙&r掉落&b恶魂之泪&r。"]
+			hide_dependency_lines: true
+			icon: "minecraft:ghast_tear"
+			id: "66BD17836AD23157"
+			tasks: [
+				{
+					disable_toast: true
+					id: "543927D092042307"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:quartz"
+								}
+								{
+									Count: 1b
+									id: "minecraft:nether_wart"
+								}
+							]
+						}
+					}
+					title: "安山筛网掉落材料"
+					type: "item"
+				}
+				{
+					id: "742D78334B5E06C9"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			title: "灵魂沙 → 紫晶筛网"
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["无论如何这都很重要"]
+	title: "无中生有"
+}

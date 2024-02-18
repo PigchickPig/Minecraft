@@ -1,0 +1,84 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 22, 2023, 9:03:47 PM
+
+#forge:relocation_not_supported
+- mekanism:cardboard_box (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:bounding_block (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:security_desk (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:digital_miner (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:seismic_vibrator (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:solar_neutron_activator (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:modification_station (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:isotopic_centrifuge (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:pigment_mixer (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:radioactive_waste_barrel (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:pressurized_reaction_chamber (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:basic_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:advanced_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:elite_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:ultimate_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:advanced_solar_generator (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:wind_generator (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+
+#packingtape:blacklist/problematic
+- minecraft:skull (from PackingTape-1.19-0.14.0.jar)
+- minecraft:conduit (from PackingTape-1.19-0.14.0.jar)
+- minecraft:banner (from PackingTape-1.19-0.14.0.jar)
+- minecraft:piston (from PackingTape-1.19-0.14.0.jar)
+
+#packingtape:blacklist/cheaty
+- minecraft:end_portal (from PackingTape-1.19-0.14.0.jar)
+- minecraft:end_gateway (from PackingTape-1.19-0.14.0.jar)
+
+#packingtape:blacklist/unsafe
+- minecraft:command_block (from PackingTape-1.19-0.14.0.jar)
+- minecraft:structure_block (from PackingTape-1.19-0.14.0.jar)
+- minecraft:jigsaw (from PackingTape-1.19-0.14.0.jar)
+- minecraft:sign (from PackingTape-1.19-0.14.0.jar)
+
+#projecte:blacklist/time_watch
+- projecte:dm_pedestal (from ProjectE-1.19.2-PE1.0.1B.jar)
+
+#packingtape:te_blacklist
+- #forge:immovable? (from PackingTape-1.19-0.14.0.jar)
+- #forge:relocation_not_supported? (from PackingTape-1.19-0.14.0.jar)
+- #packingtape:blacklist/multiblocks (from PackingTape-1.19-0.14.0.jar)
+- #packingtape:blacklist/unsafe (from PackingTape-1.19-0.14.0.jar)
+- #packingtape:blacklist/problematic (from PackingTape-1.19-0.14.0.jar)
+- #packingtape:blacklist/cheaty (from PackingTape-1.19-0.14.0.jar)
+- #packingtape:blacklist/pointless (from PackingTape-1.19-0.14.0.jar)
+
+#mekanism:cardboard_blacklist
+- #forge:immovable (from Mekanism-1.19.2-10.3.8.477.jar)
+- #forge:relocation_not_supported (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#packingtape:te_whitelist
+- #forge:movable? (from PackingTape-1.19-0.14.0.jar)
+- #forge:relocation_supported? (from PackingTape-1.19-0.14.0.jar)
+
+#packingtape:blacklist/multiblocks
+- minecraft:bed (from PackingTape-1.19-0.14.0.jar)
+
+#forge:immovable
+- mekanism:cardboard_box (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:bounding_block (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:security_desk (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:digital_miner (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:seismic_vibrator (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:solar_neutron_activator (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:modification_station (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:isotopic_centrifuge (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:pigment_mixer (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:radioactive_waste_barrel (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:pressurized_reaction_chamber (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:basic_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:advanced_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:elite_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:ultimate_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:advanced_solar_generator (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:wind_generator (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+
+#packingtape:blacklist/pointless
+- minecraft:enchanting_table (from PackingTape-1.19-0.14.0.jar)
+- minecraft:bell (from PackingTape-1.19-0.14.0.jar)
+- minecraft:comparator (from PackingTape-1.19-0.14.0.jar)
+- minecraft:daylight_detector (from PackingTape-1.19-0.14.0.jar)

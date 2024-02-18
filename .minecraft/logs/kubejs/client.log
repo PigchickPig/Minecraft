@@ -1,0 +1,123 @@
+[00:31:48] [INIT] KubeJS 1902.6.2-build.45; MC 1902 forge
+[00:31:48] [INIT] Loaded plugins:
+[00:31:48] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:31:48] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[00:31:48] [INIT] - pro.mikey.kubeutils.kubejs.KubeUtilsPlugin
+[00:31:48] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[00:31:48] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[00:31:48] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[00:31:48] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
+[00:31:48] [INIT] - dev.ftb.ftbsba.tools.integration.kubejs.KubeJSIntegration
+[00:31:48] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[00:31:48] [INIT] - com.oierbravo.createsifter.compat.kubejs.KubeJSCreatesifterPlugin
+[00:31:48] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[00:31:48] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[00:31:48] [INIT] - thelm.jaopca.compat.kubejs.JAOPCAKubeJSPlugin
+[00:31:48] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[00:31:48] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[00:31:48] [INIT] - com.github.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[00:31:48] [INFO] Loaded script client_scripts:jei/add.js in 0.0 s
+[00:31:48] [INFO] Loaded script client_scripts:jei/hide.js in 0.0 s
+[00:31:48] [INFO] Loaded script client_scripts:jei/info.js in 0.001 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/ae2_controller.js in 0.006 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/demon_dreamfruit.js in 0.0 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/dynamic_tank.js in 0.001 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/fission_reactor.js in 0.002 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/fusion_reactor.js in 0.001 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/induction_matrix.js in 0.001 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/sps.js in 0.002 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/tags.js in 0.001 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/thermoelectric_boiler.js in 0.001 s
+[00:31:48] [INFO] Loaded script client_scripts:ponder/turbine.js in 0.001 s
+[00:31:48] [INFO] Loaded script client_scripts:tooltips.js in 0.0 s
+[00:31:48] [INFO] Loaded 14/14 KubeJS client scripts in 0.054 s
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#10: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#142: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#249: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/ae2_controller.js#326: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#40: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#58: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#60: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#58: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#60: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#58: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#60: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#58: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#60: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#58: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#60: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#58: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#60: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#58: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead
+[00:32:03] [WARN] ponder/turbine.js#60: [PonderJS] modifyTileNBT(selection, (nbt) => {}) is deprecated, use modifyBlockEntityNBT(selection, (nbt) => {}) instead

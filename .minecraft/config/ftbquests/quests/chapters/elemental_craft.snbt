@@ -1,0 +1,1183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elemental_craft"
+	group: "0B729A29DA0A889D"
+	icon: "elementalcraft:fireite_ingot"
+	id: "23EED105DF68860B"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/elementalcraft.png"
+		rotation: 0.0d
+		width: 10.108433734939759d
+		x: 6.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"这些&b惰性水晶&r通常可以在深处挖掘的矿石中找到，但是这里没有可供挖掘它们的大地。"
+				""
+				"取而代之的是通过使用魔钢筛网筛&6粉碎的下界岩&r获得它们。"
+			]
+			id: "406DF8081DE4CB77"
+			rewards: [{
+				id: "053D7B034D873A5D"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "elementalcraft:element_book"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "元素路径"
+			tasks: [{
+				id: "6E59466AC4B75CE5"
+				item: "elementalcraft:inert_crystal"
+				type: "item"
+			}]
+			title: "惰性元素源"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["406DF8081DE4CB77"]
+			description: ["通过制作&b稳定水晶&r，你可以强化它的传导力，使其更能接受元素能量。"]
+			id: "3374D031A5C7F7A3"
+			rewards: [
+				{
+					count: 4
+					id: "6E0200987B0BE45C"
+					item: "elementalcraft:contained_crystal"
+					type: "item"
+				}
+				{
+					id: "31B1C317C376339D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "不-那么-惰性的水晶"
+			tasks: [{
+				id: "549EE4FFC4CA6465"
+				item: "elementalcraft:contained_crystal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&b元素源点&r可以在空中随机生成，或者&6天空村庄箱子&r找到。"
+				""
+				"所放置的源点&6因不同的元素亲和显示不同的颜色&r。"
+				""
+				"将方块放在源点上会&c去除&r源点。"
+			]
+			id: "62B4B3DA99712C14"
+			min_width: 275
+			rewards: [
+				{
+					id: "7426B55B1C980388"
+					item: "elementalcraft:source_analysis_glass"
+					type: "item"
+				}
+				{
+					id: "722634BF3D42E5DD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "elementalcraft:receptacle"
+						tag: {
+							element_type: "fire"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A9F3E8C748B6398"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "elementalcraft:receptacle"
+						tag: {
+							element_type: "water"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55D412F3DB951A31"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "elementalcraft:receptacle"
+						tag: {
+							element_type: "air"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D34D8D182A57461"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "elementalcraft:receptacle"
+						tag: {
+							element_type: "earth"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "初级元素！"
+			tasks: [{
+				id: "4D1247F2A80436F7"
+				item: "elementalcraft:source"
+				type: "item"
+			}]
+			title: "元素起源"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3374D031A5C7F7A3"]
+			description: [
+				"元素能量需要被提取才能使用。"
+				""
+				"将&b元素提取器&r直接放在元素源点的下方，将&b元素容器&r放在提取器下方。"
+				""
+				"提取器将开始收集能量并将它存储在容器中。&c过多的提取&r会导致它停止工作，随着时间的推移会恢复"
+			]
+			icon: "elementalcraft:extractor"
+			id: "0C21F4686511B5A8"
+			rewards: [
+				{
+					count: 8
+					id: "481A5C8337D36C41"
+					item: "elementalcraft:elementpipe_impaired"
+					type: "item"
+				}
+				{
+					id: "3CF7A1828CBEFD4F"
+					item: "elementalcraft:small_container"
+					type: "item"
+				}
+			]
+			subtitle: "制作一个元素提取器"
+			tasks: [
+				{
+					id: "50EA261D85CF08C1"
+					item: "elementalcraft:extractor"
+					type: "item"
+				}
+				{
+					id: "5CF33A7ECE0FE84B"
+					item: "elementalcraft:small_container"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6788A53BF6922535"]
+			description: [
+				"开始使用&6元素能量合成&r，你需要一个&b元素灌注器&r。"
+				""
+				"与模组中的所有装置一样，灌注机&6需要在它下面有一个元素容器&r。"
+				""
+				"将物品放入灌注器，它将使用容器中的元素将其合成新的东西。"
+			]
+			id: "58CB67E60F61A0BF"
+			rewards: [{
+				id: "236DE3C6FE5DF209"
+				item: "elementalcraft:small_container"
+				type: "item"
+			}]
+			subtitle: "能量灌注"
+			tasks: [{
+				id: "6D3BEB4DD5970B15"
+				item: "elementalcraft:infuser"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58CB67E60F61A0BF"]
+			description: [
+				"通过给惰性水晶注入元素,你可以制造&b元素水晶&r。"
+				""
+				"这些用于几种合成配方。"
+			]
+			icon: "elementalcraft:aircrystal"
+			id: "0BABF76A0832C7C9"
+			rewards: [
+				{
+					id: "7C964ECC84C3A32B"
+					item: "elementalcraft:firecrystal"
+					type: "item"
+				}
+				{
+					id: "4EA950FB61D2886D"
+					item: "elementalcraft:earthcrystal"
+					type: "item"
+				}
+				{
+					id: "6D0E8BE10C340F7B"
+					item: "elementalcraft:aircrystal"
+					type: "item"
+				}
+				{
+					id: "2FCF880A65EFED6A"
+					item: "elementalcraft:watercrystal"
+					type: "item"
+				}
+			]
+			subtitle: "原始能源结晶"
+			tasks: [{
+				id: "6982B0DABB8033E9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:firecrystal"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:earthcrystal"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:aircrystal"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:watercrystal"
+							}
+						]
+					}
+				}
+				title: "元素水晶"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58CB67E60F61A0BF"]
+			description: ["用水元素灌注铁可以产生&b浸润铁锭&r，这样它就更能耐久且能使用元素修复。"]
+			id: "02EE17E62B428C6B"
+			rewards: [
+				{
+					count: 8
+					id: "26CD95ED7A82908D"
+					item: "elementalcraft:drenched_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "0FCBA41E769C6F4B"
+					item: "statues:drowned_statue"
+					type: "item"
+				}
+			]
+			subtitle: "浸润的金属，不是生锈的！"
+			tasks: [{
+				id: "60C9049082490CC8"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02EE17E62B428C6B"]
+			description: [
+				"完整的&b元素容器&r可以存储&6100,000&r的一种元素，而小型容器的容量是1000。"
+				""
+				"除此之外，它的工作方式是相同的。"
+			]
+			id: "484583FE5B31EB72"
+			subtitle: "制作一个元素容器"
+			tasks: [{
+				id: "3A7745A7D3EE9219"
+				item: "elementalcraft:container"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["484583FE5B31EB72"]
+			description: [
+				"&b元素聚合器&r消耗更多的元素能量。而且&6必须放在完整的容器上&r。"
+				""
+				"聚合器用于通过元素能量&6合成多种物品&r。"
+				""
+				"&6按顺序&r放置材料，从顶部按顺按时针放置。它会消耗元素能量，能量充足合成就完成合成。"
+			]
+			id: "390296764004FF09"
+			rewards: [
+				{
+					count: 8
+					id: "6613375CF762DAD1"
+					item: "elementalcraft:drenched_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2EAE69F4FFFE459A"
+					item: "elementalcraft:burnt_glass"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "310D639A85603CE7"
+					item: "elementalcraft:whiterock"
+					type: "item"
+				}
+			]
+			subtitle: "制作一个元素聚合器"
+			tasks: [{
+				id: "401B29D69DEE31BA"
+				item: "elementalcraft:binder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["390296764004FF09"]
+			description: ["&b迅金锭&r是一种更高级的合成材料。"]
+			id: "506D851AFD0ABF56"
+			rewards: [
+				{
+					count: 4
+					id: "490B7F9F3F13D518"
+					item: "elementalcraft:swift_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "109018AE95E3EE2C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A43EE2E35848C9D"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+			]
+			subtitle: "像河一样移动......"
+			tasks: [{
+				id: "60CCD9F1575192C3"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["506D851AFD0ABF56"]
+			description: [
+				"&b至纯能量灌注器&r用于制作模组中一些更高级的配方。它用于&6将所有4个元素组合在一起&r进行合成。"
+				""
+				"将4个&b台座&r间隔一个方块放置在基座周围。使用元素管道为对应台座提供元素。"
+				""
+				"将物品材料放在正确的基座上，物品就会开始合成。"
+			]
+			icon: "elementalcraft:pureinfuser"
+			id: "1F069A8F79A2BFB4"
+			min_width: 250
+			subtitle: "通过我们的力量结合"
+			tasks: [
+				{
+					id: "1C5D7A0B507F4148"
+					item: "elementalcraft:pureinfuser"
+					type: "item"
+				}
+				{
+					id: "45277089A491E269"
+					item: "elementalcraft:pedestal_fire"
+					type: "item"
+				}
+				{
+					id: "23633C8A64FD7534"
+					item: "elementalcraft:pedestal_water"
+					type: "item"
+				}
+				{
+					id: "37B179F36686ADED"
+					item: "elementalcraft:pedestal_earth"
+					type: "item"
+				}
+				{
+					id: "60D174CBBDC6DB4A"
+					item: "elementalcraft:pedestal_air"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["390296764004FF09"]
+			description: [
+				"&b春涌水晶碎片&r可以在&6聚合器机&r中制作。"
+				""
+				"你也可以把它合成&6春涌水晶簇&r然后用时运挖掘它来更多的获得它。"
+			]
+			id: "0C9AC0881A6A95BE"
+			rewards: [{
+				id: "6549FCE026613F64"
+				item: "elementalcraft:springaline_cluster"
+				type: "item"
+			}]
+			subtitle: "我的斯普林亚莱恩，我的斯普林亚莱恩"
+			tasks: [{
+				id: "67BBC02811468243"
+				item: "elementalcraft:springaline_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0C9AC0881A6A95BE"
+				"506D851AFD0ABF56"
+			]
+			description: ["&b源点稳定器&r可以放在源点上&6防止它被破坏&r。它也可以略微提升它们的恢复速度。"]
+			id: "378C30FDC434951C"
+			rewards: [
+				{
+					id: "5C5476A9DC099D6A"
+					item: "elementalcraft:source"
+					type: "item"
+				}
+				{
+					id: "2F6E3E36920AD4ED"
+					item: "elementalcraft:source_stabilizer"
+					type: "item"
+				}
+			]
+			subtitle: "一起握住..."
+			tasks: [{
+				id: "539FDD157DE011A9"
+				item: "elementalcraft:source_stabilizer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1F069A8F79A2BFB4"]
+			description: ["&b进阶元素提取器&r可以更快地抽取元素。"]
+			id: "34C5844081BEEB4E"
+			subtitle: "使劲提取"
+			tasks: [{
+				id: "080BAE43093D5E3B"
+				item: "elementalcraft:extractor_improved"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"02EE17E62B428C6B"
+				"0BABF76A0832C7C9"
+			]
+			description: ["&b火炉&r使用火元素来&6以更快的速度熔炼物品&r。"]
+			icon: "elementalcraft:firefurnace"
+			id: "4A3FCC75874B828F"
+			rewards: [
+				{
+					id: "64B4D1E79B813E62"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:inferno"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "136ABDD7A963B1FA"
+					item: "statues:marshmallow_golden"
+					type: "item"
+				}
+			]
+			subtitle: "现在，我们用气体做饭！"
+			tasks: [{
+				id: "512D0162A1894682"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:firefurnace"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:fireblastfurnace"
+							}
+						]
+					}
+				}
+				title: "火炉"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["506D851AFD0ABF56"]
+			description: ["&b宝石结晶器&r会使用&6至纯水晶&r将元素注入钻石，创造一个&6元素宝石&r。"]
+			id: "19750F792AE3093F"
+			tasks: [{
+				id: "0208E31B826495D5"
+				item: "elementalcraft:crystallizer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30E0AA2412E909CC"]
+			description: ["&b法术桌&r用于制作&6咒语&r，它具有多种功能。"]
+			id: "66175A6C5CB63C39"
+			rewards: [{
+				count: 16
+				id: "22449A8BD5BF0124"
+				item: "elementalcraft:scroll_paper"
+				type: "item"
+			}]
+			subtitle: "至少这不是研究！"
+			tasks: [{
+				id: "28428C434E5CE22A"
+				item: "elementalcraft:spell_desk"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["66175A6C5CB63C39"]
+			description: [
+				"每个&b咒术卷轴&r都在其工具属性中说明它所需要的东西。"
+				""
+				"有关每种咒术的详细信息，请查看&6元素百科&r。"
+			]
+			icon: {
+				Count: 1b
+				id: "elementalcraft:scroll"
+				tag: {
+					elementalcraft: {
+						spell: "elementalcraft:fireball"
+					}
+				}
+			}
+			id: "49EDE3DDAE796798"
+			rewards: [{
+				id: "53AC20E8E653E0A8"
+				item: "elementalcraft:focus"
+				type: "item"
+			}]
+			subtitle: "看我火球！！！"
+			tasks: [{
+				id: "522BAFC746DCBBC4"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "elementalcraft:spell_holders"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "itemfilters:tag"
+										tag: {
+											value: "elementalcraft:spell_cast_tools"
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+				title: "咒术卷轴"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02EE17E62B428C6B"]
+			description: [
+				"&b元素球&r储存元素能量。"
+				""
+				"它可以用来&6充能咒语&r，或者将其传输到其他设备上"
+				""
+				"存储元素能量，请右击源点或潜行右击容器。要将其释放，请右击容器。"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						element_amount: 0
+						element_capacity: 10000
+						element_type: "earth"
+					}
+				}
+				id: "elementalcraft:element_holder_earth"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30E0AA2412E909CC"
+			rewards: [
+				{
+					id: "6B5C078FD3F5C0D4"
+					item: "elementalcraft:pristine_fire_gem"
+					type: "item"
+				}
+				{
+					id: "209A3C4BEAD7FB33"
+					item: "elementalcraft:pristine_water_gem"
+					type: "item"
+				}
+				{
+					id: "7C953C7398783816"
+					item: "elementalcraft:pristine_air_gem"
+					type: "item"
+				}
+			]
+			subtitle: "咒术能量"
+			tasks: [{
+				id: "1BEDEBC027E2F85E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "fire"
+									}
+								}
+								id: "elementalcraft:element_holder_fire"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "water"
+									}
+								}
+								id: "elementalcraft:element_holder_water"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "earth"
+									}
+								}
+								id: "elementalcraft:element_holder_earth"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "air"
+									}
+								}
+								id: "elementalcraft:element_holder_air"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "元素球"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19750F792AE3093F"]
+			description: [
+				"&b元素置换板&r用于&6移动元素源点&r。"
+				""
+				"将对应元素的置换盘放在源点下方，然后右键它。一段时间后，它将被收在&b源点控制器&r中，它可以用来放置源点。"
+			]
+			icon: "elementalcraft:source_displacement_plate_water"
+			id: "43A8F862784D28F8"
+			rewards: [{
+				count: 4
+				id: "77CD29C5E0EC5982"
+				item: "elementalcraft:source"
+				type: "item"
+			}]
+			subtitle: "移动源点"
+			tasks: [
+				{
+					id: "78C0778B36353DC9"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:source_displacement_plate_fire"
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:source_displacement_plate_earth"
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:source_displacement_plate_air"
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:source_displacement_plate_water"
+								}
+							]
+						}
+					}
+					title: "源点置换盘"
+					type: "item"
+				}
+				{
+					id: "02BE046047C570A3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "elementalcraft:receptacle"
+									tag: {
+										element_type: "water"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "elementalcraft:receptacle"
+									tag: {
+										element_type: "fire"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "elementalcraft:receptacle"
+									tag: {
+										element_type: "earth"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "elementalcraft:receptacle"
+									tag: {
+										element_type: "air"
+									}
+								}
+							]
+						}
+					}
+					title: "源点收纳器"
+					type: "item"
+				}
+			]
+			title: "元素置换"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F069A8F79A2BFB4"]
+			description: ["&b至纯岩石&r是防爆的，并且&6防凋零&r。"]
+			id: "37AFE52AC86371A0"
+			rewards: [
+				{
+					count: 16
+					id: "5FC5434B43C835F2"
+					item: "elementalcraft:purerock"
+					type: "item"
+				}
+				{
+					id: "7639879C5D611F24"
+					item: "elementalcraft:purecrystal"
+					type: "item"
+				}
+			]
+			subtitle: "至纯保护"
+			tasks: [{
+				id: "21FE10CD79AC24BF"
+				item: "elementalcraft:purerock"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F069A8F79A2BFB4"]
+			description: ["&b法师魔典&r可以容纳&6最多100个咒术卷轴&r！然而你无法直接使用它。"]
+			id: "7ECBF9C6F7FB3185"
+			rewards: [
+				{
+					id: "3CCDA41A66DE66CC"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:speed"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "435B7A97646AB354"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:heal"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2581305EC1E43B46"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:animal_growth"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BCB1CF049D79633"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:shockwave"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "无尽的魔法书"
+			tasks: [{
+				id: "4EC6ED1EFD2BFB1D"
+				item: "elementalcraft:spell_book"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["02EE17E62B428C6B"]
+			description: [
+				"&b神龛&r使用特定的元素来&6以某种方式改变周围世界&r。"
+				""
+				"例如，它们可能会&6产生岩浆&r，&6禁用传送&r，&6生成生物&r等等，具体取决于神龛。"
+				""
+				"神龛不需要元素容器，但它们可以直接通过元素管道接收元素。"
+			]
+			icon: "elementalcraft:shrinebase"
+			id: "41EFDC4A7911A5CF"
+			rewards: [
+				{
+					id: "33EEDD6070433C8A"
+					item: "elementalcraft:sweetshrine"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "304A26D718CEF328"
+					item: "elementalcraft:elementpipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C00E0385D0373B1"
+					item: {
+						Count: 1b
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:oily"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "元素再分配"
+			tasks: [
+				{
+					id: "5CEF2AC6E6AF8105"
+					item: "elementalcraft:shrinebase"
+					type: "item"
+				}
+				{
+					id: "7B08389527969D7C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "elementalcraft:shrines"
+						}
+					}
+					title: "神龛"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0C21F4686511B5A8"]
+			description: [
+				"&b元素导管&r在容器之间运输元素。"
+				""
+				"点击管道连接处以切换它，让它从连接的容器中抽取。"
+			]
+			icon: "elementalcraft:elementpipe_impaired"
+			id: "6788A53BF6922535"
+			rewards: [{
+				count: 16
+				id: "2B6DB64284486F80"
+				item: "elementalcraft:elementpipe_impaired"
+				type: "item"
+			}]
+			subtitle: "制作一个元素导管"
+			tasks: [{
+				id: "1681A5E4C32C4DFE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe_impaired"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe_improved"
+							}
+						]
+					}
+				}
+				title: "元素导管"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49EDE3DDAE796798"]
+			description: [
+				"&b法杖&r能够&6存储多种咒术&r。"
+				""
+				"通过&6铁砧&r将它们组合添加到一起中。潜行时通过滚轮切换。"
+			]
+			icon: "elementalcraft:focus"
+			id: "786D87D9202EA4D8"
+			subtitle: "战斗法师"
+			tasks: [{
+				id: "46208466A95A25CC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "elementalcraft:spell_cast_tools"
+					}
+				}
+				title: "Spell Foci"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["41EFDC4A7911A5CF"]
+			description: [
+				"&b神龛升级&r会以某种方式增加它们所放置的神龛的力量。"
+				""
+				"大部分只适用于特定的神龛；请通过&6元素百科&r查看列表。"
+			]
+			icon: "elementalcraft:shrine_upgrade_crystal_growth"
+			id: "4E182563697445E6"
+			subtitle: "记住我"
+			tasks: [{
+				id: "6E832E5E1CE44E45"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "elementalcraft:shrine_upgrades"
+					}
+				}
+				title: "神龛升级"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["506D851AFD0ABF56"]
+			description: [
+				"&b符文&r是基础的&6装置升级&r"
+				""
+				"将&b符文刻印器&r放在元素容器上，放入材料，然后&o手持&b符文刻印凿&r来制作符文。"
+			]
+			icon: "elementalcraft:inscriber"
+			id: "607F958A95AD26B7"
+			rewards: [{
+				id: "288C0E320808E839"
+				item: {
+					Count: 1b
+					id: "elementalcraft:rune"
+					tag: {
+						elementalcraft: {
+							rune: "elementalcraft:fus"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "工具升级"
+			tasks: [
+				{
+					id: "02E64EDFEBBA1A78"
+					item: "elementalcraft:inscriber"
+					type: "item"
+				}
+				{
+					id: "5CBF23389794CFCB"
+					item: {
+						Count: 1b
+						id: "elementalcraft:chisel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7417B542829B693C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "elementalcraft:rune"
+								tag: {
+									elementalcraft: {
+										rune: "elementalcraft:tano"
+									}
+								}
+							}]
+						}
+					}
+					title: "符文"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 3.5d
+		}
+	]
+	title: "元素工艺"
+}

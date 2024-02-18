@@ -1,0 +1,34 @@
+{
+	// For modpack creators. Enter your CurseForge project id here.
+	"curseProjectID": "459857",
+	// For modpack creators. Enter your 'Promo Code' here.
+	"promoCode": "FEEDME",
+	// For modpack creators. The pregen size when selected during orders.
+	"pregenDiameter": 120,
+	// If the Multiplayer server list should have CreeperHost adverts.
+	"mpMenuEnabled": true,
+	// If the realms button should be replaced.
+	"replaceRealms": true,
+	// If the pause menu buttons should be moved around to insert the Open To Friends button.
+	"moveButtonsOnPauseMenu": false,
+	// If all chat messages should be logged to console.
+	"logChatToConsole": false,
+	// Create _VERY_ verbose logs. May create hugenorums log files.
+	"debugMode": false,
+	// Enables dumping all MTConnect packets to logs.
+	"dumpConnectPackets": false,
+	// If the Chat component of MineTogether is enabled.
+	"chatEnabled": true,
+	// If notifications for friends are enabled.
+	"friendNotifications": true,
+	// If menu buttons are enabled.
+	"mainMenuButtons": true,
+	// If pause screen buttons are enabled.
+	"pauseScreenButtons": true,
+	// INTERNAL: Marker for tracking first connections.
+	"firstConnect": "914226A9ECEFECFB31F77DED9B8F612BED259481D3295D10C100D8E68E237BB5",
+	// If not null, replaces the Bug Reports button on the pause screen to open this link.
+	"issueTrackerUrl": "https://github.com/FTBTeam/FTB-Modpack-Issues/issues",
+	// Stores the currently selected chat TAB, Ether VANILLA or PUBLIC
+	"selectedTab": "VANILLA",
+}

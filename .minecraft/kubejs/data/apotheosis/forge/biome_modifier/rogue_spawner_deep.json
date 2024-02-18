@@ -1,0 +1,13 @@
+{
+    "forge:conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "type": "apotheosis:blacklist",
+    "blacklisted_biomes": [
+        "minecraft:is_overworld"
+    ],
+    "feature": "apotheosis:rogue_spawner_deep"
+}

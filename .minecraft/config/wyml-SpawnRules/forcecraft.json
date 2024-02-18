@@ -1,0 +1,84 @@
+{
+	"mod": "forcecraft",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"cold_chicken": {
+						// Do not edit this name
+						"name": "cold_chicken",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"cold_cow": {
+						// Do not edit this name
+						"name": "cold_cow",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"cold_pig": {
+						// Do not edit this name
+						"name": "cold_pig",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"fairy": {
+						// Do not edit this name
+						"name": "fairy",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"angry_enderman": {
+						// Do not edit this name
+						"name": "angry_enderman",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"blue_chu_chu": {
+						// Do not edit this name
+						"name": "blue_chu_chu",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"green_chu_chu": {
+						// Do not edit this name
+						"name": "green_chu_chu",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"red_chu_chu": {
+						// Do not edit this name
+						"name": "red_chu_chu",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"gold_chu_chu": {
+						// Do not edit this name
+						"name": "gold_chu_chu",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"creeper_tot": {
+						// Do not edit this name
+						"name": "creeper_tot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"ender_tot": {
+						// Do not edit this name
+						"name": "ender_tot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					}
+				}
+			}
+		}
+	}
+}

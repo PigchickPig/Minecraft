@@ -1,0 +1,181 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "botania:floating_clayconia",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_plant",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:blaze_cake",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 64.0,
+                "min": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:deepslate",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ae2:annihilation_core",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ae2:formation_core",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "productivebees:spawn_egg_mason_bee"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thermal:upgrade_augment_2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "metalbarrels:netherite_barrel",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2things:disk_drive_16k",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage:16k_storage_disk",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:vent_plate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:planar_stabilizer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:thermal_cell",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buildinggadgets:gadget_building",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{energy:500000.0d,state:{data:{},serializer:\"buildinggadgets:dummy_serializer\",state:{Name:\"minecraft:air\"}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Delay:243s,ForgeCaps:{},MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:\"minecraft:zombie\"}},SpawnPotentials:[{data:{entity:{id:\"minecraft:zombie\"}},weight:1}],SpawnRange:4s,id:\"minecraft:mob_spawner\",ignore_conditions:0b,ignore_light:0b,ignore_players:0b,no_ai:0b,redstone_control:0b,silent:0b},display:{Lore:['\"(+Redstone Enabled, Playerless)\"']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{effects:[\"tetra:gem_expertise\"],glyphs:[14,13,14,15],intricate:0b,key:\"gem_expertise\",material:0,ribbon:\"2bffee\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:diamond_heart",
+          "weight": 3
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 4.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexerei"
+	group: "0B729A29DA0A889D"
+	icon: {
+		Count: 1b
+		id: "hexerei:book_of_shadows"
+		tag: { }
+	}
+	id: "1AFDB1E4472F38A7"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/hexerei.png"
+		rotation: 0.0d
+		width: 4.650602409638554d
+		x: 2.0d
+		y: -5.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["549E34CDA26FBB90"]
+			description: [
+				"&6暗影之书&r是魔法巫师模组的指导书。"
+				""
+				"然而，与其他书不同，它&c没有GUI&r。 它必须放在&b书坛&r上。"
+				""
+				"将&6物品页添加书签&r是一个好主意，因为这本书看起来不是很方便。"
+			]
+			icon: "hexerei:book_of_shadows_altar"
+			id: "012FA57E9C8FC833"
+			rewards: [
+				{
+					id: "59853D835514CE5C"
+					item: {
+						Count: 1b
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4AC4944BD65C7BB7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "制作一个书坛"
+			tasks: [{
+				id: "6A0533C6E08AA68F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:book_of_shadows_altar"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_altar"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_altar"
+							}
+						]
+					}
+				}
+				title: "书坛"
+				type: "item"
+			}]
+			title: "暗影书坛"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4451057D4BA76C2C"]
+			description: ["这些&b巫树&r具有强大的魔力，可以从树叶中筛出来。"]
+			icon: "hexerei:willow_sapling"
+			id: "549E34CDA26FBB90"
+			rewards: [
+				{
+					id: "44C8182D1CD03A8B"
+					item: "hexerei:witch_hazel_sapling"
+					type: "item"
+				}
+				{
+					id: "2A43F752D9B54336"
+					item: "hexerei:mahogany_sapling"
+					type: "item"
+				}
+				{
+					id: "26D1897D0ACC4623"
+					item: "hexerei:willow_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "从魔法巫师那获取树苗"
+			tasks: [{
+				id: "6831DA3DF78E5624"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:willow_sapling"
+							}
+							{
+								Count: 1b
+								id: "hexerei:mahogany_sapling"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_sapling"
+							}
+						]
+					}
+				}
+				title: "巫树"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["549E34CDA26FBB90"]
+			description: [
+				"&b储物箱&r是一个古雅的小方块，和普通的箱子容量一样大。"
+				""
+				"它们可以被染色和命名，并且被&6破坏时保留内部的物品&r"
+				""
+				"它有一个与乌鸦的特殊&6交互功能&r：如果启用，乌鸦收集模式会把物品带入存有对应物品的容器内。"
+			]
+			id: "124A73FB5F734CCF"
+			rewards: [
+				{
+					id: "692E649D344D6D88"
+					item: "hexerei:mahogany_chest"
+					type: "item"
+				}
+				{
+					id: "35C4961A479EABBA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "30B8906A1E7E62AA"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4451057D4BA76C2C"]
+			description: [
+				"用骨粉在草块上催生草之后，你可以&6打草&r来获取&b鼠尾草种子&r。"
+				""
+				"鼠尾草用于多种合成表。"
+			]
+			id: "2DCD3B73E3D512DC"
+			rewards: [
+				{
+					count: 4
+					id: "10504D130235A7A0"
+					item: "hexerei:sage"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "74AA214A47D25E0F"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "1F7B0E50176D6F2E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "获取鼠尾草种子"
+			tasks: [{
+				id: "397A4916DB20E39E"
+				item: "hexerei:sage_seed"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2DCD3B73E3D512DC"
+				"33324BC14CF7BCC5"
+			]
+			description: [
+				"干燥的鼠尾草可以被&b鼠尾草灼烧盘&r燃烧，以创建一个和平的氛围，&6防止敌对生物在附近生成&r。"
+				""
+				"烟雾只能在&648格半径&r范围内工作，外部生物仍然可以进入。&c一小时后会燃烧殆尽&r。"
+			]
+			id: "388B3D14F851BE35"
+			rewards: [
+				{
+					count: 8
+					id: "62EEA22ECDB8E775"
+					item: {
+						Count: 1b
+						id: "hexerei:dried_sage_bundle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75B12E3893E7CBAE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "制作一个鼠尾草灼烧盘"
+			tasks: [{
+				id: "6B3155DAEB7DB6B7"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DCD3B73E3D512DC"]
+			description: ["&b干燥架&r可以让你&6干燥物品&r。有些魔法植物在干燥时会变得更有效。"]
+			hide_dependency_lines: true
+			id: "33324BC14CF7BCC5"
+			rewards: [
+				{
+					id: "563C93E271082146"
+					item: "hexerei:candelabra"
+					type: "item"
+				}
+				{
+					id: "6F9F82DDBA8D6F60"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "制作一个干燥架"
+			tasks: [{
+				id: "08CA7B617216D46A"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["378AF0E22829EC3C"]
+			description: [
+				"&b乌鸦&r是极其聪明的动物，能够&6收获作物、拾取物品、偷村民&r等等。"
+				""
+				"只要你启用ftbskies:crow事件，随着时间的推移，偶尔有乌鸦会通过他们的方式前往你的岛屿。"
+				""
+				"潜行右键一个驯服的乌鸦可以&6给予它命令&r。你可以给它一个&6武器&r来保护你或给它一个用来保护自己的头盔。"
+				""
+				"&b乌鸦竖笛&r允许你&6一次控制多个乌鸦&r，以及&6将一个方块设置为乌鸦的落脚点&r。"
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:crow_flute"
+				tag: { }
+			}
+			id: "2C92C960EA1286BF"
+			min_width: 250
+			rewards: [
+				{
+					id: "7FAF0033C843394E"
+					item: {
+						Count: 1b
+						id: "hexerei:crow_flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4CB606D8BC866D75"
+					item: "hexerei:crow_ankh_amulet"
+					type: "item"
+				}
+				{
+					id: "530D1E0CD82664B5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "观察乌鸦"
+			tasks: [{
+				icon: "botania:cosmetic_googly_eyes"
+				id: "735F32430655301E"
+				observe_type: 5
+				timer: 0L
+				title: "观察乌鸦"
+				to_observe: "hexerei:crow"
+				type: "observation"
+			}]
+			title: "两个乌鸦！"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C7D569C3AE118F9"]
+			description: ["&b研钵&r可以让你&6粉碎并混合物品&r。"]
+			id: "378AF0E22829EC3C"
+			rewards: [
+				{
+					count: 8
+					id: "099A6E5D72020AC4"
+					item: "hexerei:seed_mixture"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5BCF43F23292444E"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3E6905B057C8F124"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "0D1D4EAE090F8444"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "制作一个研砵"
+			tasks: [{
+				id: "7FD2FE90AC13388E"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AF13186F9106ACA"]
+			description: ["使用这个&b混合锅&r你可以开始做一些&6药剂和混合物&r。"]
+			id: "1C7D569C3AE118F9"
+			rewards: [
+				{
+					id: "4D1AEFB929B2D7E9"
+					item: {
+						Count: 1b
+						id: "hexerei:lava_bottle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50F360F04A8A6356"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "加倍、加倍、工匠和麻烦"
+			tasks: [{
+				id: "548FCA0F964D32D0"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C7D569C3AE118F9"]
+			description: ["&b巫师套装&r可以被强力&6附魔&r！"]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16C5FCE84691F4C8"
+			rewards: [
+				{
+					id: "54DA85E2BDCAB37F"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "cyclic:traveler"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD2D85C7D3801BE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41C466B9FD22AD2A"
+					item: "hexerei:large_satchel"
+					type: "item"
+				}
+			]
+			subtitle: "你已经是个哈利巫师"
+			tasks: [
+				{
+					id: "3E81887E984EA933"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01C65C3B4C9FF448"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6619DFD2271DE4"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "大风，不是吗？"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C7D569C3AE118F9"]
+			description: ["&b鲜血符印&r可以被放置在炼药锅中，并允许&6跳进炼药锅中&r来收集血液。"]
+			id: "1DFB50B4D5A7296B"
+			rewards: [
+				{
+					id: "0525D32F6966A98D"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "141444F640858994"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "浮石"
+			tasks: [{
+				id: "62DF38A1DF5A003F"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1DFB50B4D5A7296B"]
+			description: [
+				"一个巫师没有飞行扫帚就什么都不是！"
+				""
+				"&b扫帚&r有两种类型。柳木扫帚更慢但是更精确，桃花心木扫帚更快。"
+				""
+				"你可以&6潜行右键&r打开它，它可以使用升级。"
+				""
+				"当你骑着扫帚时，&c扫帚末端会慢慢破坏&r。在飞行之前，你应该注意它的耐久度。"
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:mahogany_broom"
+				tag: { }
+			}
+			id: "48B93DB363CE1030"
+			rewards: [
+				{
+					id: "0156FD349CCFEBC1"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_keychain"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "69E3CA31D6C0C5AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "这不是武器！"
+			tasks: [{
+				id: "4670298B4957DD77"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:willow_broom"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "起飞"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48B93DB363CE1030"]
+			description: ["你可以用&b强化扫帚尾&r代替扫帚尾，它可以用更久，&6可以附魔&r！"]
+			id: "6D1F261748DC8065"
+			rewards: [
+				{
+					id: "3788D5985846CA49"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_netherite_tip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42E9BF6075307083"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "制作一个强化扫帚尾"
+			tasks: [{
+				id: "7F21B82F317F3166"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+	]
+	title: "魔法巫师"
+}

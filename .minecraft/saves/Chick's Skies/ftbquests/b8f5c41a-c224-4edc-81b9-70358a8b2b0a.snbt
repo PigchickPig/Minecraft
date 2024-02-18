@@ -1,0 +1,21 @@
+{
+	version: 1
+	uuid: "b8f5c41ac2244edc81b970358a8b2b0a"
+	name: "Pig_chick"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		6D345792186A6BBD: 1
+	}
+	started: {
+		6F9D278DA2F03FFC: 1707587442129L
+		6D345792186A6BBD: 1707587442129L
+		481283CFB175515F: 1707587442129L
+		0000000000000001: 1707587442129L
+	}
+	completed: {
+		6D345792186A6BBD: 1707587442131L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

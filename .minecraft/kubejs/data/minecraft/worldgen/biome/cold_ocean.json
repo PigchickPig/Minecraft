@@ -1,0 +1,314 @@
+{
+  "carvers": {
+    "air": []
+  },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 8103167,
+    "water_color": 4020182,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "precipitation": "rain",
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:horse",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:donkey",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "ars_nouveau:gift_starby",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "ars_nouveau:starbuncle",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "ars_nouveau:whirlisprig",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "forcecraft:fairy",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "statues:statue_bat",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:drowned",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "ars_nouveau:wilden_guardian",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "ars_nouveau:wilden_hunter",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "ars_nouveau:wilden_stalker",
+        "weight": 50,
+        "minCount": 3,
+        "maxCount": 3
+      },
+      {
+        "type": "forcecraft:blue_chu_chu",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "forcecraft:creeper_tot",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "forcecraft:ender_tot",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "forcecraft:gold_chu_chu",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "forcecraft:green_chu_chu",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "forcecraft:red_chu_chu",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "instrumentalmobs:drum_zombie",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "instrumentalmobs:french_horn_creeper",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "instrumentalmobs:maraca_spider",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "instrumentalmobs:tuba_enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "instrumentalmobs:xylophone_skeleton",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "mekanismadditions:baby_creeper",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "mekanismadditions:baby_enderman",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "mekanismadditions:baby_skeleton",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "quark:stoneling",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quark:toretoise",
+        "weight": 120,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 15
+      },
+      {
+        "type": "minecraft:salmon",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 15
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 3
+      }
+    ]
+  },
+  "temperature": 0.5
+}

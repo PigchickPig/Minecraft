@@ -1,0 +1,1448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "5126BB8E07FFE142"
+	icon: "minecraft:oak_sapling"
+	id: "0FB1550600AB1573"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/gettingstarted.png"
+		rotation: 0.0d
+		width: 9.734939759036145d
+		x: -0.5d
+		y: -5.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&b培育树苗&r，并把它砍下来。"
+				""
+				"树叶可以通过&6筛子&r来提高获得树苗的几率。"
+				""
+				"有更好的筛网，它们也是堆肥或苹果的一个很好的来源。在可能的情况下，值得购买一些&6燧石剪刀&r。"
+			]
+			icon: "minecraft:oak_wood"
+			id: "36D46D57A98053AC"
+			rewards: [
+				{
+					id: "5A2EF21551CFB4C1"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4CF1C97B203BC2CD"
+					item: "minecraft:oak_leaves"
+					type: "item"
+				}
+			]
+			subtitle: "由你栽下"
+			tasks: [{
+				count: 16L
+				id: "7B4A848399711309"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Logs"
+				type: "item"
+			}]
+			title: "原木(树)"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"36D46D57A98053AC"
+				"68115FDA0BB81547"
+				"6402F85B8830A258"
+			]
+			description: [
+				"&b筛子&r将允许你在&6筛网&r中使用诸如砂砾、沙子和尘土等原料，以获得资源。"
+				""
+				"一个手摇曲柄足以产生8个筛子的&6应力量，&r筛子里也有一个齿轮，所以你可以把它们排成一排。"
+				""
+				"确保作为筛子一部分的齿轮与你的手摇曲柄上的齿轮对齐。你还需要确保你已经把筛网放在筛子里。要筛选的材料应该被扔到上面，而不是作为一个方块放置。"
+				""
+				"最后，确保你的筛子的输出是空的，如果它满了，将不再能筛出东西。。"
+			]
+			icon: "createsifter:sifter"
+			id: "4451057D4BA76C2C"
+			rewards: [
+				{
+					count: 2
+					id: "0D6E5F66BC0C446F"
+					item: "cyclic:hopper"
+					type: "item"
+				}
+				{
+					id: "72DA4DFE5A989E50"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "63FDB5F2A2F321E1"
+					item: "incubation:fried_egg"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "59AA792FE29B2E4C"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					id: "68338798A863E140"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "筛出宝藏"
+			tasks: [
+				{
+					id: "1059DA44A1DFBA0E"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					id: "27D8571C56E23C24"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "筛起来"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6用鼠标右键点击草地或泥土&r来收集&b石粒&r。这些石头可以被加工成圆石。你还可以找到&b土块&r，它们可以用同样的方法组合成泥土。"
+				""
+				"当你做出了你的第一个筛子，你就可以快速地用基座把圆石和泥土自动化。一旦你从灰尘中筛选出4个烈焰粉，你就拥有了你真正需要的物质发电机。在背包里按右键20个小时并不是背包设计的目标"
+			]
+			icon: "minecraft:cobblestone"
+			id: "00BF127CBDC8F12F"
+			rewards: [
+				{
+					count: 16
+					id: "3A5DE4FF7AFB7AF0"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "203C2BB4B9AF1639"
+					item: "petrock:petrockbox"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5CA3E643E5CB408F"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
+			subtitle: "小石粒"
+			tasks: [{
+				count: 16L
+				id: "69C4DFFBCF7B5613"
+				item: "ftbskies:rock"
+				type: "item"
+			}]
+			title: "拼凑圆石"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00BF127CBDC8F12F"]
+			description: [
+				"&b锤子&r可以把方块压成更细腻的方块。"
+				""
+				"请看锤子在JEI中的用途（使用U键），看看什么方块能砸出什么。"
+				""
+				"当拿着锤子看一个可砸的方块时，它会显示它将砸出的东西。"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbsba:stone_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "528B7E5C410BE7D3"
+			rewards: [
+				{
+					count: 64
+					id: "665731CB00C6BAFF"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "4B10F645E1AD5422"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "锤子时间！"
+			tasks: [{
+				id: "1ACEFBD1CA67850A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ftbsba:stone_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ftbsba:iron_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ftbsba:gold_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ftbsba:diamond_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ftbsba:netherite_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "锤子"
+				type: "item"
+			}]
+			title: "这不是一场演习"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: ["&b线&r可以从亚麻作物处获得，也可以在你的岛上找到 骨粉可以让亚麻生长得更快。"]
+			icon: "supplementaries:flax"
+			id: "1ADD0AF9192AC4F8"
+			rewards: [
+				{
+					count: 8
+					id: "423F61593EEADAF6"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "54897565C483D337"
+					item: "supplementaries:flax_seeds"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "324A09312F306CF0"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			subtitle: "亚麻开，亚麻关"
+			tasks: [{
+				icon: "minecraft:string"
+				id: "4DDABD4023A19CB5"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "指引"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1ADD0AF9192AC4F8"]
+			description: ["&b线筛网&r不是很结实，也不是很细。它可以获得最基本的资源，但其他方面就不是很有用了。"]
+			id: "6402F85B8830A258"
+			rewards: [
+				{
+					count: 2
+					id: "3C1496514C26346B"
+					item: "cyclic:hopper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04B7129FB973DE45"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+			]
+			subtitle: "指引"
+			tasks: [{
+				id: "58260478C05DA727"
+				item: {
+					Count: 1b
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4451057D4BA76C2C"]
+			description: ["筛砂砾会让你获得&b铁粒&r。这些铁粒可以被加工成&6安山合金&r，这对进度来说是必要的。"]
+			id: "7AF13186F9106ACA"
+			rewards: [
+				{
+					count: 2
+					id: "14C4C27DC05759BB"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "75983A5908774379"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FB4BE530B9ABDD4"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			subtitle: "智慧的颗粒"
+			tasks: [{
+				count: 4L
+				id: "35A4546518F9293B"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			title: "合金粒"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AF13186F9106ACA"]
+			description: [
+				"手摇曲柄消耗饥饿感极快，而且它也不太吸引人！让我们转向更有效的东西。"
+				""
+				"&b水车&r从流水中产生旋转力。最终你将能制造出更好的能源，但那是以后的事。"
+				""
+				"提示：你也可以水平放置水车，让水在它们周围流动。这可以是一个非常简单和有效的方法，可以同时为许多筛子提供动力。"
+			]
+			id: "703631B507075DC1"
+			rewards: [
+				{
+					count: 3
+					id: "28F991AA91A833E5"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "749373028B393581"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "625A2A185E3A6EDC"
+					item: "nethersdelight:hoglin_ear"
+					type: "item"
+				}
+			]
+			subtitle: "以水为轮"
+			tasks: [{
+				id: "4D107489DFC1A49F"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "在河里滚动"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["333509FE81EB6FA8"]
+			description: [
+				"获得了熔岩，你现在可以制作并安装一个&b材料生成升级组件&r到&b基座&r上。"
+				""
+				"[\"\",\"有关基座的更多信息，\",{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"23D7D83EBA8C36CE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"基座章节\"]}},\"来看这个任务\"]"
+				""
+				"最直接的用途是在物质发电机下放置一个石块，为你提供无限的圆石来源用以筛资源。"
+				""
+				"提示：在点击右键将其插入基座之前，请确保你的左手拿着升级，否则你只会将升级品放在展示台上"
+			]
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_cobblegen"
+				tag: { }
+			}
+			id: "4F764A3D062A2D97"
+			rewards: [
+				{
+					id: "6179B69DEDF3B08F"
+					item: {
+						Count: 1b
+						id: "pedestals:upgrade_pedestal_export"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1CF724652B7A83DD"
+					item: "pedestals:augment_pedestal_t1_capacity"
+					type: "item"
+				}
+				{
+					id: "69DBA7D2A0C1E608"
+					item: {
+						Count: 1b
+						id: "pedestals:block_pedestal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "51E61DFD93755BDD"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "3423660594B46DE5"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			subtitle: "无中生材料"
+			tasks: [
+				{
+					id: "30C953B661C55B77"
+					item: {
+						Count: 1b
+						id: "pedestals:block_pedestal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "162E4269281F91A8"
+					item: {
+						Count: 1b
+						id: "pedestals:upgrade_pedestal_cobblegen"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "材料生成升级组件"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["333509FE81EB6FA8"]
+			description: [
+				"现在你有了熔岩的来源，你可以把水倒在它上面，得到&b黑曜石&r!"
+				""
+				"这时，你应该能够筛选出砂砾，以获得钻石来获得镐头。"
+				""
+				"[\"一旦你进入\", {\"text\":\"植物魔法\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4FA6ADCA7857A92F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"植魔章节\"]}},\"你也可以用你多余的烈焰粉来制作黑曜石，方法是将其制作成烈焰粉块，然后用白雏菊进行转换。\"]"
+			]
+			id: "3F6A8371E0771500"
+			rewards: [
+				{
+					count: 16
+					id: "0E9F66BF17512E15"
+					item: "apotheosis:obsidian_arrow"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1261ECE5CF10582B"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			subtitle: "黑曜石梦"
+			tasks: [{
+				id: "18B425E38CA0FB57"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "龙玻璃"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["528B7E5C410BE7D3"]
+			description: ["&b砂砾&r, &b沙子&r，和&b尘土&r是筛矿的三种用料。"]
+			icon: "minecraft:gravel"
+			id: "68115FDA0BB81547"
+			rewards: [
+				{
+					count: 16
+					id: "1A517F154D4D03B7"
+					item: "ftbskies:dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7B68239EDA398DBD"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "07828926AEC56488"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			subtitle: "这就好了！"
+			tasks: [
+				{
+					id: "6D5D1A35E53E3620"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "1F5D93F37FE68988"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "0BDBEE3180AECC5D"
+					item: "ftbskies:dust"
+					type: "item"
+				}
+			]
+			title: "尘归尘"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F6A8371E0771500"]
+			description: [
+				"在&dFTB-Skies&r中的&b地狱&r也是一个虚空。当然，有些怪物只能在那里生成，所以在那里建立一个怪物农场以获得稀有资源是&6很值得的&r。"
+				""
+				"一旦你有了飞行，你就可以去探索&6浮空地狱村庄&r。"
+			]
+			id: "1E860A143A753593"
+			rewards: [
+				{
+					id: "31ECB77529D26A78"
+					item: "botania:floating_exoflame"
+					type: "item"
+				}
+				{
+					id: "5152B1FC8138A6FB"
+					item: "darkutils:charm_portal"
+					type: "item"
+				}
+			]
+			subtitle: "更加深入..."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1FF66BD18FA9C637"
+				type: "dimension"
+			}]
+			title: "遁入地狱"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: ["红石是你进入能源生产和管理的门户。在你得到少量红石之后，研究一些带有发电机器的模组，如循环，热力膨胀和Mek。"]
+			id: "0DDA95B39E0A0FF4"
+			rewards: [
+				{
+					count: 8
+					id: "4E1502E7ADFF26AB"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "2F7366298E2EB23A"
+					item: "dustrial_decor:redstone_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "能量尘埃！"
+			tasks: [{
+				id: "7C19DF153549023B"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F764A3D062A2D97"]
+			description: ["将&b有机肥料&r或&b沃土&r放在&6材料生成器&r下，会慢慢产生无限的泥土，对筛子或种植很有用。"]
+			icon: "minecraft:dirt"
+			id: "5CA72AE3F6F05881"
+			rewards: [
+				{
+					count: 32
+					id: "28B72B21F493156B"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "199CA38D5CB26860"
+					item: {
+						Count: 1b
+						id: "ae2:fluix_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "耕地"
+			tasks: [{
+				id: "3E4F162F1C58F498"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:rich_soil"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:organic_compost"
+							}
+						]
+					}
+				}
+				title: "耕地方块"
+				type: "item"
+			}]
+			title: "泥土"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"你可能偶尔会遇到在你的岛屿周围产生的&b战利品蜜蜂&r。如果你呆在附近，它们&6给你一些礼物&r。"
+				""
+				"然而，它们可能会飞走，并永远离开。你可以用&6铅&r 来让它呆在原地，如果你拿着&6虞美人&r，它们会跟着你。"
+				""
+				"当它们舍弃了它们美丽的亮光，你就可以把它们留在身边，用于繁殖和酿制蜂蜜！"
+			]
+			id: "3A32B8AE41CB3FFD"
+			rewards: [
+				{
+					id: "477C1778F4C3B4D9"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "45F6465348F189DF"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "别回来了！"
+			tasks: [{
+				icon: "statues:tropibee"
+				id: "70C05FACFECC7428"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:bee"
+				type: "observation"
+			}]
+			title: "前有恶峰！"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F764A3D062A2D97"]
+			description: [
+				"你可以通过把砖块扔进神秘学的&b灵魂火&r来获得&b下界砖块&r。这可以放在物质发电机下面，以获得&b无限的下界岩&r!"
+				""
+				"[\"\",{\"text\":\"点击这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"476DF733E6E2DA51\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Occultism chapter\"]}},\"查看神秘学的任务线以了解更多细节。\"]"
+			]
+			id: "387EA2A8ABCFCBC4"
+			rewards: [{
+				id: "24CF976C7C81C951"
+				item: "botania:fel_pumpkin"
+				type: "item"
+			}]
+			subtitle: "沿着地狱的砖路前行"
+			tasks: [{
+				id: "6FD62BA40646B099"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7AF13186F9106ACA"
+				"02189F46440D3E10"
+			]
+			description: [
+				"&b挤压机&r可以从物品中挤出液体。要做到这一点，需要把物品放在里面，然后在上面反复跳跃，直到完成。"
+				""
+				"这些液体被推入挤压机两侧的储罐。如果它没有被排干，你就不能再挤压其他物品。"
+				""
+				"值得注意的是，你可以将&6烈焰粉挤成熔岩&r。"
+			]
+			icon: "integrateddynamics:squeezer"
+			id: "333509FE81EB6FA8"
+			min_width: 225
+			rewards: [{
+				id: "3E4ECEF41CBC275D"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			subtitle: "开拓前路"
+			tasks: [{
+				id: "1F84C3297E17E907"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			title: "取火！"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: [
+				"&6含水&r的筛子有时会产生替代资源。"
+				""
+				"提示：要使筛子含水，你必须将其放入水中。"
+			]
+			id: "50EFB401A48753F2"
+			rewards: [
+				{
+					count: 32
+					id: "353238635B4AEC9F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "56C92C1A4896FC24"
+					item: "mekanism:salt"
+					type: "item"
+				}
+			]
+			subtitle: "海洋之下！"
+			tasks: [{
+				id: "64008486E03F8EF6"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "均分筛子"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1ADD0AF9192AC4F8"]
+			description: [
+				"钓鱼可以让你得到各种宝藏，从食物到附魔书。"
+				""
+				"将钓杆一次又一次地抛入水中，对一些人来说可能是一种放松，但对另一些人来说则是纯粹的折磨。"
+				""
+				"为了帮助你的旅程，我们已经包括了方便的&e循环&r&b自动鱼栅&r! 只要插入你的鱼竿，它就会处理其余的事情。"
+				""
+				"唯一的问题是，&c它将战利品丢在水面上&r，而不是将其收集在一个物品格中。如果有一个&6物品收集器&r就会很有帮助。"
+				""
+				"钓鱼也是一个很好的 \"墨囊 \"和 \"珊瑚 \"的来源。"
+			]
+			id: "331349E3363ECB31"
+			min_width: 250
+			rewards: [
+				{
+					id: "2E1867F12AE5AC1C"
+					item: "cyclic:fisher"
+					type: "item"
+				}
+				{
+					id: "7661C3622981A441"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:luck"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1713BFA65F92FB2B"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			subtitle: "至少不是岩浆。"
+			tasks: [{
+				id: "059F726C804727D0"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "请不要这样..."
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: [
+				"筛泥土有机会产生\"草地之种\"，它可以将泥土变成草方块。"
+				""
+				"在草方块上使用骨粉可以种植各种&6花、种子和根&r。"
+				""
+				"作为奖励的金蛋可以制造&6祈福之土&r，使中立的生物更快地产生。"
+			]
+			id: "529935256EC0984B"
+			rewards: [
+				{
+					id: "05B60F32E1226C79"
+					item: {
+						Count: 1b
+						id: "ae2:certus_quartz_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:silk_touch"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							RepairCost: 3
+							display: {
+								Name: "{\"text\":\"The Greenest Thumb\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "221EA0FE29F0A29F"
+					item: "mob_grinding_utils:golden_egg"
+					type: "item"
+				}
+			]
+			subtitle: "无中生泰拉"
+			tasks: [{
+				id: "303C82207C67ECA8"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			title: "一个脏地方"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CA72AE3F6F05881"]
+			description: [
+				"各种&6孢子&r可以从筛子中获得。"
+				""
+				"筛出的泥土可能会产生&b菌丝孢子&r，用于泥土时，可将其转化为菌丝。"
+				""
+				"其他各种孢子可以从你提供的&6粉碎下界岩&r获得。"
+			]
+			id: "26BE9560ADB449B8"
+			rewards: [
+				{
+					count: 4
+					id: "64224A7072096DC2"
+					item: "ftbskies:mycelium_spores"
+					type: "item"
+				}
+				{
+					id: "0B7588295468DF88"
+					item: "farmersdelight:mushroom_rice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "213F152A8497F341"
+					item: "minecraft:moss_block"
+					type: "item"
+				}
+			]
+			subtitle: "塑造你的未来"
+			tasks: [{
+				id: "667ACD48D641B088"
+				item: "ftbskies:mycelium_spores"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				" 本整合包使用一个叫做&e事件&r的系统，事件有时会随机发生。所有事件都是默认启用的。"
+				""
+				"你可以用&b/events toggle&r命令来切换它们 输入这个命令也会显示每个人的列表。"
+				""
+				"名称中带有生物的事件（&6ftbskies:frog&r，&6:animal&r，&6:wandering_trader&r等）会让该生物偶尔的刷新出来。"
+				""
+				"有些，如&6:tea&r和&6:stick&r只是有趣的小东西，是无关紧要的。"
+				""
+				"[\"\",\"有些像\",{\"text\":\"ftbskies:amethyst\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5DF3A9F48D916AF0\"},\"hoverEvent\":{\"\":\"show_text\",\"contents\":[\"Budding Amethyst quest\"]}},\"是进度的组成部分，所以要注意\"]"
+			]
+			icon: "minecraft:oak_sign"
+			id: "4E44C546CAEDD703"
+			min_width: 250
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "一些可能发生的趣事"
+			tasks: [{
+				id: "2F54D1F174274252"
+				type: "checkmark"
+			}]
+			title: "游戏事件"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7AF13186F9106ACA"]
+			description: ["有了改进的&b安山网栅栏&r，你就能从筛子里收集到更多的资源。"]
+			id: "63280A6D52BBE4A8"
+			rewards: [
+				{
+					id: "3C4225AE01868C29"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4ED90835208D3BC7"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			subtitle: "命运注定是伟大的"
+			tasks: [{
+				id: "548AA5CDBE89C360"
+				item: {
+					Count: 1b
+					id: "createsifter:andesite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36D46D57A98053AC"]
+			description: [
+				"在你的树周围跳舞&c肯定不能促进生长&r，这与所有标准的植物学知识相反。"
+				""
+				"幸运的是，有大量的&6骨粉&r来源！你可以在&b堆肥桶&r中制作一些，或者从尘土中筛出来。"
+			]
+			id: "7FFD6AC095549CF8"
+			rewards: [
+				{
+					count: 16
+					id: "203512494F4E1BB1"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "633E8721C0787009"
+					item: "chipped:gilded_barrel"
+					type: "item"
+				}
+				{
+					id: "035E0D711662173A"
+					item: "chipped:mushroom_barrel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "79EC13E7CD302344"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			subtitle: "蹲起不长 :("
+			tasks: [{
+				id: "506A29A15A338E8B"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			title: "我对跳舞很感兴趣。"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6402F85B8830A258"]
+			description: [
+				"甘蔗被用于几个重要的早期配方中。如果你的岛屿上没有任何糖，你可以&6筛&r一些!"
+				""
+				"多亏了&e神化模组&r，甘蔗可以成长到新的高度!"
+			]
+			id: "7A466C0D7DB943BA"
+			rewards: [
+				{
+					count: 16
+					id: "7398CBA752C9C70B"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2E568563D5B12AFF"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "5361BC7391A4B849"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					id: "1BBF7D88D47874C3"
+					item: {
+						Count: 1b
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:sponge"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获取甘蔗"
+			tasks: [{
+				id: "33104BA611BDD5B3"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["333509FE81EB6FA8"]
+			description: [
+				"通过跳上挤压机获得熔岩是有点浪费时间的。一旦你有了动力来源，就可以研究一下&6电动挤压机&r或&6熔岩炉&r。"
+				""
+				"另外，你也可以自制&6自动滴水石&r! 如果它倒挂在上面有熔岩的方块上，它就会&6填满下面的炼药锅&r"
+			]
+			id: "45D2E055A0ED04A5"
+			rewards: [
+				{
+					count: 4
+					id: "4AA1AEB2556710DF"
+					item: "minecraft:pointed_dripstone"
+					type: "item"
+				}
+				{
+					id: "06255D72CC234AA3"
+					item: "cyclic:hopper_fluid"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76DABD31D1721618"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "流体火焰"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"通过飞船的传送门将允许你&6选择一个开始的岛屿&r创建一个&eFTB队伍&r并把你送到那里。"
+				""
+				"如果你想&6和朋友一起玩&r，&6加入他们的队伍&r!让他们邀请你到他们的队伍中(按钮在物品栏的左上角)。"
+				""
+				"使用&6/ftbdim home&r命令回到你的队伍岛屿 使用&6/tpa&r参观其他人的岛屿。"
+				""
+				"&b注解手抄本&r允许你向你的朋友分享你在新生魔艺学习到的任意魔符。"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "4EFD411CA5975754"
+			min_width: 250
+			rewards: [
+				{
+					id: "386F4A5BA7A44C56"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30F1E6A06B021ABD"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:annotated_codex"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "如何开始"
+			tasks: [{
+				id: "3DEE98555DA9B904"
+				type: "checkmark"
+			}]
+			title: "开始你的岛屿之旅"
+			x: -5.0d
+			y: -3.125d
+		}
+		{
+			description: [
+				"&dFTB Skies&r带有&eOculus&r， 一个允许你使用&6光影&r的mod!"
+				""
+				"与此同时，还包括了&eComplementary-Reimagined&r光影。要启用它，只需访问你的&6光影设置&r，并将其打开即可！"
+			]
+			icon: "botania:gaia_head"
+			id: "438367A0DC6BC48A"
+			rewards: [
+				{
+					id: "4E9BA07042100649"
+					item: "productivebees:spawn_egg_dye_bee"
+					type: "item"
+				}
+				{
+					id: "61E022C08EA471B8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "更少的渲染意味着更低的卡顿！"
+			tasks: [{
+				id: "7C24967AB073F5B8"
+				title: "丢掉光影"
+				type: "checkmark"
+			}]
+			x: 0.9846938775510239d
+			y: -3.0331632653061256d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: ["通过筛尘土，你偶尔可以得到&b烈焰粉&r。这种强力的粉末可以在挤压机中使用，以获得你的第一桶岩浆"]
+			id: "02189F46440D3E10"
+			rewards: [
+				{
+					count: 3
+					id: "4E79022C59D723E9"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "144F895749551EE5"
+					item: "ftbskies:dust"
+					type: "item"
+				}
+				{
+					id: "54D60FECBAB08D87"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2BFB1F78C27E0E01"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			title: "烈焰粉"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["17435DCD72A49A80"]
+			description: [
+				"如果你不幸在你的压缩空间机械里死亡，并且没有在里面设置你的家，你可能会没有&b个人空间收缩设备&r来重新进入。这个可重复的任务将有助于确保你能回到你在天空中的压缩空间家园。"
+				""
+				"只要看一下你的压缩空间机械就可以重新触发这个任务。只有当你至少拥有一次个人空间收缩设备时，任务才可用（或者在压缩岛模式下开始时）。"
+			]
+			disable_toast: true
+			hide_dependency_lines: false
+			icon: "compactmachines:machine_giant"
+			id: "0AF9D61F3DAF2E99"
+			optional: true
+			rewards: [{
+				id: "6524838A4E9F4BFD"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					icon: "compactmachines:machine_giant"
+					id: "74FF1D7CB989AF08"
+					observe_type: 0
+					timer: 0L
+					title: "PSD PTSD"
+					to_observe: "compactmachines:machine_giant"
+					type: "observation"
+				}
+				{
+					id: "629E57D571BBEE8A"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"阿卡什宝典包含了各种模组将在包中使用的大部分书籍。"
+				""
+				"右键单击你将浏览的任何书籍。要增加更多的书，只需将这本手册与任何其他书在合成台格子里合成"
+			]
+			id: "429B753269E31706"
+			rewards: [{
+				id: "78FFB348EA0709CA"
+				item: {
+					Count: 1b
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							advancedperipherals: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "advancedperipherals:manual"
+								}
+							}
+							ae2: {
+								Count: 1b
+								id: "ae2:guide"
+							}
+							apotheosis: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+							ars_nouveau: {
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
+							}
+							botania: {
+								Count: 1b
+								id: "botania:lexicon"
+							}
+							cookingforblockheads: {
+								Count: 1b
+								id: "cookingforblockheads:recipe_book"
+							}
+							cyclic: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "cyclic:cyclic_guide_book"
+								}
+							}
+							ftbquests: {
+								Count: 1b
+								id: "ftbquests:book"
+							}
+							hexcasting: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "hexcasting:thehexbook"
+								}
+							}
+							industrialforegoing: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							integratedtunnels: {
+								Count: 1b
+								id: "integrateddynamics:on_the_dynamics_of_integration"
+							}
+							productivebees: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "productivebees:guide"
+								}
+							}
+							rftoolsbase: {
+								Count: 1b
+								id: "rftoolsbase:manual"
+							}
+							sebastrnlib: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+								}
+							}
+							solcarrot: {
+								Count: 1b
+								id: "solcarrot:food_book"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1b
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							advancedperipherals: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "advancedperipherals:manual"
+								}
+							}
+							ae2: {
+								Count: 1b
+								id: "ae2:guide"
+							}
+							apotheosis: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+							ars_nouveau: {
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
+							}
+							botania: {
+								Count: 1b
+								id: "botania:lexicon"
+							}
+							cookingforblockheads: {
+								Count: 1b
+								id: "cookingforblockheads:recipe_book"
+							}
+							cyclic: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "cyclic:cyclic_guide_book"
+								}
+							}
+							ftbquests: {
+								Count: 1b
+								id: "ftbquests:book"
+							}
+							hexcasting: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "hexcasting:thehexbook"
+								}
+							}
+							industrialforegoing: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							integratedtunnels: {
+								Count: 1b
+								id: "integrateddynamics:on_the_dynamics_of_integration"
+							}
+							productivebees: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "productivebees:guide"
+								}
+							}
+							rftoolsbase: {
+								Count: 1b
+								id: "rftoolsbase:manual"
+							}
+							sebastrnlib: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+								}
+							}
+							solcarrot: {
+								Count: 1b
+								id: "solcarrot:food_book"
+							}
+						}
+					}
+				}
+				id: "7711480569917BD8"
+				structure: "ftbteamdimensions:start"
+				title: "加入或创建一个组队岛屿"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["你被强化了！"]
+	title: "新人入门"
+}

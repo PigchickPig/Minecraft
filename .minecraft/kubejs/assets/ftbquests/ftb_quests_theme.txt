@@ -1,0 +1,5 @@
+[info]
+quest_started_color:                #C8FF00DC
+
+[5F23A6966EA408C3]
+quest_started_color:                #C8FF00DC

@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = %fancymenu:universal_layout%
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  audio_source:1d391d3c-11e7-4c71-b752-9f67ff155a1f1677250562945 = kubejs/assets/music/8bitbeginningbyheatleybros.ogg;EXTERNAL_LOCAL;50;0
+  orientation = top-centered
+  loop = true
+  channel = music
+  x = -25
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 3cb8a5e3-f286-49bb-95a5-9bd26eff45541677250541348
+  y = 39
+  once_per_session = false
+  height = 50
+}
+

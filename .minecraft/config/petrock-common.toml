@@ -1,0 +1,11 @@
+
+#WorldGen Settings
+[worldgen]
+	#World Gen? [DEFAULT: true]
+	worldgen_enabled = true
+
+	#Fun Settings
+	[worldgen.fun]
+		#Disable Troll? Note: Client Side only disables on Single Player - Server Side disables on Servers -- Info: false means the trolling will work and true means trolling is disabled -- [DEFAULT: false]
+		troll_disable = false
+

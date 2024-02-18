@@ -1,0 +1,530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic"
+	group: "5A42857CD4E60814"
+	icon: "ironchest:diamond_chest"
+	id: "3DA4B4386B953C43"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/basic.png"
+		rotation: 0.0d
+		width: 3.2048192771084336d
+		x: -3.0d
+		y: -5.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&e更多箱子&r增加几个等级的&b箱子&r,每个等级的箱子的容量都比低等级多"]
+			icon: "ironchest:iron_chest"
+			id: "37FC7216C7912F45"
+			rewards: [{
+				count: 2
+				id: "200C29ED9B6FCE60"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "里面更大"
+			tasks: [{
+				id: "0723D12D3E358858"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironchest:copper_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:iron_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:gold_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:diamond_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:crystal_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:obsidian_chest"
+							}
+						]
+					}
+				}
+				title: "更多箱子"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"所有&b相同&6频率&r的&b末影箱&r可以共享一个物品栏，可以手动或自动存取。"
+				""
+				"使用&6染料&r标注顶部三个色块来设置频率。对锁右键使用钻石可以将其转为私有网络中。"
+				""
+				"在私有网络中,一个W/W/W只连接到网络中的其他W/W/W,而不是连接到公共网络中的W/W/W或者其他玩家的网络中"
+			]
+			id: "7D5D211C0C3A017A"
+			min_width: 250
+			rewards: [{
+				id: "1E45A1C69BCC9296"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			subtitle: "比原版还老"
+			tasks: [{
+				id: "57BA8F509231EF1E"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"所有具有相同&6频率&r的&b末影储罐&r共享一个储存。"
+				""
+				"使用&6染料&r标注顶部三个色块来设置频率。对锁右键使用钻石可以将其转为私有网络中。"
+			]
+			id: "497323BE8FD3B825"
+			rewards: [{
+				id: "755C38FF136A38A4"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			subtitle: "液体传输"
+			tasks: [{
+				id: "363238A5385410D0"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&e功能抽屉&r添加了各种&b抽屉&r,每个槽可容纳大量的单个物品。"
+				""
+				"未升级的抽屉总共可容纳32组物品，不同槽位均分容量。"
+			]
+			icon: "functionalstorage:oak_1"
+			id: "448C62F81B3D0F32"
+			rewards: [
+				{
+					count: 4
+					id: "119D72A2699C85BE"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "45CEEF5037822867"
+					item: {
+						Count: 1b
+						id: "functionalstorage:configuration_tool"
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "脂肪堆积"
+			tasks: [{
+				id: "6B6273B0BBF584BE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "抽屉"
+				type: "item"
+			}]
+			title: "功能抽屉"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&b流体抽屉&r在每个槽位上储存一种流体。"
+				""
+				"它们也可以像抽屉一样升级。"
+			]
+			icon: "functionalstorage:fluid_1"
+			id: "4063F0E2A671ADE7"
+			rewards: [
+				{
+					count: 8
+					id: "472A993A76912DF1"
+					item: "cyclic:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "7D09E7D85F5920A3"
+					item: {
+						Count: 1b
+						id: "functionalstorage:redstone_upgrade"
+						tag: {
+							Slot: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "大水花"
+			tasks: [{
+				id: "15C802767392E5CA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_1"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_2"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_4"
+							}
+						]
+					}
+				}
+				title: "流体抽屉"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["448C62F81B3D0F32"]
+			description: [
+				"&b压缩抽屉&r允许你输入输出&6粒子、锭和方块任一形式&r，无论里面是什么。"
+				""
+				"当心：这与&6存储总线&r、&6外部存储总线&r一起工作时会有些问题，就像这样。"
+			]
+			icon: "functionalstorage:compacting_drawer"
+			id: "242EFF7E2DE9A613"
+			rewards: [{
+				count: 4
+				id: "027E76F7F715CC47"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			subtitle: "&l抽屉&r"
+			tasks: [{
+				id: "444061162CF6D7CD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:compacting_drawer"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:simple_compacting_drawer"
+							}
+						]
+					}
+				}
+				title: "压缩抽屉"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["448C62F81B3D0F32"]
+			description: [
+				"&b存储控制器&r的存储由&6相连的所有抽屉&r组成。因此它非常适合自动化等等。"
+				""
+				"使用&b连接工具&r来设置它,然后点击半径&68格内其他抽屉&r来连接它们。它们不需要相互挨着。"
+				""
+				"&6扩展控制器&r可用于连接到更远的抽屉。扩展控制器连接到控制器和远处的抽屉。"
+			]
+			id: "69EF9592D7348DC1"
+			min_width: 250
+			rewards: [
+				{
+					id: "33AB3BB6262B86E8"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "535CD189169A3411"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E2CFB05A261D2F4"
+					item: "functionalstorage:diamond_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "巨型存储"
+			tasks: [{
+				id: "478B96E6F0AFEC13"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["448C62F81B3D0F32"]
+			description: [
+				"&b军械库&r可以容纳&6 4096个不可堆叠的物品&r。"
+				""
+				"你&c无法手动访问&r,只能通过自动化来访问它。"
+			]
+			id: "5B3586525326F078"
+			subtitle: "奇异桶"
+			tasks: [{
+				id: "4C7072A6AFC24D0E"
+				item: "functionalstorage:armory_cabinet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["448C62F81B3D0F32"]
+			description: ["&b存储升级&r可以安装在抽屉上&6提升容量&r"]
+			icon: "functionalstorage:gold_upgrade"
+			id: "372B404B0DA2BA73"
+			subtitle: "数字变大了"
+			tasks: [{
+				id: "3A5D891E5286A13D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:copper_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:gold_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:diamond_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:netherite_upgrade"
+							}
+						]
+					}
+				}
+				title: "存储升级"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["448C62F81B3D0F32"]
+			description: ["这些&b功能升级&r会改变抽屉的工作方式,而不会改变抽屉的储存容量。"]
+			icon: "functionalstorage:void_upgrade"
+			id: "091C50470E8E7F6D"
+			tasks: [{
+				id: "1750A37E0ED2B26B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:collector_upgrade"
+								tag: {
+									Direction: "down"
+								}
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:puller_upgrade"
+								tag: {
+									Direction: "down"
+								}
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:pusher_upgrade"
+								tag: {
+									Direction: "down"
+								}
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:void_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:redstone_upgrade"
+								tag: {
+									Slot: 0
+								}
+							}
+						]
+					}
+				}
+				title: "功能升级"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&e金属桶&r可以添加几个等级的金属桶。储存在桶中是不错的,因为&6它们不需要上方的空间&r来打开。"
+				""
+				"更高级的桶可以储存更多物品。金属桶拥有与相同材料的更多箱子相同的存储空间。"
+			]
+			icon: "metalbarrels:copper_barrel"
+			id: "3FC2244B7FE7C3A1"
+			subtitle: "里面更大"
+			tasks: [{
+				id: "3E0F044B4025B08D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "metalbarrels:copper_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:iron_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:gold_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:diamond_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:obsidian_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:silver_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:crystal_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:netherite_barrel"
+							}
+						]
+					}
+				}
+				title: "金属桶"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FC2244B7FE7C3A1"]
+			description: ["这些&b转化升级&r可用于&6升级桶的等级&r。"]
+			icon: "metalbarrels:wood_to_crystal"
+			id: "289CC416E3FC99B6"
+			tasks: [{
+				id: "323B1F127BEBE359"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "barrel.*_to_"
+					}
+				}
+				title: "金属桶转化升级"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37FC7216C7912F45"]
+			description: ["这些&b转化升级&r可用于&6升级箱子等级&r。"]
+			icon: "ironchest:wood_to_iron_chest_upgrade"
+			id: "06D50A7ECF5CF824"
+			tasks: [{
+				id: "48F7DA3CBDBCBF40"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "ironchest.*upgrade"
+					}
+				}
+				title: "更多箱子转化升级"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: ["&b垃圾桶&r可以删除任何放入垃圾桶的物品。"]
+			id: "3F6DF7BDB60898D8"
+			rewards: [{
+				id: "1B86DD0FC85BEE6C"
+				item: "cyclic:trash"
+				type: "item"
+			}]
+			subtitle: "好东西太多了"
+			tasks: [{
+				id: "62646A4893B4FFC2"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	subtitle: ["从箱子到金库"]
+	title: "基础存储"
+}

@@ -1,0 +1,19 @@
+{
+	"mod": "starbunclemania",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"starby_mount": {
+						// Do not edit this name
+						"name": "starby_mount",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}

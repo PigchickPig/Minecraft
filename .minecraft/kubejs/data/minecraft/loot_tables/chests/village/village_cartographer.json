@@ -1,0 +1,177 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "botania:manasteel_ingot",
+          "weight": 7
+        },        
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:stable_warp_scroll",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "create:sweet_roll",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{glyphs:[12,12,12,12],intricate:1b,key:\"hone/gild_5\",material:2,ribbon:\"f2b313\",schematics:[\"tetra:hone/gild_1\",\"tetra:hone/gild_2\",\"tetra:hone/gild_3\",\"tetra:hone/gild_4\",\"tetra:hone/gild_5\"]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{effects:[\"tetra:fibre_expertise\"],glyphs:[5,10,11,4],intricate:0b,key:\"fibre_expertise\",material:0,ribbon:\"a88054\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{effects:[\"tetra:wood_expertise\"],glyphs:[2,1,2,1],intricate:0b,key:\"wood_expertise\",material:0,ribbon:\"bf934b\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{effects:[\"tetra:axe_efficiency\"],glyphs:[0,1,3,3],intricate:0b,key:\"axe_efficiency\",material:0,ribbon:\"66ff66\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{details:\"warforge\",glyphs:[10,7,9,5],intricate:0b,key:\"warforge/hoe\",material:2,ribbon:\"93b350\",schematics:[\"tetra:warforge/hoe\"]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{effects:[\"tetra:bone_expertise\"],glyphs:[12,14,12,14],intricate:0b,key:\"bone_expertise\",material:0,ribbon:\"fff193\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tetra:scroll_rolled",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{data:[{effects:[\"tetra:fabric_expertise\"],glyphs:[5,3,6,4],intricate:0b,key:\"fabric_expertise\",material:0,ribbon:\"ff3333\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:end_rod",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 4.0
+      }
+    }
+  ]
+}

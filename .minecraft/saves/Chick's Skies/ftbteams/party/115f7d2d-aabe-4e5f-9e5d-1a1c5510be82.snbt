@@ -1,0 +1,28 @@
+{
+	id: "115f7d2d-aabe-4e5f-9e5d-1a1c5510be82"
+	type: "party"
+	owner: "b8f5c41a-c224-4edc-81b9-70358a8b2b0a"
+	ranks: {
+		b8f5c41a-c224-4edc-81b9-70358a8b2b0a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Pig_chick Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFF8"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1707587460632L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Pig_chick\"}]}" }]
+	extra: { }
+}

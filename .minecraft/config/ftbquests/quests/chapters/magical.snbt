@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical"
+	group: "5A42857CD4E60814"
+	icon: "botania:corporea_index"
+	id: "1E2BFC921C6BD0BB"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/magical.png"
+		rotation: 0.0d
+		width: 4.771084337349397d
+		x: -5.0d
+		y: -8.5d
+	}]
+	order_index: 2
+	quest_links: [
+		{
+			id: "1EA4EBB0900CCCFA"
+			linked_quest: "623ECDC05E1FEEE1"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "6A365DFF56A6AE3C"
+			linked_quest: "38428BE09619A2C4"
+			x: -6.0d
+			y: -3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["33FF06F93A9B4510"]
+			description: [
+				"&b多媒体火花&r是&6多媒体网格&r的第一步,它允许&6向相连的容器请求物品&r。网络只能处理&6主动请求&r,它不会被动,它也永远不会向网络&6添加&r物品。"
+				""
+				"多媒体火花将&6自动连接到附近其他相同颜色的多媒体火花&r,颜色可以使用染料进行更改。每个网络都需要一个&b主媒体火花&r。"
+				""
+				"多媒体火花能够&6访问其正下方容器中的物品&r。这&c并不会&r适用于主媒体火花，它必须放在容器上，但不能访问......出于某种原因。"
+			]
+			icon: "botania:corporea_spark_master"
+			id: "69DE3088CD8EE75E"
+			min_width: 325
+			rewards: [{
+				count: 3
+				id: "4D1EC21D8967977E"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			subtitle: "魔法数字存储"
+			tasks: [
+				{
+					id: "7BDADA5B8D1D33BE"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					id: "10BF64E787A0D9BC"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+			]
+			title: "多媒体网格"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"当靠近&b多媒体索引&r时，你可以&6在聊天栏&r中说一 个数量的物品，请求从上面连接到多媒体火花的容器中获取它。"
+				""
+				"你可以请求“&632个石头&r”或者&6半组石头&r”，两者都行"
+				""
+				"考虑到多媒体索引实际上没有物品栏，你可以在上面没有任何功能损失的放一个主媒体火花."
+			]
+			id: "473F60B947745A57"
+			subtitle: "语言控制"
+			tasks: [{
+				id: "481D8038C0EB0E18"
+				item: "botania:corporea_index"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"当给它一个&6红石信号&r时,&b多媒体漏斗&r会从多媒体网络中请求一个物品并放入它下面的容器1-2格的容器或它丢在地上。"
+				""
+				"将&6已填充的物品展示框&r放在它上以设置请求的物品。转动一次以请求2个物品，再转一次是4，然后是8、16、32和64。如果它有多个物品展示框，它将随机选择一个的物品展示框来请求。"
+			]
+			id: "48462142316EC808"
+			subtitle: "红石请求"
+			tasks: [{
+				id: "72C42A8EEF2E8ACB"
+				item: "botania:corporea_funnel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48462142316EC808"]
+			description: [
+				"当放置在其上的物品框架中的物品被请求时，&b多媒体拦截器&r会发出一个红石脉冲，但不可用。"
+				""
+				"这可以和&6多媒体漏斗&r同时使用。例如,放置一个1X1的&6机巧箱&6&r,放置一个&6漏斗&r,放置一个&6装有火花和物品展示框（含石头）的多媒体漏斗&r，然后放置一个带有上面有按钮的物品展示框，带火花的多媒体拦截器&r。"
+				""
+				"当一个按钮被请求时，但没有任何可使用的按钮，多媒体拦截器会发射红石脉冲，这将激活漏斗，它将将石头发送到机巧箱&6，机巧箱会制作一个按钮并将其从底部输出&r。"
+				""
+				"一个&6令人遗憾的上限&r是，你一次只能请求一个。你可以旋转漏斗的物品框架来增加这个数量，但是它总是会按这个数量请求。"
+			]
+			id: "0979860E89A3AD7F"
+			min_width: 325
+			subtitle: "这是自动合成"
+			tasks: [{
+				id: "583234D4E85265A7"
+				item: "botania:corporea_interceptor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0979860E89A3AD7F"]
+			description: [
+				"&b多媒体固定器&r被放置在多媒体拦截器的旁边记录它是否被拦截.....如果得到一个信号，它会遗忘请求并会再次请求多媒体固定器物品的物品。"
+				""
+				"在应用中，&6上一次任务中的拦截器旁边放上固定器&r。在附近放一个多媒体水晶魔方控制按钮，并让拦截器从固定器指向它"
+				""
+				"现在，当一个按键被请求时，当没有可用的按键时，拦截器会发出一个信号,最终会合成一个按钮，到网络某个地方并让水晶魔方知道，它会告诉固定器，&6把新合成的按键发送回请求它的东西&r。"
+			]
+			id: "5F038BF46205DC9C"
+			min_width: 325
+			subtitle: "定住！"
+			tasks: [{
+				id: "1302DC1342279E4C"
+				item: "botania:corporea_retainer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"&b多媒体水晶魔方&r可以用物品右键,它&6会显示网络中该物品的数量&r。"
+				""
+				"比较器也可以根据物品的数量发出信号。"
+			]
+			id: "5D32A57D9BA2851E"
+			subtitle: "千里眼存储"
+			tasks: [{
+				id: "6F0E9B02EDC669E2"
+				item: "botania:corporea_crystal_cube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			description: ["&b附魔宝库&r能够&6存储附魔书&r,并单独地获取附魔。"]
+			id: "794BC3659E12AFE3"
+			rewards: [
+				{
+					id: "69E9D7E0CC73201A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B2DAAB0A842EC14"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "制作一个魔咒图书馆"
+			tasks: [{
+				id: "340185AD624FF4AF"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+	]
+	title: "魔力存储"
+}

@@ -1,0 +1,123 @@
+{
+  "name": "skyvillages:nether/skyvillage_houses",
+  "fallback": "skyvillages:nether/skyvillage_terminator",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/librarian_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/house_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/weaponsmith_2",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/mason_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/alchemist_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/loom_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/cartographer_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/farm_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/farm_2",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/farm_3",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/fletcher_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/librarian_2",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "skyvillages:nether/weaponsmith_1",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

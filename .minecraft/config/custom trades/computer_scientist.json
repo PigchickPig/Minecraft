@@ -1,0 +1,369 @@
+{
+  "profession": "advancedperipherals:computer_scientist",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "advancedperipherals:peripheral_casing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "advancedperipherals:computer_scientist_peripheral_casing_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "advancedperipherals:chat_box",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "advancedperipherals:computer_scientist_chat_box_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:monitor_normal",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "advancedperipherals:computer_scientist_monitor_normal_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "advancedperipherals:peripheral_casing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "advancedperipherals:computer_scientist_emerald_for_peripheral_casing"
+    },
+    {
+      "offer": {
+        "itemKey": "advancedperipherals:inventory_manager",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "advancedperipherals:computer_scientist_inventory_manager_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "advancedperipherals:redstone_integrator",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "advancedperipherals:computer_scientist_redstone_integrator_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:computer_advanced",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "advancedperipherals:computer_scientist_computer_advanced_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:turtle_normal",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{RightUpgrade:\"advancedperipherals:environment_turtle\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "advancedperipherals:computer_scientist_turtle_normal_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:pocket_computer_advanced",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Upgrade:\"advancedperipherals:player_pocket\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 7,
+      "maxUses": 4,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "advancedperipherals:computer_scientist_pocket_computer_advanced_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "advancedperipherals:chunk_controller",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 6,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "advancedperipherals:computer_scientist_emerald_for_chunk_controller"
+    },
+    {
+      "offer": {
+        "itemKey": "advancedperipherals:computer_tool",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 1,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "advancedperipherals:computer_scientist_computer_tool_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:monitor_advanced",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 7,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "advancedperipherals:computer_scientist_monitor_advanced_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "advancedperipherals:energy_detector",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "advancedperipherals:computer_scientist_energy_detector_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:computer_advanced",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "advancedperipherals:computer_scientist_computer_advanced_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "advancedperipherals:memory_card",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "advancedperipherals:computer_scientist_emerald_for_memory_card"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:turtle_advanced",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{RightUpgrade:\"advancedperipherals:chunky_turtle\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 7,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "advancedperipherals:computer_scientist_turtle_advanced_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "advancedperipherals:chunk_controller",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 6,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "advancedperipherals:computer_scientist_chunk_controller_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "advancedperipherals:me_bridge",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "advancedperipherals:computer_scientist_me_bridge_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:speaker",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "advancedperipherals:computer_scientist_speaker_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "computercraft:wireless_modem_advanced",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "advancedperipherals:computer_scientist_wireless_modem_advanced_for_emerald"
+    }
+  ]
+}

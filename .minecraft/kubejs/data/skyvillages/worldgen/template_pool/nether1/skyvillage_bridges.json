@@ -1,0 +1,51 @@
+{
+  "name": "skyvillages:nether1/skyvillage_bridges",
+  "fallback": "skyvillages:nether1/skyvillage_terminator",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "location": "skyvillages:nether1/bridge_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "skyvillages:nether1/bridge_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "skyvillages:nether1/bridge_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "skyvillages:nether1/bridge_4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "location": "skyvillages:nether1/bridge_5",
+        "processors": "skyvillages:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

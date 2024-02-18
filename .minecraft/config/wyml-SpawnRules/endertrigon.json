@@ -1,0 +1,19 @@
+{
+	"mod": "endertrigon",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"baby_ender_dragon": {
+						// Do not edit this name
+						"name": "baby_ender_dragon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,211 @@
+{
+  "profession": "minecraft:weaponsmith",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "farmersdelight:iron_knife",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_emerald_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "forcecraft:force_mitt",
+        "amount": 2,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_iron_axe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "forcecraft:force_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:sweeping\",lvl:5s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_iron_sword_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_emerald_for_iron_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "everlastingabilities:ability_totem",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:strength\"}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_bell_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "createaddition:diamond_grit_sandpaper",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith_emerald_for_flint"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:scroll_rolled",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{BlockEntityTag:{data:[{effects:[\"tetra:hammer_efficiency\"],glyphs:[6,7,6,11],intricate:0b,key:\"hammer_efficiency\",material:0,ribbon:\"ff6666\"}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith_scroll_rolled_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:forged_workbench",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "rftoolsbase:infused_enderpearl",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 80,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_emerald_for_diamond"
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:netherite_knife",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"cyclic:auto_smelt\",lvl:1s},{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:sharpness\",lvl:5s}],RepairCost:7,display:{Name:'{\"text\":\"Inferno Blade\"}'}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_diamond_axe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "sons_of_sins:bloody_bone_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"apotheosis:life_mending\",lvl:3s},{id:\"cyclic:ender\",lvl:7s},{id:\"minecraft:sharpness\",lvl:9s}],RepairCost:7,affix_data:{affixes:{\"apotheosis:socket\":2.0f,\"apotheosis:sword/attribute/intricate\":0.15409148f},gems:[{Count:1b,id:\"apotheosis:gem\",tag:{facets:1,gem:\"apotheosis:core/samurai\",rarity:\"uncommon\",uuids:[[I;1426914646,-821607463,-2134436918,975983226]]}},{Count:1b,id:\"apotheosis:gem\",tag:{facets:0,gem:\"apotheosis:core/tyrannical\",rarity:\"uncommon\",uuids:[[I;-879090467,262491686,-1649026681,-1742522440]]}}],name:'{\"color\":\"#808080\",\"translate\":\"%s %s\",\"with\":[{\"translate\":\"affix.apotheosis:sword/attribute/intricate\"},\"\",\"\"]}',rarity:\"common\"},display:{Name:'{\"text\":\"Bloody Bone of Sin\"}'}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 80,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_diamond_sword_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tetra:scroll_rolled",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{BlockEntityTag:{data:[{effects:[\"tetra:metal_expertise\"],glyphs:[4,6,6,5],intricate:0b,key:\"metal_expertise\",material:0,ribbon:\"ffffff\"}]}}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_scroll_rolled_for_emerald"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"mod": "statues",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"statue_bat": {
+						// Do not edit this name
+						"name": "statue_bat",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "ftbteamdimensions:start",
+	"biomes": "#ftbteamdimensions:has_structure/start",
+	"step": "top_layer_modification",
+	"spawn_overrides": {
+	},
+	"terrain_adaptation": "none",
+	"start_height": {
+		"absolute": 128
+	},
+	"max_distance_from_center": 128
+}

@@ -1,0 +1,192 @@
+{
+	"mod": "occultism",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"afrit_wild": {
+						// Do not edit this name
+						"name": "afrit_wild",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"cthulhu_familiar": {
+						// Do not edit this name
+						"name": "cthulhu_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"goat_familiar": {
+						// Do not edit this name
+						"name": "goat_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"bat_familiar": {
+						// Do not edit this name
+						"name": "bat_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"guardian_familiar": {
+						// Do not edit this name
+						"name": "guardian_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"djinni": {
+						// Do not edit this name
+						"name": "djinni",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"fairy_familiar": {
+						// Do not edit this name
+						"name": "fairy_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"mummy_familiar": {
+						// Do not edit this name
+						"name": "mummy_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"deer_familiar": {
+						// Do not edit this name
+						"name": "deer_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"shub_niggurath_familiar": {
+						// Do not edit this name
+						"name": "shub_niggurath_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"shub_niggurath_spawn": {
+						// Do not edit this name
+						"name": "shub_niggurath_spawn",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"blacksmith_familiar": {
+						// Do not edit this name
+						"name": "blacksmith_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"marid": {
+						// Do not edit this name
+						"name": "marid",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"headless_familiar": {
+						// Do not edit this name
+						"name": "headless_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"dragon_familiar": {
+						// Do not edit this name
+						"name": "dragon_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"foliot": {
+						// Do not edit this name
+						"name": "foliot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"beaver_familiar": {
+						// Do not edit this name
+						"name": "beaver_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"greedy_familiar": {
+						// Do not edit this name
+						"name": "greedy_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"otherworld_bird": {
+						// Do not edit this name
+						"name": "otherworld_bird",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"chimera_familiar": {
+						// Do not edit this name
+						"name": "chimera_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"beholder_familiar": {
+						// Do not edit this name
+						"name": "beholder_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"afrit": {
+						// Do not edit this name
+						"name": "afrit",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"devil_familiar": {
+						// Do not edit this name
+						"name": "devil_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"possessed_ghast": {
+						// Do not edit this name
+						"name": "possessed_ghast",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"possessed_endermite": {
+						// Do not edit this name
+						"name": "possessed_endermite",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"possessed_enderman": {
+						// Do not edit this name
+						"name": "possessed_enderman",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"wild_hunt_skeleton": {
+						// Do not edit this name
+						"name": "wild_hunt_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"wild_hunt_wither_skeleton": {
+						// Do not edit this name
+						"name": "wild_hunt_wither_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					},
+					"possessed_skeleton": {
+						// Do not edit this name
+						"name": "possessed_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 40
+					}
+				}
+			}
+		}
+	}
+}
